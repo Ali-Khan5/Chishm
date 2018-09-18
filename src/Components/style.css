@@ -1,0 +1,51 @@
+.normalHeight{
+    /* height:300px important; */
+    border:5px solid red;
+}
+.fullResImg{
+    width:100% !important;
+}
+.cardBorder{
+    border:7px solid white !important;
+    border-radius: 5px;
+    font-size: 25px !important;
+    text-align: center;
+   padding: 30px;
+}
+.SecondryCard{
+    background-color:white;
+    border:7px solid white !important;
+    border-radius: 5px;
+    text-align: center;
+    color:#331177 !important;
+    padding: 30px;
+    font-size: 17px;
+}
+.ThirdCard{
+    background-color:white;
+    border:7px solid white !important;
+    border-radius: 5px;
+  
+    color:#331177 !important;
+    padding: 30px;
+    font-size: 17px;
+}
+.ButtonStyle{
+    background-color: #331177;
+    color:white;
+}
+.testimonalPic{
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+height: 200px;
+width:200px;
+}
+.carousel-indicators li {
+    background-color: blue ;
+}
+.carousel-indicators .active{
+    background-color: red ;
+}
+ ol.carousel-indicators{
+margin-bottom: -30px;
+}
