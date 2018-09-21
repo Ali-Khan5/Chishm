@@ -4,7 +4,7 @@ import "./style.css";
 let Cardd = props => {
   return (
     <div >
-      {props.colorScheme == "prime" ? (
+      {props.colorScheme === "prime" ? (
         <div className="cardBorder" >
           {props.text ? <p>{props.text}</p> : null}
         </div>
