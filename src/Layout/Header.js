@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Navbar, NavItem, MenuItem, NavDropdown, Nav } from "react-bootstrap";
-// import { Link } from "react-router-dom";
+ import { Link } from "react-router-dom";
 import { LinkContainer } from 'react-router-bootstrap';
 
 import "./style.css";
@@ -33,9 +33,10 @@ class Header extends Component {
             </NavItem>
             </LinkContainer>
             <NavDropdown eventKey={4} title="Programs" id="basic-nav-dropdown">
-              <MenuItem eventKey={4.1}>Mentoring Program</MenuItem>
-              <MenuItem eventKey={4.2}>Teacher Training Program</MenuItem>
-              <MenuItem eventKey={4.3}>SOLE</MenuItem>
+         
+           <MenuItem eventKey={4.1} href="/programs">     Mentoring Program</MenuItem>
+             <MenuItem eventKey={4.2} href="/programs" >Teacher Training Program</MenuItem>
+              <MenuItem eventKey={4.3 } href="/programs">SOLE</MenuItem>
               {/* <MenuItem divider />
               <MenuItem eventKey={4.3}>Separated link</MenuItem> */}
             </NavDropdown>

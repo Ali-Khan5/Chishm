@@ -6,6 +6,7 @@ import Header from "./Layout/Header";
 import createBrowserHistory from "history/createBrowserHistory";
 import About from "./About";
 import Stories from "./OurStories";
+import Programs from "./Programs";
 const history = createBrowserHistory();
 
 class Routers extends Component {
@@ -18,6 +19,7 @@ class Routers extends Component {
                 <Route exact path="/" component={Home} />
                 <Route path="/about" component={About}/>
                 <Route path="/stories" component={Stories}/>
+                <Route path ="/programs" component={Programs}/>
             <div className="fl-page-footer-wrap">
               <Footer />
             </div>
