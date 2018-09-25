@@ -34,9 +34,9 @@ class Header extends Component {
             </LinkContainer>
             <NavDropdown eventKey={4} title="Programs" id="basic-nav-dropdown">
          
-           <MenuItem eventKey={4.1} href="/programs">     Mentoring Program</MenuItem>
-             <MenuItem eventKey={4.2} href="/programs" >Teacher Training Program</MenuItem>
-              <MenuItem eventKey={4.3 } href="/programs">SOLE</MenuItem>
+           <MenuItem eventKey={4.1} href="/programs#mentor">     Mentoring Program</MenuItem>
+             <MenuItem eventKey={4.2} href="/programs#teacher" >Teacher Training Program</MenuItem>
+              <MenuItem eventKey={4.3 } href="/programs#sole">SOLE</MenuItem>
               {/* <MenuItem divider />
               <MenuItem eventKey={4.3}>Separated link</MenuItem> */}
             </NavDropdown>
