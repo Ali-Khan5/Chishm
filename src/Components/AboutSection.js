@@ -22,8 +22,8 @@ const AboutSection = () => {
         </Col>
       </Row>
         <hr/>
-      <Row className="show-grid">
-        <Col md={4} lg={4}>
+      <Row className="show-grid" >
+        <Col md={4} lg={4} style={{marginTop:'13px'}}>
           <Card
          
             heading={`What We Do`}
@@ -35,10 +35,10 @@ const AboutSection = () => {
             buttonText={`Visit our Projects page`}
           />
         </Col>
-        <Col md={4} lg={4}>
+        <Col md={4} lg={4} style={{marginTop:'13px'}}>
             <Achievement/>
         </Col>
-        <Col md={4} lg={4} >
+        <Col md={4} lg={4} style={{marginTop:'13px'}}>
             <Card 
              heading={`How you can help`} 
              text={`

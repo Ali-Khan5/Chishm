@@ -80,6 +80,8 @@ class Demo4 extends React.Component {
         }}
       >
         <Gallery images={images} enableImageSelection={false} />
+        <br/>
+        <br/>
       </div>
     );
   }
@@ -107,7 +109,7 @@ Demo4.defaultProps = {
       thumbnailWidth: 471,
       thumbnailHeight: 320,
 
-      caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+      caption: "Our Moto"
     },
     {
       src:

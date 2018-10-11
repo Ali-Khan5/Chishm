@@ -4,6 +4,7 @@ import "./style.css";
 import Program1 from "./media/pictures/Program_1.PNG";
 import Program2 from "./media/pictures/Program_2.PNG";
 import Program3 from "./media/pictures/Program_3.PNG";
+import Card from './Components/Card';
 const Programs = props => {
   return (
     <div className="MemberSection">
@@ -57,7 +58,16 @@ const Programs = props => {
         </h2>
         <Row>
           <Col sm={10} smOffset={1}>
-            <h3> What do we achieve</h3>
+          <Card heading={` What do we achieve`}
+          text={`Through Chishm’s Mentoring Program, we achieve higher enrollment
+          of underprivileged children in formal schools; retention of at
+          children-at-risk attending schools. We make these children
+          self-sufficient and self-confident by identifying their potentials
+          and skills, and through fostering academics, creative and critical
+          thinking, civic and ethical sense. This development enables them
+          to take better decisions and set their life goals.`}
+          />
+            {/* <h3> What do we achieve</h3>
             <p>
               Through Chishm’s Mentoring Program, we achieve higher enrollment
               of underprivileged children in formal schools; retention of at
@@ -66,16 +76,30 @@ const Programs = props => {
               and skills, and through fostering academics, creative and critical
               thinking, civic and ethical sense. This development enables them
               to take better decisions and set their life goals.
-            </p>
-            <h3>Whom do we serve</h3>
+            </p> */}
+            <Card heading={`Whom do we serve`}
+            text={`Chishm’s Mentoring Program is especially aimed for the
+            underprivileged children of our society aged between 6 to 18
+            years. We offer this program as a platform to the mentors and
+            sponsors who come from different walks of life to engage in the
+            betterment of our society.`}/>
+            {/* <h3>Whom do we serve</h3>
             <p>
               Chishm’s Mentoring Program is especially aimed for the
               underprivileged children of our society aged between 6 to 18
               years. We offer this program as a platform to the mentors and
               sponsors who come from different walks of life to engage in the
               betterment of our society.
-            </p>
-            <h3>What do we do: </h3>
+            </p> */}
+            <Card heading={`What do we do:`} text={` This program connects privileged youth (mentors) to the
+              underprivileged children (mentees), thereby establishing a bond
+              which is mutually beneficial. Mentors normally conduct one to one
+              mentoring sessions with their mentees which are assigned to them
+              in one of our partner schools. In addition, through our individual
+              sponsors, we contribute towards tuition fees of these mentees and
+              compensate their earnings if they were previously not enrolled in
+              school for the purpose of supporting their family.`}/>
+            {/* <h3>What do we do: </h3>
             <p>
               This program connects privileged youth (mentors) to the
               underprivileged children (mentees), thereby establishing a bond
@@ -85,7 +109,7 @@ const Programs = props => {
               sponsors, we contribute towards tuition fees of these mentees and
               compensate their earnings if they were previously not enrolled in
               school for the purpose of supporting their family.
-            </p>
+            </p> */}
           </Col>
         </Row>
         <Row>
@@ -134,9 +158,9 @@ const Programs = props => {
               <span style={{ fontSize: "2.4em" }}>
                 <i className="fas fa-hand-holding-usd" />
               </span>{" "}
-              Become a sponsor:{" "}
+              Become a sponsor{" "}
             </h3>
-            <p>
+            <p style={{textAlign:'justify'}}>
               You have the possibility to sponsor a mentee enrolled in this
               program. Please send us an email to get further details.
             </p>
@@ -149,7 +173,7 @@ const Programs = props => {
               </span>{" "}
               Become a consultant
             </h3>
-            <p>
+            <p style={{textAlign:'justify'}}>
               Whether you are an educationist, child-psychologist, a pedagogy
               expert or just someone with interesting ideas, there is always a
               place for you in our “expert panel” that constantly advises us to
@@ -164,9 +188,9 @@ const Programs = props => {
                 {" "}
                 <i className="fas fa-school" />{" "}
               </span>
-              Become a partner :
+              Become a partner 
             </h3>
-            <p>
+            <p style={{textAlign:'justify'}}>
               {" "}
               we are constantly looking for schools and institutions catering to
               the education of underprivileged children which can take advantage
@@ -176,16 +200,15 @@ const Programs = props => {
           </Col>
         </Row>
         <Row>
-          <Col md={6}>
+          <Col md={4}>
             <h3>
               {" "}
               <span style={{ fontSize: "2.4em" }}>
                 {" "}
                 <i className="fas fa-handshake" />
-              </span>
-              Become a strategic program planner :
+              </span> Become a strategic program planner 
             </h3>
-            <p>
+            <p style={{textAlign:'justify'}}>
               We are always looking for enthusiastic people who would like to be
               part of the team running this mentoring program. From handling
               administrative issues to managing finances to developing
@@ -193,15 +216,16 @@ const Programs = props => {
               send us an email so we can work something out.
             </p>
           </Col>
-          <Col md={6}>
+          <Col md={4}/>
+          <Col md={4}>
             <h3>
               <span style={{ fontSize: "2.4em" }}>
                 {" "}
                 <i class="fas fa-bullhorn" />{" "}
               </span>{" "}
-              Spread the Word:
+              Spread the word
             </h3>
-            <p>
+            <p style={{textAlign:'justify'}}> 
               If you know of a person who might be interested in mentoring or is
               already mentoring in his personal capacity then let them know
               about us. We can learn from their experience and they can learn

@@ -1,13 +1,11 @@
 .MemberSection{
-    background-color:white;
-    color:#331177;
-  
-   height: 100%;
-   width:100%;
+    background-color: #233067 !important ;
+    color:#F0F0FC  !important;
+    height: 100%;
 }
 .TecherSection{
-    background-color: #331177 !important;
-    color:white !important;
+    background-color: #233067 !important;
+    color:#F0F0FC !important;
   
    height: 100%;
    width:100%;

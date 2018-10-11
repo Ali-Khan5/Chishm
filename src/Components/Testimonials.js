@@ -6,27 +6,28 @@ import Img3 from "./../media/pictures/faraz.jpg";
 import "./style.css";
 const Testimonials = () => {
   return (
-    <Grid 
-      className="SHADOW"
-      style={{
-        height: "100%",
-        backgroundColor: "white",
-        color: "#331177  ",
-        borderRadius: "2px",
-      }}
-    >
+    <Grid className="SHADOW">
       <Row className="show-grid">
-        <Col>
+        <Col
+          md={12}
+          style={{
+            height: "100%",
+            backgroundColor: "white",
+            color: "#233067  ",
+            borderRadius: "2px"
+          }}
+        >
           <center>
             {" "}
+            <br />
             <h2> Testimonials </h2>
-            <hr/>
+            <hr />
           </center>
           <Carousel controls={false}>
-            <Carousel.Item>
+            <Carousel.Item className="CarousalPersonStyling">
               <center>
                 <img className="testimonalPic" src={Img1} alt="Saad's " />
-                <p style={{ fontSize: "18px", padding: " 0px 30px" }}>
+                <p className="TestimonialPersonParagrapghStyling">
                   <q>
                     {" "}
                     It was fun when I started giving my mentee topics to think
@@ -44,10 +45,10 @@ const Testimonials = () => {
                 <br />
               </center>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className="CarousalPersonStyling">
               <center>
                 <img className="testimonalPic" src={Img2} alt="Sadia's " />
-                <p style={{ fontSize: "18px", padding: " 0px 30px" }}>
+                <p className="TestimonialPersonParagrapghStyling">
                   <q>
                     {" "}
                     I feel lucky to be the mentor of a very intelligent girl.
@@ -65,14 +66,14 @@ const Testimonials = () => {
                 <br />
               </center>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className="CarousalPersonStyling">
               <center>
                 <img
                   className="testimonalPic"
                   src={Img3}
                   alt="Faraz Arshad's "
                 />
-                <p style={{ fontSize: "18px", padding: " 0px 35px" }}>
+                <p className="TestimonialPersonParagrapghStyling">
                   <q>
                     {" "}
                     I believe that if you are privileged, then it becomes your

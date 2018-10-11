@@ -1,84 +1,134 @@
-.normalHeight{
-    /* height:300px important; */
-    border:5px solid red;
+/* carousal img styling */
+.fullResImg {
+  width: 100% !important;
+  min-height: 400px ;
+  max-height: 400px ;
+ 
 }
-.fullResImg{
-    width:100% !important;
+/* styling of carousal img ends */
+.cardBorder {
+ background-color: #233067;
+ color:#F0F0FC;
+  border-radius: 2px;
+  font-size: 20px !important;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-.cardBorder{
-    border:7px solid white !important;
-    border-radius: 2px;
-    font-size: 25px !important;
-    text-align: center;
-   padding: 30px;
-   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-.SecondryCard{
-    background-color:white;
-    border:7px solid white !important;
-    border-radius: 2px;
-    text-align: center;
-    color:#331177 !important;
-    padding: 30px;
-    font-size: 17px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-
-}
-.ThirdCard{
-    background-color:white;
-    border:7px solid white !important;
-    border-radius: 2px;
+.SecondryCard {
+  background-color: #FFFFF3;
   
-    color:#331177 !important;
-    padding: 30px;
-    font-size: 17px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 2px;
+  text-align: center;
+  color: #1331a0 !important;
+  padding: 30px;
+  font-size: 17px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-.ButtonStyle{
-    background-color: #331177;
-    color:white;
+.ThirdCard {
+  background-color: #FFFFF3;
+  
+  border-radius: 2px;
+
+  color: #1331a0 !important;
+  padding: 30px;
+  font-size: 17px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  max-height: 394px;
+  min-height:  333px;
 }
-.testimonalPic{
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-height: 200px;
-width:200px;
+.ButtonStyle {
+  background-color: #233067;
+  color: #F0F0FC;
+}
+.testimonalPic {
+  -webkit-clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
+  height: 250px;
+  width: 250px;
 }
 .carousel-indicators li {
-    background-color: blue ;
+  background-color: blue;
 }
-.carousel-indicators .active{
-    background-color: red ;
+.carousel-indicators .active {
+  background-color: red;
 }
- ol.carousel-indicators{
-margin-bottom: -30px;
+ol.carousel-indicators {
+  margin-bottom: -30px;
 }
-.SHADOW{
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+.SHADOW {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 .image {
-    display: block;
-    width: 100%;
-    height: 100%;
-    min-height: 300px;
-    max-height: 300px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 250px;
+  max-height: 250px;
+}
+.MemberContainer {
+  position: relative;
+  width: 100%;
+  /* max-width: 340px; */
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+
+  opacity: 1;
+  color: white;
+  font-size: 18px;
+  padding: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.AboutMeCard {
+  background-color: #233067;
+  
+  border-radius: 2px;
+  
+  color: #383A3F;
+  /* padding: 30px; */
+ 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.CarousalMaximumHeight{
+  height:405px;
+}
+.CarousalPersonStyling{
+  height:405px;
+  
+}
+.TestimonialPersonParagrapghStyling{
+  font-size: 18px; padding:  0px 10px ;margin:0px 100px;
+}
+ @media (max-width:756px){
+  .CarousalPersonStyling{
+    height: auto;
+    border:6px solid red;
   }
-  .MemberContainer {
-    position: relative;
-    width: 100%;
-    max-width: 370px;
+  .TestimonialPersonParagrapghStyling{
+    font-size: 18px; padding:  0px 0px ;margin:0px 50px;
   }
-  .overlay {
-    position: absolute; 
-    bottom: 0; 
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
-    color: #f1f1f1; 
-    width: 100%;
-   
-    opacity:1;
-    color: white;
-    font-size: 18px;
-    padding: 18px;
-    text-align: center;
-  }
+ }

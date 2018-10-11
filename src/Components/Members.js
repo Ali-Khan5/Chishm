@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 const Members = props => {
   return (
-    <div className="SHADOW">
+    <div className="SHADOW" style={{backgroundColor:'#F0F0FC',color:'#233067'}}>
       <div className="MemberContainer">
         <img src={props.imgSrc} alt="Avatar" className="image" />
         <div className="overlay">
@@ -12,7 +12,7 @@ const Members = props => {
         </div>
       </div>
       <br />
-      <p style={{ textAlign: "justify",padding:'5px' }}>{props.details}</p>
+      <p style={{ textAlign: "center",padding:'10px',fontWeight:'bold'}}>{props.details}</p>
     </div>
   );
 };

@@ -7,6 +7,9 @@ import createBrowserHistory from "history/createBrowserHistory";
 import About from "./About";
 import Stories from "./OurStories";
 import Programs from "./Programs";
+import Mentoring from "./MentoringProgram";
+import TeacherTraining from "./TeacherProgram";
+import SOLE from './Sole.js'
 const history = createBrowserHistory();
 
 class Routers extends Component {
@@ -16,10 +19,13 @@ class Routers extends Component {
         <div className="theme">
           <div className="fl-page">
             <Header />
-                <Route exact path="/" component={Home} />
-                <Route path="/about" component={About}/>
-                <Route path="/stories" component={Stories}/>
-                <Route path ="/programs" component={Programs}/>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/stories" component={Stories} />
+
+            <Route path="/mentoring" component={Mentoring} />
+            <Route path="/teacher" component={TeacherTraining} />
+            <Route path="/sole" component={SOLE} />
             <div className="fl-page-footer-wrap">
               <Footer />
             </div>
