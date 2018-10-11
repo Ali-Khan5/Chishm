@@ -126,7 +126,7 @@ ol.carousel-indicators {
  @media (max-width:756px){
   .CarousalPersonStyling{
     height: auto;
-    border:6px solid red;
+  
   }
   .TestimonialPersonParagrapghStyling{
     font-size: 18px; padding:  0px 0px ;margin:0px 50px;
