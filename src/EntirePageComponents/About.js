@@ -1,19 +1,19 @@
 import React from "react";
 import { Grid, Row, Col } from "react-bootstrap";
 import "./style.css";
-import Members from "./Components/Members";
-import SaadImg from "./media/pictures/saad.jpg";
-import FarazImg from "./media/pictures/faraz.jpg";
-import Card from "./Components/AboutCard";
+import Members from "../Components/Members";
+import SaadImg from "../media/pictures/saad.jpg";
+import FarazImg from "../media/pictures/faraz.jpg";
+import Card from "../Components/AboutCard";
 const About = () => {
   return (
     <div className="MemberSection">
       <div className="themeInverse">
-        <Grid>
+        <Grid fluid> 
           <br />
           <section>
             <Row>
-              <Col md={10}>
+              <Col md={10} xs={10} xsOffset={1}>
                 <Card
                   heading={`Who We Are`}
                   text={` Chishm is as a non-profit platform to support and enhance the
@@ -26,13 +26,14 @@ const About = () => {
                 in pedagogy, teaching, child psychology, project management,
                 strategic planning, advisory - sharing a common vision.`}
                 />
+                
               </Col>
               <br />
             </Row>
             <br />
 
             <Row>
-              <Col md={10}>
+              <Col md={10} xs={10} xsOffset={1}>
                 <Card
                   heading={`Whom Do We Serve`}
                   text={`Chishm supports individual children from underprivileged
@@ -44,7 +45,7 @@ const About = () => {
             </Row>
             <br />
             <Row>
-              <Col md={10}>
+              <Col md={10} xs={10} xsOffset={1}>
                 <Card
                   heading={` What Do We Do `}
                   text={`Through our various long-term and short term projects, we
@@ -64,7 +65,7 @@ const About = () => {
 
             <br />
             <Row>
-              <Col md={10}>
+              <Col md={10} xs={10} xsOffset={1}>
                 <Card
                   heading={`Where do we get our funding`}
                   text={`  Currently our main funding sources are individual donors. Some
@@ -79,7 +80,7 @@ const About = () => {
             </Row>
             <br />
             <Row>
-              <Col md={10}>
+              <Col md={10} xs={10} xsOffset={1}>
                 <Card
                   heading={`Our  Structure`}
                   text={`  At Chishm, we follow an innovative organizational structure

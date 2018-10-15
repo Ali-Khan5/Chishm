@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Row, Col } from "react-bootstrap";
-import "./style.css";
+import "./EntirePageComponents/style.css";
 import Program1 from "./media/pictures/Program_1.PNG";
 import Program2 from "./media/pictures/Program_2.PNG";
 import Program3 from "./media/pictures/Program_3.PNG";

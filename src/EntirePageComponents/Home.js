@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
 
-import HomeCarousal from "./Components/HomeCarousal";
-import About from "./Components/AboutSection";
-import Testimonials from "./Components/Testimonials";
+import HomeCarousal from "../Components/HomeCarousal";
+import About from "../Components/AboutSection";
+import Testimonials from "../Components/Testimonials";
 
 class App extends Component {
   render() {

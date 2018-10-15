@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Row, Col } from "react-bootstrap";
-import "./style.css";
+
 // import Gallery from 'react-grid-gallery';
 
 import Gallery from "react-grid-gallery";
@@ -80,8 +80,8 @@ class Demo4 extends React.Component {
         }}
       >
         <Gallery images={images} enableImageSelection={false} />
-        <br/>
-        <br/>
+        <br />
+        <br />
       </div>
     );
   }
@@ -119,7 +119,8 @@ Demo4.defaultProps = {
       thumbnailWidth: 520,
       thumbnailHeight: 120,
 
-      caption: "  We have enrolled a local school teacher into a formal teacher training course in order to improve the education being offered to the children. Here, the teacher undergoing training is giving a weekly workshop to her colleagues at the school to spread the knowledge. "
+      caption:
+        "  We have enrolled a local school teacher into a formal teacher training course in order to improve the education being offered to the children. Here, the teacher undergoing training is giving a weekly workshop to her colleagues at the school to spread the knowledge. "
     },
     {
       src:
@@ -129,7 +130,8 @@ Demo4.defaultProps = {
       thumbnailWidth: 320,
       thumbnailHeight: 148,
 
-      caption: "One of our international mentors having a session with his mentee over skype."
+      caption:
+        "One of our international mentors having a session with his mentee over skype."
     },
     {
       src:

@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 import { Route, Router } from "react-router-dom";
-import Home from "./App";
+import Home from "./EntirePageComponents/Home";
 import Footer from "./Layout/Footer";
 import Header from "./Layout/Header";
 import createBrowserHistory from "history/createBrowserHistory";
-import About from "./About";
-import Stories from "./OurStories";
+import About from "./EntirePageComponents/About";
+import Stories from "./EntirePageComponents/OurStories";
 import Programs from "./Programs";
-import Mentoring from "./MentoringProgram";
-import TeacherTraining from "./TeacherProgram";
-import SOLE from './Sole.js'
+import Mentoring from "./EntirePageComponents/MentoringProgram";
+import TeacherTraining from "./EntirePageComponents/TeacherProgram";
+import SOLE from './EntirePageComponents/Sole.js'
+import Project from './EntirePageComponents/Projects';
 const history = createBrowserHistory();
 
 class Routers extends Component {
@@ -26,6 +27,7 @@ class Routers extends Component {
             <Route path="/mentoring" component={Mentoring} />
             <Route path="/teacher" component={TeacherTraining} />
             <Route path="/sole" component={SOLE} />
+            <Route path="/projects" component={Project}/>
             <div className="fl-page-footer-wrap">
               <Footer />
             </div>

@@ -10,12 +10,14 @@ let AboutCardd = props => {
     // </div>
     <Row className="AboutMeCard">
       <Col
-        md={12}
-        style={{
+        md={12} sm={12} 
+         style={{
           color: "#fffff3",
           backgroundColor: "#233067",
-          width: "100%",
-          height: "100%"
+          // width: "100%",
+          height: "100%",
+          textAlign:'center'
+         
         }}
       >
         {props.heading ? (
@@ -24,13 +26,14 @@ let AboutCardd = props => {
       </Col>
       <Col
         md={12}
-        style={{
+        xs={12} 
+         style={{
           backgroundColor: "#fffff3",
           padding: "25px"
         }}
       >
         {props.text ? (
-          <p style={{ fontSize: "1.07em", textAlign: "left" }}>{props.text}</p>
+          <p style={{ fontSize: "1.2em", textAlign: "justify" }}>{props.text}</p>
         ) : null}
       </Col>
     </Row>

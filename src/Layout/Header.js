@@ -50,9 +50,11 @@ class Header extends Component {
                 SOLE</MenuItem>
                
               </NavDropdown>
-              <NavItem eventKey={5} href="#">
+              <LinkContainer to="/projects">
+              <NavItem eventKey={5} >
                 Projects
               </NavItem>
+              </LinkContainer>
               <NavItem eventKey={6} href="#">
                 Get Involved
               </NavItem>

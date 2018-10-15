@@ -1,0 +1,31 @@
+.MemberSection{
+    background-color: #233067 !important ;
+    color:#F0F0FC  !important;
+    height: 100%;
+}
+.TecherSection{
+    background-color: #233067 !important;
+    color:#F0F0FC !important;
+  
+   height: 100%;
+   width:100%;
+}
+
+.projectPageHeader{
+    text-align: center;
+    padding: 25px 0px;
+    background-color: #1331a0;
+    color:#FFFFF3;
+   
+}
+
+.OurprojectHeader{
+    text-align: center;
+    padding: 35px 0px;
+    background-color: #1331a0;
+    color:#FFFFF3;
+   
+}
+.inverseStyle{
+    background: #1331a0;
+}
