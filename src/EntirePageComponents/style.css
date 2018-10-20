@@ -29,3 +29,22 @@
 .inverseStyle{
     background: #1331a0;
 }
+.aboutSectionHomePage{
+    background-color:#FFFFF3;
+    color:rgb(25, 86, 147);
+    font-size: 1.4em;
+    padding: 45px 0px;
+}
+.ourImpactHomePage{
+    background-color:rgb(25, 86, 147);
+    color:#FFFFF3;
+    padding: 65px 0px;
+    font-size: 1.27em;
+}
+.ourImpactHomePage ul{
+    padding: 0px;
+    margin-top: 20px;
+}
+.ourImpactHomePage p{
+    margin-top: 20px;
+}

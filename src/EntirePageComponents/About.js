@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div className="MemberSection">
       <div className="themeInverse">
-        <Grid fluid> 
+        <Grid fluid>
           <br />
           <section>
             <Row>
@@ -26,7 +26,6 @@ const About = () => {
                 in pedagogy, teaching, child psychology, project management,
                 strategic planning, advisory - sharing a common vision.`}
                 />
-                
               </Col>
               <br />
             </Row>
@@ -103,20 +102,26 @@ const About = () => {
         </Grid>
       </div>
       <Grid fluid>
-        <section >
+        <section>
           <Row
             style={{
               color: " #233067",
               backgroundColor: "#fffff3"
             }}
           >
-            <Col
-            
-            >
+            <Col>
               <br />
               <br />
-              <h2 style={{ textAlign: "center",fontSize: "2.8em"  }}>Our Members </h2>
-              <p style={{fontWeight:'bold', textAlign:'center',padding:'0px 55px' }}>
+              <h2 style={{ textAlign: "center", fontSize: "2.8em" }}>
+                Our Members{" "}
+              </h2>
+              <p
+                style={{
+                  fontWeight: "bold",
+                  textAlign: "center",
+                  padding: "0px 55px"
+                }}
+              >
                 Members are the backbone of our organization who make sure that
                 Chism's goals are being met by working consistently to
                 streamline the processes and being integral part of the core
@@ -150,7 +155,7 @@ const About = () => {
                 }
               />
             </Col>
-           
+
             <Col sm={6} md={3} mdOffset={1}>
               <Members
                 memberName={"Faraz Arshad"}
@@ -163,9 +168,7 @@ const About = () => {
             </Col>
           </Row>
           <Row>
-            <Col md={12}>
-           
-            </Col>
+            <Col md={12} />
           </Row>
         </section>
       </Grid>
