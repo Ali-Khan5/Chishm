@@ -20,8 +20,13 @@ class App extends Component {
         <div className="aboutSectionHomePage" fluid="true">
           <Grid fluid>
             <Row>
-              <Col mdOffset={1} md={9}>
-                <h2 style={{ fontSize: "44px" }}>What is Chishm? </h2>
+              <Col mdOffset={1} md={8}>
+                <h2 style={{ fontSize: "36px" }}>
+                  {" "}
+                  <span style={{ borderBottom: "3px solid rgb(25, 86, 147)" }}>
+                    What is Chishm?{" "}
+                  </span>{" "}
+                </h2>
                 <hr />
                 <p>
                   Chishm is a platform to support education amongst the
@@ -33,13 +38,17 @@ class App extends Component {
                   support, we are able to translate these ideas into reality
                 </p>
               </Col>
+              <Col md={2}>
+                {/* <img src={'https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,w_800/v1543042842/WhatsApp_Image_2018-10-27_at_10.05.18_PM_gvqgww.jpg'} 
+              className=" homeTrianglePic "/> */}
+              </Col>
             </Row>
           </Grid>
         </div>
 
         <div className="ourImpactHomePage">
           <Grid fluid>
-            <Row>
+            {/* <Row>
               <Col md={4}>
                 <h2 style={{ fontSize: "35px" }}>What We Do</h2>
                 <p>
@@ -77,6 +86,93 @@ class App extends Component {
                   mission with the world
                 </p>
               </Col>
+            </Row> */}
+            <Row>
+              {/* <Col md={3}>
+              <img className="homeImpact"
+               src={'https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_960,w_1080/v1543080098/WhatsApp_Image_2018-10-27_at_9.08.23_PM_1_dqhdtm.jpg'}/>
+              </Col> */}
+              <Col md={12}>
+                <center>
+                  <img
+                    className="homeWhatWeDo"
+                    src={
+                      "https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_960,w_1080/v1543080098/WhatsApp_Image_2018-10-27_at_9.08.23_PM_1_dqhdtm.jpg"
+                    }
+                  />
+                  <h2 style={{ fontSize: "35px" }}>
+                    <span style={{ borderBottom: "3px solid #FFFFF3" }}>
+                      {" "}
+                      What We Do{" "}
+                    </span>
+                  </h2>
+                  <p className="homeWhatWeDoText">
+                    Provide mentors for weak underprivileged students / at-risk
+                    youth, enrol street children into schools, implement
+                    creative learning tools, train teachers, strengthen
+                    educational institutes.
+                  </p>
+                </center>
+              </Col>
+            </Row>
+            <br />
+            <Row>
+              <Col md={12}>
+                <center>
+                  <img
+                    className="homeImpact"
+                    src={
+                      "https://res.cloudinary.com/dcw1i97ph/image/upload/v1543157325/WhatsApp_Image_2018-11-13_at_11.54.57_AM_vvqmbx.jpg"
+                    }
+                  />
+                  <h2 style={{ fontSize: "35px" }}>
+                    <span style={{ borderBottom: "3px solid #FFFFF3" }}>
+                      {" "}
+                      Our Impact{" "}
+                    </span>
+                  </h2>
+                  <p className="homeWhatWeDoText">
+                    {" "}
+                    <i className="far fa-star" /> <strong>4</strong> Mentors
+                    and mentees enrolled in our mentoring program.
+                  </p>
+                  <p className="homeWhatWeDoText">
+                    {" "}
+                    <i className="far fa-star" /> <strong>1</strong> Teacher
+                    enrolled in formal teacher training course.
+                  </p>
+                  <p className="homeWhatWeDoText">
+                    {" "}
+                    <i className="far fa-star" /> <strong>1</strong> school
+                    supported through various projects.
+                  </p>
+                </center>
+              </Col>
+            </Row>
+            <br/>
+            <Row>
+            <Col md={12}>
+                <center>
+                  <img
+                    className="homeHowYouCanHelp"
+                    src={
+                      "https://res.cloudinary.com/dcw1i97ph/image/upload/v1543157557/WhatsApp_Image_2018-10-27_at_9.21.26_PM_1_dxhyhc.jpg"
+                    }
+                  />
+                  <h2 style={{ fontSize: "35px" }}>
+                    <span style={{ borderBottom: "3px solid #FFFFF3" }}>
+                      {" "}
+                      How you can help{" "}
+                    </span>
+                  </h2>
+                  <p className="homeWhatWeDoText">
+                  Sponsor a child, become a mentor, volunteer in our projects,
+                  refer to us children who need support, refer us to people
+                  sharing similar vision, help improve our method, share our
+                  mission with the world
+                  </p>
+                </center>
+              </Col>
             </Row>
           </Grid>
         </div>
@@ -88,14 +184,14 @@ class App extends Component {
                 style={{
                   height: "100%",
                   backgroundColor: "#FFFFF3",
-                  color: "rgb(25, 86, 147) ",
+                  color: "rgb(25, 86, 147)",
                   borderRadius: "2px"
                 }}
               >
                 {" "}
                 <Col mdOffset={1}>
                   <br />
-                  <h2 style={{ fontSize: "44px" }}> Testimonials </h2>
+                  <h2 style={{ fontSize: "35px" }}> <span style={{ borderBottom: "3px solid rgb(25, 86, 147)" }}> Testimonials </span> </h2>
                   <hr />
                 </Col>
                 <Carousel controls={false}>
