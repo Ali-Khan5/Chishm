@@ -198,7 +198,7 @@ class App extends Component {
                   <Carousel.Item className="CarousalPersonStyling">
                     <center>
                       <img className="testimonalPic" src={Img1} alt="Saad's " />
-                      <p className="TestimonialPersonParagrapghStyling">
+                      <p className="TestimonialPersonParagrapghStyling" style={{color:'rgb(25, 86, 147)'}}>
                         <q>
                           {" "}
                           It was fun when I started giving my mentee topics to
@@ -223,7 +223,7 @@ class App extends Component {
                         src={Img2}
                         alt="Sadia's "
                       />
-                      <p className="TestimonialPersonParagrapghStyling">
+                      <p className="TestimonialPersonParagrapghStyling" style={{color:'rgb(25, 86, 147)'}}>
                         <q>
                           {" "}
                           I feel lucky to be the mentor of a very intelligent
@@ -248,7 +248,7 @@ class App extends Component {
                         src={Img3}
                         alt="Faraz Arshad's "
                       />
-                      <p className="TestimonialPersonParagrapghStyling">
+                      <p className="TestimonialPersonParagrapghStyling" style={{color:'rgb(25, 86, 147)'}}>
                         <q>
                           {" "}
                           I believe that if you are privileged, then it becomes
