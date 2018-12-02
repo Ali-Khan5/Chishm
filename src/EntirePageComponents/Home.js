@@ -48,7 +48,7 @@ class App extends Component {
 
         <div className="ourImpactHomePage">
           <Grid fluid>
-            {/* <Row>
+             {/* <Row>
               <Col md={4}>
                 <h2 style={{ fontSize: "35px" }}>What We Do</h2>
                 <p>
@@ -86,13 +86,13 @@ class App extends Component {
                   mission with the world
                 </p>
               </Col>
-            </Row> */}
-            <Row>
+            </Row> 
+            <Row> */}
               {/* <Col md={3}>
               <img className="homeImpact"
                src={'https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_960,w_1080/v1543080098/WhatsApp_Image_2018-10-27_at_9.08.23_PM_1_dqhdtm.jpg'}/>
               </Col> */}
-              <Col md={12}>
+              {/* <Col md={12}>
                 <center>
                   <img
                     className="homeWhatWeDo"
@@ -115,9 +115,9 @@ class App extends Component {
                 </center>
               </Col>
             </Row>
-            <br />
-            <Row>
-              <Col md={12}>
+            <br /> */}
+            {/* <Row>
+              <Col md={12} >
                 <center>
                   <img
                     className="homeImpact"
@@ -173,6 +173,93 @@ class App extends Component {
                   </p>
                 </center>
               </Col>
+            </Row> */}
+            <Row>
+            <Col md={4} >
+            <div className="SecondryCard">
+                <center>
+                  <img
+                    className="homeHowYouCanHelp"
+                    src={
+                      "https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_960,w_1080/v1543080098/WhatsApp_Image_2018-10-27_at_9.08.23_PM_1_dqhdtm.jpg"
+                    }
+                  />
+                  <h2 style={{ fontSize: "35px" }}>
+                    <span style={{ borderBottom: "3px solid rgb(25, 86, 147)" }}>
+                      {" "}
+                      What We Do{" "}
+                    </span>
+                  </h2>
+                  <p className="">
+                    Provide mentors for weak underprivileged students / at-risk
+                    youth, enrol street children into schools, implement
+                    creative learning tools, train teachers, strengthen
+                    educational institutes.
+                  </p>
+                  <br/>
+                </center>
+                </div>
+              </Col>
+              <Col md={4} >
+              <div className="SecondryCard">
+                <center>
+                  <img
+                    className="homeHowYouCanHelp"
+                    src={
+                      "https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_960,w_1080/v1543157325/WhatsApp_Image_2018-11-13_at_11.54.57_AM_vvqmbx.jpg"
+                    }
+                  />
+                  <h2 style={{ fontSize: "35px" }}>
+                    <span style={{ borderBottom: "3px solid rgb(25, 86, 147)" }}>
+                      {" "}
+                      Our Impact{" "}
+                    </span>
+                  </h2>
+                  <ul>
+                  <li style={{ listStyleType: "none"}}>
+                    {" "}
+                    <i className="far fa-star" />  <strong>4</strong> Mentors and mentees enrolled in our
+                    mentoring program.
+                  </li>
+                  <li style={{ listStyleType: "none"}}>
+                  <i className="far fa-star" />   <strong>1</strong> Teacher enrolled in formal teacher
+                    training course.
+                  </li>
+                  <li style={{ listStyleType: "none"}}>
+                  <i className="far fa-star" />   <strong>1</strong> school supported through various
+                    projects.
+                  </li>
+                </ul>
+                </center>
+                </div>
+              </Col>
+              
+              <Col md={4} >
+              <div className="SecondryCard">
+                <center>
+                  <img
+                    className="homeHowYouCanHelp"
+                    src={
+                      "https://res.cloudinary.com/dcw1i97ph/image/upload/h_960,w_1080/v1543157557/WhatsApp_Image_2018-10-27_at_9.21.26_PM_1_dxhyhc.jpg"
+                    }
+                  />
+                  <h2 style={{ fontSize: "35px" }}>
+                    <span style={{ borderBottom: "3px solid rgb(25, 86, 147)" }}>
+                      {" "}
+                      How you can help{" "}
+                    </span>
+                  </h2>
+                  <p className="">
+                  Sponsor a child, become a mentor, volunteer in our projects,
+                  refer to us children who need support, refer us to people
+                  sharing similar vision, help improve our method, share our
+                  mission with the world
+                  </p>
+                  <br/>
+                </center>
+                </div>
+              </Col>
+
             </Row>
           </Grid>
         </div>
@@ -191,7 +278,8 @@ class App extends Component {
                 {" "}
                 <Col mdOffset={1}>
                   <br />
-                  <h2 style={{ fontSize: "35px" }}> <span style={{ borderBottom: "3px solid rgb(25, 86, 147)" }}> Testimonials </span> </h2>
+                  <h2 style={{ fontSize: "35px" }}> <span style={{ borderBottom: "3px solid rgb(25, 86, 147)" }}>
+                   Testimonials </span> </h2>
                   <hr />
                 </Col>
                 <Carousel controls={false}>

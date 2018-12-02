@@ -58,8 +58,8 @@
   .homeWhatWeDo{
     -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-    height: 200px;
-    width: 250px;
+    height: 180px;
+    width: 180px;
   }
   .homeWhatWeDoText{
     margin:0px 250px ;
@@ -67,14 +67,23 @@
   .homeImpact{
     -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-    height: 230px;
-    width: 250px;
+    height: 180px;
+    width: 180px;
   }
   .homeHowYouCanHelp{
     -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    height: 250px;
-    width: 250px;
+    height: 180px;
+    width: 180px;
+  }
+  .aboutMeIMGheight{
+      
+     
+      height:380px;
+      width:100%;
+  }
+  .AboutMESPACING{
+      margin-top: 150px;
   }
   
   @media(max-width:755px){
@@ -104,4 +113,22 @@
         max-height: 200px;
         max-width: 250px;
     }
+    .SecondryCard{
+        margin-top: 25px;
+    }
   }
+ 
+
+  .SecondryCard {
+    background-color: #FFFFF3;
+    
+    border-radius: 2px;
+    text-align: center;
+    color: rgb(25, 86, 147) !important;
+    color:#FFFFF3;
+    padding: 30px;
+    margin-top: 15px;
+    font-size: 17px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+  

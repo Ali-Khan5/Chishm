@@ -1,15 +1,16 @@
 html,body {
  
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   height: 100%;
 
 }
 .theme{
   /* background-color:  #F0F0FC;  */
   /* color:hsl(229, 49%, 27%) ; */
-	 font-family: Arimo; 
-	font-size: 15px;
+   /* font-family: Arimo;  */
+   font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 14px;
 	/* color: #333; */
 	background-color: #E0E3DA;
 	line-height: 1.735;
@@ -35,6 +36,7 @@ html,body {
 /*! Generated using Type Nugget v0.2.6 | typenugget.com */
 /*! Import Foundry Fonts */@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab:400');
 @import url('https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700italic');
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans");
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /*! Start Type Nugget Styles */
 /* 
@@ -48,7 +50,9 @@ body {
 } */
 
 h1,h2,h3,h4,h5{
-  font-family: 'Arbutus Slab';
+  /* font-family: 'Arbutus Slab'; */
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: bolder;
 }
 
 @media (max-width:750px){

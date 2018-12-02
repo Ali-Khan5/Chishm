@@ -7,33 +7,50 @@ let HomeCarousal = () => {
   return (
     <Carousel indicators={false}>
       <Carousel.Item>
-        <img 
+        {/* <img 
           className="fullResImg"
           alt="900x500"
-          src="https://res.cloudinary.com/dcw1i97ph/image/upload/c_fit,h_400,w_1657/v1537167262/photo2_xwxbfb.png"
-        />
-        <Carousel.Caption>
+          src="https://cloudinary.com/console/media_library/asset/image/upload/783_million_people_do_not_have_access_to_clean_and_safe_drinking_water_globally_according_to_the_United_Nations_Millennium_Development_Goals_Report_4_vf14hy"
+        /> */}
+         <div className="MemberContainer"></div>
+        <img src={'https://res.cloudinary.com/dcw1i97ph/image/upload/v1543483922/783_million_people_do_not_have_access_to_clean_and_safe_drinking_water_globally_according_to_the_United_Nations_Millennium_Development_Goals_Report_4_vf14hy.png'} alt="Avatar" className="fullResImg" />
+        <div className="overlayCarousal">
           {/* <h3>First slide label</h3>
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-        </Carousel.Caption>
+      Chishm is a platform to support education amongst the underprivileged youth of Pakistan by bridging them to privileged people
+       </div>
       </Carousel.Item>
       <Carousel.Item>
-        <img  className="fullResImg" alt="900x500" src={Img3} />
-        <Carousel.Caption>
-          <h3 style={{backgroundColor:'#233067',padding:'25px',borderRadius:'5px',opacity:'0.92'}}>
+        {/* <img  className="fullResImg" alt="900x500" src={'https://res.cloudinary.com/dcw1i97ph/image/upload/q_auto:eco/v1543478011/One_of_our_international_mentors_having_a_session_with_his_mentee_over_skype_1_cenhyj.png'} />
+         <Carousel.Caption>
+          <h4 style={{backgroundColor:'#233067',padding:'25px',borderRadius:'5px',opacity:'0.92',marginTop:'80%'}}>
             Chishm contributed technically and financially to establish a
             science laboratory ,Save the Future School in Lyari, Karachi.{" "}
-          </h3>
-        </Carousel.Caption>
+          </h4>
+        </Carousel.Caption>  */}
+        <div className="MemberContainer">
+        <img src={'https://res.cloudinary.com/dcw1i97ph/image/upload/v1543481856/783_million_people_do_not_have_access_to_clean_and_safe_drinking_water_globally_according_to_the_United_Nations_Millennium_Development_Goals_Report_3_yngjx3.png'} alt="Avatar" className="fullResImg" />
+        <div className="overlayCarousal">
+        Chishm contributed technically and financially to establish a
+            science laboratory ,Save the Future School in Lyari, Karachi.
+        </div>
+      </div>
       </Carousel.Item>
       <Carousel.Item>
-        <img  className="fullResImg" alt="900x500" src={Img2} />
-        <Carousel.Caption>
+        {/* <img  className="fullResImg" alt="900x500" src={'https://res.cloudinary.com/dcw1i97ph/image/upload/c_fit,q_auto:eco,w_1380/v1543477470/One_of_our_international_mentors_having_a_session_with_his_mentee_over_skype_qwtnca.png'} /> */}
+        {/* <Carousel.Caption>
           <h3 style={{backgroundColor:'#233067',padding:'25px',borderRadius:'5px',opacity:'0.92'}}>
             One of our international mentors having a session with his mentee
             over skype.
           </h3>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
+        <div className="MemberContainer">
+        <img src={'https://res.cloudinary.com/dcw1i97ph/image/upload/v1543481705/783_million_people_do_not_have_access_to_clean_and_safe_drinking_water_globally_according_to_the_United_Nations_Millennium_Development_Goals_Report_2_nzn4pb.png'} alt="Avatar" className="fullResImg" />
+        <div className="overlayCarousal">
+        One of our international mentors having a session with his mentee
+            over skype.
+        </div>
+      </div>
       </Carousel.Item>
     </Carousel>
   );
