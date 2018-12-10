@@ -1,10 +1,10 @@
 .MemberSection{
-    background-color: #233067 !important ;
+    background-color: rgb(25, 86, 147) !important ;
     color:#F0F0FC  !important;
     height: 100%;
 }
 .TecherSection{
-    background-color: #233067 !important;
+    background-color: rgb(25, 86, 147)!important;
     color:#F0F0FC !important;
   
    height: 100%;
@@ -14,7 +14,7 @@
 .projectPageHeader{
     text-align: center;
     padding: 25px 0px;
-    background-color: #1331a0;
+    background-color: rgb(25, 86, 147);
     color:#FFFFF3;
    
 }
@@ -22,12 +22,12 @@
 .OurprojectHeader{
     text-align: center;
     padding: 35px 0px;
-    background-color: #1331a0;
+    background-color: rgb(25, 86, 147);
     color:#FFFFF3;
    
 }
 .inverseStyle{
-    background: #1331a0;
+    background: rgb(25, 86, 147);
 }
 .aboutSectionHomePage{
     background-color:#FFFFF3;
@@ -84,9 +84,41 @@
   }
   .AboutMESPACING{
       margin-top: 150px;
+  }.SecondryCard {
+    background-color: #FFFFF3;
+    
+    border-radius: 2px;
+    text-align: center;
+    color: rgb(25, 86, 147) !important;
+    color:#FFFFF3;
+    padding: 30px;
+    margin-top: 15px;
+    font-size: 17px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    
+    
+  }
+  .TeamMemberWIDTH{
+    margin:10px auto;
+    width:80%;
+    height:500px;
+  }
+  .aboutUsParagraph{
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    padding-right: 110px;
   }
   
   @media(max-width:755px){
+    .TeamMemberWIDTH{
+        margin:20px auto;
+        width:85%;
+
+        height: auto !important;
+    }
+    .aboutUsParagraph{
+        padding-right: 0px;
+    }
     .homeTrianglePic{
         width:100%;
         height: auto;
@@ -100,6 +132,7 @@
     }
     .homeWhatWeDoText{
         margin:0px 10px;
+        
     }
     .homeImpact{
         width:80%;
@@ -115,20 +148,25 @@
     }
     .SecondryCard{
         margin-top: 25px;
+        
+        height: auto ;
     }
   }
  
-
-  .SecondryCard {
-    background-color: #FFFFF3;
+@media(min-width:1024px){
+    .SecondryCard {
+        
+        height:600px ;
     
-    border-radius: 2px;
-    text-align: center;
-    color: rgb(25, 86, 147) !important;
-    color:#FFFFF3;
-    padding: 30px;
-    margin-top: 15px;
-    font-size: 17px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  }
+    }
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */ 
+@media only screen and (min-width: 1200px) {
+    .SecondryCard {
+       
+        height:502px;
+    }
+    }
+  
   

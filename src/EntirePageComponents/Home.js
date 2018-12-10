@@ -181,7 +181,7 @@ class App extends Component {
                   <img
                     className="homeHowYouCanHelp"
                     src={
-                      "https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_960,w_1080/v1543080098/WhatsApp_Image_2018-10-27_at_9.08.23_PM_1_dqhdtm.jpg"
+                      "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544357019/Untitled_design_3_rvmrrq.png"
                     }
                   />
                   <h2 style={{ fontSize: "35px" }}>
@@ -190,13 +190,13 @@ class App extends Component {
                       What We Do{" "}
                     </span>
                   </h2>
-                  <p className="">
+                  <p className="" style={{fontSize:'18px'}}>
                     Provide mentors for weak underprivileged students / at-risk
                     youth, enrol street children into schools, implement
                     creative learning tools, train teachers, strengthen
                     educational institutes.
                   </p>
-                  <br/>
+
                 </center>
                 </div>
               </Col>
@@ -206,7 +206,8 @@ class App extends Component {
                   <img
                     className="homeHowYouCanHelp"
                     src={
-                      "https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_960,w_1080/v1543157325/WhatsApp_Image_2018-11-13_at_11.54.57_AM_vvqmbx.jpg"
+                     
+                      " https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_960,w_1080/v1543080098/WhatsApp_Image_2018-10-27_at_9.08.23_PM_1_dqhdtm.jpg"
                     }
                   />
                   <h2 style={{ fontSize: "35px" }}>
@@ -215,7 +216,7 @@ class App extends Component {
                       Our Impact{" "}
                     </span>
                   </h2>
-                  <ul>
+                  <ul style={{fontSize:'17px'}}>
                   <li style={{ listStyleType: "none"}}>
                     {" "}
                     <i className="far fa-star" />  <strong>4</strong> Mentors and mentees enrolled in our
@@ -249,13 +250,13 @@ class App extends Component {
                       How you can help{" "}
                     </span>
                   </h2>
-                  <p className="">
+                  <p className="" style={{fontSize:'18px'}}>
                   Sponsor a child, become a mentor, volunteer in our projects,
                   refer to us children who need support, refer us to people
                   sharing similar vision, help improve our method, share our
                   mission with the world
                   </p>
-                  <br/>
+                
                 </center>
                 </div>
               </Col>
@@ -286,7 +287,7 @@ class App extends Component {
                   <Carousel.Item className="CarousalPersonStyling">
                     <center>
                       <img className="testimonalPic" src={Img1} alt="Saad's " />
-                      <p className="TestimonialPersonParagrapghStyling" style={{color:'rgb(25, 86, 147)'}}>
+                      <p className="TestimonialPersonParagrapghStyling" style={{color:'rgb(25, 86, 147)',fontSize:'18px'}} >
                         <q>
                           {" "}
                           It was fun when I started giving my mentee topics to
@@ -311,7 +312,7 @@ class App extends Component {
                         src={Img2}
                         alt="Sadia's "
                       />
-                      <p className="TestimonialPersonParagrapghStyling" style={{color:'rgb(25, 86, 147)'}}>
+                      <p className="TestimonialPersonParagrapghStyling" style={{color:'rgb(25, 86, 147)',fontSize:'18px'}}>
                         <q>
                           {" "}
                           I feel lucky to be the mentor of a very intelligent
@@ -336,7 +337,7 @@ class App extends Component {
                         src={Img3}
                         alt="Faraz Arshad's "
                       />
-                      <p className="TestimonialPersonParagrapghStyling" style={{color:'rgb(25, 86, 147)'}}>
+                      <p className="TestimonialPersonParagrapghStyling" style={{color:'rgb(25, 86, 147)',fontSize:'18px'}}>
                         <q>
                           {" "}
                           I believe that if you are privileged, then it becomes

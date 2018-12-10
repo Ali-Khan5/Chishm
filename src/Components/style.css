@@ -80,24 +80,26 @@ ol.carousel-indicators {
   height: 100%;
   min-height: 250px;
   max-height: 250px;
+  margin:0px auto;
+  
+
 }
 .MemberContainer {
   position: relative;
-  width: 100%;
-  /* max-width: 340px; */
+  width: 100%; /* max-width: 340px; */
 }
 .overlay {
   position: absolute;
   bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
+  
+  background: rgba(129, 126, 126, 0.451); 
   /* Black see-through */
-  color: #f1f1f1;
+ 
   width: 100%;
   opacity: 1;
-  color: white;
+  color: #f1f1f1;;
   font-size: 18px;
-  padding: 18px;
+  padding: 0px;
   text-align: center;
   font-weight: bold;
 }
@@ -114,8 +116,8 @@ ol.carousel-indicators {
   padding: 25px;
   text-align: center;
   font-weight: bold;
-  -webkit-border-radius: 0 113px 0 0; /*Safari, Chrome*/
-  -moz-border-radius: 0 113px 0 0; /*Firefox*/
+  -webkit-border-radius: 0 113px 0 0; /* Safari, Chrome */
+  -moz-border-radius: 0 113px 0 0; /* Firefox */
   border-radius: 0 113px 0 0;
 }
 .AboutMeCard {
@@ -126,28 +128,53 @@ ol.carousel-indicators {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 .CarousalMaximumHeight {
-  height: 405px;
+  height: 445px;
 }
 .CarousalPersonStyling {
-  height: 405px;
+  height: 100%;
 }
 .TestimonialPersonParagrapghStyling {
   font-size: 18px;
   padding: 0px 10px;
-  margin: 0px 100px;
+  margin: 0px 250px;
 }
 @media (max-width: 756px) {
   .CarousalPersonStyling {
-    height: auto;
+    height: 100%;
   }
   .TestimonialPersonParagrapghStyling {
     font-size: 18px;
     padding: 0px 0px;
-    margin: 0px 50px;
+    margin: 0px 30px;
   }
-  .overlayCarousal{
+  .overlayCarousal {
     font-size: 16px;
     padding: 22px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .CarousalPersonStyling {
+    
+    height: 100%;
+  }
+  .CarousalMaximumHeight {
+    height: 100%;
+  }
+  .TestimonialPersonParagrapghStyling {
+    
+    margin: 0% 20%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .TestimonialPersonParagrapghStyling {
+   
+    margin: 0% 20%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .TestimonialPersonParagrapghStyling {
+    
+    margin: 0% 20%;
   }
 }
 .ProjectCard {
@@ -158,4 +185,3 @@ ol.carousel-indicators {
   font-size: 17px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-

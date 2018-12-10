@@ -2,16 +2,19 @@ import React, { Component } from "react";
 import { Navbar, NavItem, MenuItem, NavDropdown, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
+import LogoImg from './../media/Capture.PNG';
 
 import "./style.css";
 class Header extends Component {
   render() {
     return (
       <div>
-        <div style={{ textAlign: "center", backgroundColor: "#566270" }}>
+        <div style={{ textAlign: "center", backgroundColor: "#f5f5f5" }}>
           <img
-            src="http://res.cloudinary.com/dcw1i97ph/image/upload/c_fit,h_100,w_150/v1536947011/Caaaaaaapture_pyzuz7.png"
+            src={LogoImg}
             alt="Our Chishm Logo"
+          height={110}
+          width={200}
           />
         </div>
         <Navbar fluid collapseOnSelect>
@@ -32,22 +35,28 @@ class Header extends Component {
                 <NavItem eventKey={2} >About Us</NavItem>
               </LinkContainer>
               <LinkContainer to="/stories">
-                <NavItem eventKey={3}  >Our Stories</NavItem>
+                <NavItem eventKey={3}>Our Stories</NavItem>
               </LinkContainer>
               <NavDropdown 
                 eventKey={4}
                 title="Programs"
                 id="basic-nav-dropdown"
               >
+               <LinkContainer to="/mentoring#mentor">
                 <MenuItem eventKey={4.1} href="/mentoring#mentor">
                   {" "}
                   Mentoring Program
                 </MenuItem>
+                </LinkContainer>
+                <LinkContainer to="/teacher#teacher">
                 <MenuItem eventKey={4.2} href="/teacher#teacher">
                   Teacher Training Program
                 </MenuItem>
+                </LinkContainer>
+                <LinkContainer to="/sole#sole">
                 <MenuItem eventKey={4.3} href="/sole#sole">
                 SOLE</MenuItem>
+                </LinkContainer>
                
               </NavDropdown>
               <LinkContainer to="/projects">
