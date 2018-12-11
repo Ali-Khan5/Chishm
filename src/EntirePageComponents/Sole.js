@@ -8,50 +8,100 @@ import Card from "../Components/Card";
 const Programs = props => {
   return (
     <div className="MemberSection">
-      <Grid>
-        <Row>
-          <Col sm={10} smOffset={1}>
-            <p
-              style={{
-                textAlign: "justify",
-                marginTop: "5%",
-                fontSize: "1.4em"
-              }}
-            >
-              Programs are Chishm’s long term projects that aim to strengthen
-              individuals such as students and teachers from deprived
-              communities. Our key long-term project is the Mentoring Program
-              which is the cornerstone of Chishm. Through this program, an
-              individual person (mentor) is linked with an individual student
-              (their mentee) in order to guide and support them through schools
-              and institutions.
-            </p>
-          </Col>
-        </Row>
-        <h2 style={{ textAlign: "center" }}>Explore our Programs</h2>
-        <Row>
-          <Col md={4}>
-            {/* <h2 className="board-game">Mentoring Program</h2>   */}
-            <img
-              style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
-              src={Program1}
-            />
-          </Col>
-          <Col md={4}>
-            {/* <h2 >Teacher Training Program</h2>  */}
-            <img
-              style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
-              src={Program2}
-            />
-          </Col>
-          <Col md={4}>
-            {/* <h2 style={{ textAlign: "center" }} className="retro">SOLE</h2>  */}
-            <img
-              style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
-              src={Program3}
-            />
-          </Col>
-        </Row>
+        <Grid
+        fluid
+        style={{
+          color: " rgb(25, 86, 147)",
+          backgroundColor: "#fffff3"
+        }}
+      >
+        <section>
+         
+          <Row className="AboutMESPACING">
+            <Col md={7}>
+              <div className="ProgramDetailsAlignmentWithPictureLeft">
+                <h2 style={{ fontSize: "35px" }}>SOLE</h2>
+                <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
+                  {" "}
+                  Self Organized Learning Environment (SOLE) is an enquiry based learning approach where the teachers encourage their class to work as a community to answer questions using internet, books and other resources. Students are given a big question related to a topic and are challenged to find its answer in groups. 
+                  The groups present answers back to the class at the end of the session.
+                </p>
+              </div>
+            </Col>
+            <Col md={5}>
+              <img
+                className="aboutMeIMGheight solePictures"
+                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1543948951/IMG_0463_mguo6t.jpg"
+              />
+            </Col>
+          </Row>
+          <Row className="AboutMESPACING">
+            <Col md={5} xsHidden smHidden>
+              {/* <img
+                className="displayIMGheight"
+                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544555044/IMG_0339_zkcaiv.jpg"
+              /> */}
+            </Col>
+            <Col md={7}>
+              <div className="ProgramDetailsAlignmentWithPictureRight">
+                <h2 style={{ fontSize: "35px" }}>What do we achieve</h2>
+                <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
+                  {" "}
+                  Using SOLE, teachers get better at asking big questions, become more in tune with interests of students, cultivate a learner-driven culture of curiosity, feel connected to students. Students, in addition to gaining knowledge, improve reading comprehension, establish creativity and problem solving skills, develop the habits of lifelong learning, strengthen interpersonal and presentation skills, get better at integrating knowledge. Such methods help in making students as leaders rather than followers.
+                </p>
+              </div>
+            </Col>
+            <Col md={5} mdHidden lgHidden>
+              {/* <img
+                className="displayIMGheight"
+                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544555044/IMG_0339_zkcaiv.jpg"
+              /> */}
+            </Col>
+          </Row>
+          <Row className="AboutMESPACING">
+            <Col md={7}>
+              <div className="ProgramDetailsAlignmentWithPictureLeft">
+                <h2 style={{ fontSize: "35px" }}>Whom do we serve</h2>
+                <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
+                  {" "}
+                  Local community schools providing education to underprivileged children of our society.
+
+                </p>
+              </div>
+            </Col>
+            <Col md={5}>
+              {/* <img
+                className="displayIMGheight"
+                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544555045/IMG_0336_fusqkp.jpg"
+              /> */}
+            </Col>
+          </Row>
+          <Row className="AboutMESPACING">
+            <Col md={5} xsHidden smHidden>
+              {/* <img
+                className="displayIMGheight"
+                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544555044/IMG_0339_zkcaiv.jpg"
+              /> */}
+            </Col>
+            <Col md={7}>
+              <div className="ProgramDetailsAlignmentWithPictureRight">
+                <h2 style={{ fontSize: "35px" }}>What do we do: </h2>
+                <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
+                  {" "}
+                  With our local experts and consultants we develop SOLE program based on local curriculum and additional subjects such as ethics and civil responsibility; we fulfill prerequisites for implementing SOLE such as training teachers and students in basics of computing and web based knowledge acquisition, equipping the school with computers, other necessary infrastructure and furnishing a library. We then introduce SOLE as extra classes in our target schools with the aim of shifting to such methods completely. For each school this is a long term project as
+                   we introduce this methodology slowly and continuously monitor the progress.
+                </p>
+              </div>
+            </Col>
+            <Col md={5} mdHidden lgHidden>
+              <img
+                className="displayIMGheight"
+                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544555044/IMG_0339_zkcaiv.jpg"
+              />
+            </Col>
+          </Row>
+          <br />
+        </section>
       </Grid>
       <div>
         <h2 style={{ textAlign: "center" }} id="sole">
@@ -73,73 +123,7 @@ const Programs = props => {
               <hr/>
             </Col>
           </Row>
-          <Row>
-            <Col xs={10} xsOffset={1}>
-              {/* <h3>What do we achieve</h3>
-              <p>
-                Using SOLE, teachers get better at asking big questions, become
-                more in tune with interests of students, cultivate a
-                learner-driven culture of curiosity, feel connected to students.
-                Students, in addition to gaining knowledge, improve reading
-                comprehension, establish creativity and problem solving skills,
-                develop the habits of lifelong learning, strengthen
-                interpersonal and presentation skills, get better at integrating
-                knowledge. Such methods help in making students as leaders
-                rather than followers.
-              </p> */}
-              <Card
-                heading={`What do we achieve`}
-                text={`   Using SOLE, teachers get better at asking big questions, become
-              more in tune with interests of students, cultivate a
-              learner-driven culture of curiosity, feel connected to students.
-              Students, in addition to gaining knowledge, improve reading
-              comprehension, establish creativity and problem solving skills,
-              develop the habits of lifelong learning, strengthen
-              interpersonal and presentation skills, get better at integrating
-              knowledge. Such methods help in making students as leaders
-              rather than followers.`}
-              />
-              <br />
-              <Card
-                text={`local community schools providing education to underprivileged
-                children of our society.`}
-                heading={`Whom do we serve`}
-              />
-              {/* <h3>Whom do we serve</h3>
-              <p>
-                Local community schools providing education to underprivileged
-                children of our society.
-              </p> */}
-              <br />
-              <Card
-                text={`     We slowly introduce SOLE as extra classes in our target schools.
-                In this process, with our local experts and consultants we
-                develop SOLE program based on local curriculum and additional
-                subjects such as ethics and civil responsibility; we fulfill
-                prerequisites for implementing SOLE such as training teachers
-                and students in basics of computing and web based knowledge
-                acquisition, equipping the school with computers, other
-                necessary infrastructure and furnishing a library. For each
-                school this is a long term project as we introduce this
-                methodology slowly and continuously monitor the progress.`}
-                heading={`What do we do`}
-              />
-              {/* <h3>What do we do</h3>
-              <p>
-                We slowly introduce SOLE as extra classes in our target schools.
-                In this process, with our local experts and consultants we
-                develop SOLE program based on local curriculum and additional
-                subjects such as ethics and civil responsibility; we fulfill
-                prerequisites for implementing SOLE such as training teachers
-                and students in basics of computing and web based knowledge
-                acquisition, equipping the school with computers, other
-                necessary infrastructure and furnishing a library. For each
-                school this is a long term project as we introduce this
-                methodology slowly and continuously monitor the progress.
-              </p> */}
-              <hr />
-            </Col>
-          </Row>
+          
           <h2 style={{ textAlign: "center" }}>Ways to Get Involved</h2>
           <Row>
             <Col md={6}>

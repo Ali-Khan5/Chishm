@@ -10,6 +10,17 @@
    height: 100%;
    width:100%;
 }
+.ProgramDetailsAlignmentWithPictureRight{
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 45px;
+}
+.ProgramDetailsAlignmentWithPictureLeft{
+    margin-top: 60px;
+    margin-left: 45px;
+    margin-right: 40px;
+}
+
 
 .projectPageHeader{
     text-align: center;
@@ -82,9 +93,22 @@
       height:380px;
       width:100%;
   }
+  .solePictures{
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    
+  }
+  .displayIMGheight{
+      
+     
+    height:350px;
+    width:100%;
+}
   .AboutMESPACING{
       margin-top: 150px;
-  }.SecondryCard {
+  }
+
+  .SecondryCard {
     background-color: #FFFFF3;
     
     border-radius: 2px;
@@ -108,8 +132,19 @@
     letter-spacing: 0.03em;
     padding-right: 110px;
   }
+  .MentorParagraph{
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    
+  }
   
   @media(max-width:755px){
+      .ProgramDetailsAlignmentWithPictureRight{
+          margin:10px;
+      }
+      .ProgramDetailsAlignmentWithPictureLeft{
+        margin:10px;
+    }
     .TeamMemberWIDTH{
         margin:20px auto;
         width:85%;
