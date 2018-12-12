@@ -113,29 +113,9 @@ const About = () => {
           <br />
           <br />
           <Row className="">
-            <Col mdOffset={1} md={4} style={{ borderRight: "2px solid black" }} smHidden xsHidden>
-              <img
-                className="img-responsive"
-                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544394153/IMG_0497_zgm4dj.jpg"
-              />
-              <h2 style={{ fontSize: "35px" }}>About Us</h2>
-              <p className="aboutUsParagraph">
-                Chishm aims to reshape the way education is imparted - which in
-                turn would reshape the youth of tomorrow: from a critical
-                thinking perspective, and from a values perspective.
-              </p>
-            </Col>
-            <Col  mdHidden lgHidden >
-            
-              <h2 style={{ fontSize: "35px",margin:'15px' }}>About Us</h2>
-              <p className="aboutUsParagraph" style={{margin:'15px'}}>
-                Chishm aims to reshape the way education is imparted - which in
-                turn would reshape the youth of tomorrow: from a critical
-                thinking perspective, and from a values perspective.
-              </p>
-            </Col>
+          
             <Col md={7}>
-              <h2>Who We Are</h2>
+              <h2 style={{ paddingLeft: '110px'}}>Who We Are</h2>
               <p
                 className="aboutUsParagraph"
               >
@@ -150,7 +130,7 @@ const About = () => {
                 in pedagogy, teaching, child psychology, project management,
                 strategic planning, advisory - sharing a common vision.
               </p>
-              <h2>Whom Do We Serve</h2>
+              <h2 style={{ paddingLeft: '110px'}}>Whom Do We Serve</h2>
               <p
                 className="aboutUsParagraph"
               >
@@ -159,7 +139,7 @@ const About = () => {
                 these children and individual teachers working in such
                 institutions.
               </p>
-              <h2>What Do We Do</h2>
+              <h2 style={{ paddingLeft: '110px'}}>What Do We Do</h2>
               <p
                className="aboutUsParagraph"
               >
@@ -175,7 +155,7 @@ const About = () => {
                 educational infrastructure and improve quality of educational
                 institutes.
               </p>
-              <h2>Where do we get our funding</h2>
+              <h2 style={{ paddingLeft: '110px'}}>Where do we get our funding</h2>
               <p
                 className="aboutUsParagraph"
               >
@@ -187,7 +167,7 @@ const About = () => {
                 covered by contributions from our members. Therefore every paisa
                 donated reaches a beneficiary.
               </p>
-              <h2>Our Structure</h2>
+              <h2 style={{ paddingLeft: '110px'}}>Our Structure</h2>
               <p
                className="aboutUsParagraph"
               >
@@ -203,6 +183,27 @@ const About = () => {
                 Through such an approach, Chishm provides a platform for
                 motivated and like-minded people to initiate social projects in
                 line with our primary goals.
+              </p>
+            </Col>
+            <Col md={4} style={{ borderLeft: "2px solid black" }} smHidden xsHidden>
+              <img
+                className="img-responsive"
+                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544394153/IMG_0497_zgm4dj.jpg"
+              />
+              <h2 style={{ fontSize: "35px" }}>About Us</h2>
+              <p style={{fontSize:'17px'}}>
+                Chishm aims to reshape the way education is imparted - which in
+                turn would reshape the youth of tomorrow: from a critical
+                thinking perspective, and from a values perspective.
+              </p>
+            </Col>
+            <Col  mdHidden lgHidden >
+            
+              <h2 style={{ fontSize: "35px",margin:'15px' }}>About Us</h2>
+              <p  style={{fontSize:'17px'}}>
+                Chishm aims to reshape the way education is imparted - which in
+                turn would reshape the youth of tomorrow: from a critical
+                thinking perspective, and from a values perspective.
               </p>
             </Col>
           </Row>

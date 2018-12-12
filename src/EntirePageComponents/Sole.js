@@ -8,7 +8,7 @@ import Card from "../Components/Card";
 const Programs = props => {
   return (
     <div className="MemberSection">
-        <Grid
+      <Grid
         fluid
         style={{
           color: " rgb(25, 86, 147)",
@@ -16,46 +16,58 @@ const Programs = props => {
         }}
       >
         <section>
-         
           <Row className="AboutMESPACING">
             <Col md={7}>
               <div className="ProgramDetailsAlignmentWithPictureLeft">
                 <h2 style={{ fontSize: "35px" }}>SOLE</h2>
                 <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
                   {" "}
-                  Self Organized Learning Environment (SOLE) is an enquiry based learning approach where the teachers encourage their class to work as a community to answer questions using internet, books and other resources. Students are given a big question related to a topic and are challenged to find its answer in groups. 
-                  The groups present answers back to the class at the end of the session.
+                  Self Organized Learning Environment (SOLE) is an enquiry based
+                  learning approach where the teachers encourage their class to
+                  work as a community to answer questions using internet, books
+                  and other resources. Students are given a big question related
+                  to a topic and are challenged to find its answer in groups.
+                  The groups present answers back to the class at the end of the
+                  session.
                 </p>
               </div>
             </Col>
             <Col md={5}>
               <img
                 className="aboutMeIMGheight solePictures"
-                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1543948951/IMG_0463_mguo6t.jpg"
+                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544557526/IMG_0180_opt_dvy8ty.jpg"
               />
             </Col>
           </Row>
           <Row className="AboutMESPACING">
             <Col md={5} xsHidden smHidden>
-              {/* <img
-                className="displayIMGheight"
-                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544555044/IMG_0339_zkcaiv.jpg"
-              /> */}
+              <img
+                className="aboutMeIMGheight solePictures"
+                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544557897/IMG_0186_opt_ebnmqy.jpg"
+              />
             </Col>
             <Col md={7}>
               <div className="ProgramDetailsAlignmentWithPictureRight">
                 <h2 style={{ fontSize: "35px" }}>What do we achieve</h2>
                 <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
                   {" "}
-                  Using SOLE, teachers get better at asking big questions, become more in tune with interests of students, cultivate a learner-driven culture of curiosity, feel connected to students. Students, in addition to gaining knowledge, improve reading comprehension, establish creativity and problem solving skills, develop the habits of lifelong learning, strengthen interpersonal and presentation skills, get better at integrating knowledge. Such methods help in making students as leaders rather than followers.
+                  Using SOLE, teachers get better at asking big questions,
+                  become more in tune with interests of students, cultivate a
+                  learner-driven culture of curiosity, feel connected to
+                  students. Students, in addition to gaining knowledge, improve
+                  reading comprehension, establish creativity and problem
+                  solving skills, develop the habits of lifelong learning,
+                  strengthen interpersonal and presentation skills, get better
+                  at integrating knowledge. Such methods help in making students
+                  as leaders rather than followers.
                 </p>
               </div>
             </Col>
             <Col md={5} mdHidden lgHidden>
-              {/* <img
-                className="displayIMGheight"
-                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544555044/IMG_0339_zkcaiv.jpg"
-              /> */}
+              <img
+                className="displayIMGheight solePictures"
+                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544557897/IMG_0186_opt_ebnmqy.jpg"
+              />
             </Col>
           </Row>
           <Row className="AboutMESPACING">
@@ -64,39 +76,48 @@ const Programs = props => {
                 <h2 style={{ fontSize: "35px" }}>Whom do we serve</h2>
                 <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
                   {" "}
-                  Local community schools providing education to underprivileged children of our society.
-
+                  Local community schools providing education to underprivileged
+                  children of our society.
                 </p>
               </div>
             </Col>
             <Col md={5}>
-              {/* <img
-                className="displayIMGheight"
-                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544555045/IMG_0336_fusqkp.jpg"
-              /> */}
+              <img
+                className="displayIMGheight solePictures"
+                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544557933/IMG_0194_opt_wnmr4e.jpg"
+              /> 
             </Col>
           </Row>
           <Row className="AboutMESPACING">
             <Col md={5} xsHidden smHidden>
-              {/* <img
-                className="displayIMGheight"
-                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544555044/IMG_0339_zkcaiv.jpg"
-              /> */}
+              <img
+                className="displayIMGheight solePictures"
+                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544557996/IMG_0202_opt_ldkulw.jpg"
+              />
             </Col>
             <Col md={7}>
               <div className="ProgramDetailsAlignmentWithPictureRight">
-                <h2 style={{ fontSize: "35px" }}>What do we do: </h2>
-                <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
+                <h2 >What do we do: </h2>
+                <p style={{ fontSize: "18px", letterSpacing: "0.03em",marginTop:'-10px' }}>
                   {" "}
-                  With our local experts and consultants we develop SOLE program based on local curriculum and additional subjects such as ethics and civil responsibility; we fulfill prerequisites for implementing SOLE such as training teachers and students in basics of computing and web based knowledge acquisition, equipping the school with computers, other necessary infrastructure and furnishing a library. We then introduce SOLE as extra classes in our target schools with the aim of shifting to such methods completely. For each school this is a long term project as
-                   we introduce this methodology slowly and continuously monitor the progress.
+                  With our local experts and consultants we develop SOLE program
+                  based on local curriculum and additional subjects such as
+                  ethics and civil responsibility; we fulfill prerequisites for
+                  implementing SOLE such as training teachers and students in
+                  basics of computing and web based knowledge acquisition,
+                  equipping the school with computers, other necessary
+                  infrastructure and furnishing a library. We then introduce
+                  SOLE as extra classes in our target schools with the aim of
+                  shifting to such methods completely. For each school this is a
+                  long term project as we introduce this methodology slowly and
+                  continuously monitor the progress.
                 </p>
               </div>
             </Col>
             <Col md={5} mdHidden lgHidden>
               <img
-                className="displayIMGheight"
-                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544555044/IMG_0339_zkcaiv.jpg"
+                className="displayIMGheight solePictures"
+                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544557996/IMG_0202_opt_ldkulw.jpg"
               />
             </Col>
           </Row>
@@ -120,10 +141,10 @@ const Programs = props => {
                 groups present answers back to the class at the end of the
                 session.
               </p>
-              <hr/>
+              <hr />
             </Col>
           </Row>
-          
+
           <h2 style={{ textAlign: "center" }}>Ways to Get Involved</h2>
           <Row>
             <Col md={6}>
@@ -213,11 +234,11 @@ const Programs = props => {
           </Row>
           <Row>
             <Col md={6}>
-              <h3 >
+              <h3>
                 <i style={{ fontSize: "2.4em" }} className="fas fa-box" />{" "}
                 Sponsor equipment to implement SOLE:
               </h3>
-              <p >
+              <p>
                 You can contribute to the purchase of laptops, projector and
                 books which shall be accessible to our teachers and students to
                 practice SOLE. Send us an email if you are interested and we
@@ -225,6 +246,112 @@ const Programs = props => {
               </p>
             </Col>
           </Row>
+          <Row>
+            {" "}
+            <h2 style={{ textAlign: "center" }} id="mentor">
+              {" "}
+              Programs{" "}
+            </h2>
+            <Col sm={10} smOffset={1}>
+              <p
+                style={{
+                  textAlign: "justify",
+                  marginTop: "5%",
+                  fontSize: "1.4em"
+                }}
+              >
+                Programs are Chishm’s long term projects that aim to strengthen
+                individuals such as students and teachers from deprived
+                communities. Our key long-term project is the Mentoring Program
+                which is the cornerstone of Chishm. Through this program, an
+                individual person (mentor) is linked with an individual student
+                (their mentee) in order to guide and support them through
+                schools and institutions.
+              </p>
+            </Col>
+          </Row>
+          <h2 style={{ textAlign: "center" }}>Explore our Programs</h2>
+          <Row>
+            <Col md={4}>
+              {/* <h2 className="board-game">Mentoring Program</h2>   */}
+              <img
+                style={{ width: "100%", marginTop: "10px" }}
+                src={
+                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
+                }
+              />
+              {/* <h2
+              style={{
+                minHeight: "100px",
+                padding: "49px",
+                backgroundColor: "#233067 ",
+                color: "#F0F0FC",
+                borderRadius: "5px",
+                textAlign: "center"
+              }}
+            >
+              Mentoring Program{" "}
+            </h2> */}
+            </Col>
+            <Col md={4}>
+              {/* <h2 >Teacher Training Program</h2>  */}
+              {/* <img
+              style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
+              src={Program2}
+            /> */}
+              <img
+                style={{ width: "100%", marginTop: "10px" }}
+                // style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
+                src={
+                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
+                }
+              />
+              {/* <h2
+              style={{
+                minHeight: "100px",
+                padding: "35px",
+                backgroundColor: "#233067 ",
+                color: "#F0F0FC",
+                borderRadius: "5px",
+                textAlign: "center"
+              }}
+            >
+              Teacher Training Program
+            </h2> */}
+            </Col>
+            <Col md={4}>
+              {/* <h2 style={{ textAlign: "center" }} className="retro">SOLE</h2>  */}
+              {/* <img
+              style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
+              src={Program3}
+            /> */}
+
+              <img
+                className="text-center"
+                style={{ width: "100%", marginTop: "10px" }}
+                // style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
+
+                src={
+                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
+                }
+              />
+
+              {/* <h2
+              style={{
+                minHeight: "138px",
+                padding: "40px",
+                backgroundColor: "#233067 ",
+                color: "#F0F0FC",
+                borderRadius: "5px",
+                textAlign: "center"
+              }}
+            >
+              SOLE
+            </h2> */}
+            </Col>
+          </Row>
+          <br />
+          <br />
         </Grid>
       </div>
     </div>

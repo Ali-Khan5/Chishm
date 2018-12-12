@@ -64,9 +64,11 @@ class Header extends Component {
                 Projects
               </NavItem>
               </LinkContainer>
-              <NavItem eventKey={6} href="#">
+              <LinkContainer to="/getInvolved">
+              <NavItem eventKey={6} href="/getInvolved">
                 Get Involved
               </NavItem>
+              </LinkContainer>
               <NavItem eventKey={7} href="#">
                 Contact Us
               </NavItem>

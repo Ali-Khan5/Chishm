@@ -11,6 +11,7 @@ import Mentoring from "./EntirePageComponents/MentoringProgram";
 import TeacherTraining from "./EntirePageComponents/TeacherProgram";
 import SOLE from './EntirePageComponents/Sole.js'
 import Project from './EntirePageComponents/Projects';
+import GetInvolved from './EntirePageComponents/getInvolved';
 const history = createBrowserHistory();
 
 class Routers extends Component {
@@ -28,6 +29,7 @@ class Routers extends Component {
             <Route path="/teacher" component={TeacherTraining} />
             <Route path="/sole" component={SOLE} />
             <Route path="/projects" component={Project}/>
+            <Route path="/getInvolved" component={GetInvolved}/>
             <div className="fl-page-footer-wrap">
               <Footer />
             </div>

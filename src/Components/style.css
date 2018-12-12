@@ -6,7 +6,7 @@
 }
 /* styling of carousal img ends */
 .cardBorder {
-  background-color: #233067;
+  background-color:rgb(25, 86, 147);
   color: #f0f0fc;
   border-radius: 2px;
   font-size: 20px !important;
@@ -19,7 +19,7 @@
 
   border-radius: 2px;
   text-align: center;
-  color: #1331a0 !important;
+  color: rgb(25, 86, 147) !important;
   padding: 30px;
   font-size: 17px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -29,7 +29,7 @@
 
   border-radius: 2px;
 
-  color: #1331a0 !important;
+  color: rgb(25, 86, 147) !important;
   padding: 30px;
   font-size: 17px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -180,7 +180,7 @@ ol.carousel-indicators {
 .ProjectCard {
   background-color: #fffff3;
   border-radius: 2px;
-  color: #1331a0 !important;
+  color: rgb(25, 86, 147)!important;
   padding: 30px;
   font-size: 17px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);

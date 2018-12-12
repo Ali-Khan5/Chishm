@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Row, Col } from "react-bootstrap";
 const Footer=()=>{
     return(
-        <div style={{backgroundColor:'#566270',padding:'15px',color:'#FFFFF3'}}>
+        <div style={{backgroundColor:'#f5f5f5',padding:'15px',color:'#000000'}}>
             <Grid>
                 <Row>   
                     <Col md={6}>
