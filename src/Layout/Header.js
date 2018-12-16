@@ -69,9 +69,11 @@ class Header extends Component {
                 Get Involved
               </NavItem>
               </LinkContainer>
-              <NavItem eventKey={7} href="#">
+              <LinkContainer to="/contactus">
+              <NavItem eventKey={7} href="/contactus">
                 Contact Us
               </NavItem>
+              </LinkContainer>
             </Nav>
             {/* <Nav pullRight>
             <NavItem eventKey={1} href="#">

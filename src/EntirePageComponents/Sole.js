@@ -39,7 +39,7 @@ const Programs = props => {
               />
             </Col>
           </Row>
-          <Row className="AboutMESPACING">
+          {/* <Row className="AboutMESPACING">
             <Col md={5} xsHidden smHidden>
               <img
                 className="aboutMeIMGheight solePictures"
@@ -119,6 +119,80 @@ const Programs = props => {
                 className="displayIMGheight solePictures"
                 src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544557996/IMG_0202_opt_ldkulw.jpg"
               />
+            </Col>
+          </Row> */}  <br />
+          <h2 style={{ textAlign: "center", fontSize: "45px" }}>
+            <b>Our Program</b> in a Nutshell
+          </h2>
+          <hr />
+          <Row>
+            <Col md={8} mdOffset={2}>
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "30px",
+                  fontSize: "17px",
+                  marginTop: "10px"
+                }}
+              >
+                <h3> What do we achieve</h3>
+                <p>
+                Using SOLE, teachers get better at asking big questions,
+                  become more in tune with interests of students, cultivate a
+                  learner-driven culture of curiosity, feel connected to
+                  students. Students, in addition to gaining knowledge, improve
+                  reading comprehension, establish creativity and problem
+                  solving skills, develop the habits of lifelong learning,
+                  strengthen interpersonal and presentation skills, get better
+                  at integrating knowledge. Such methods help in making students
+                  as leaders rather than followers.
+                </p>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={8} mdOffset={2}>
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "30px",
+                  fontSize: "17px",
+                  marginTop: "10px"
+                }}
+              >
+                <h3> Whom do we serve </h3>
+                <p>
+                Local community schools providing education to underprivileged
+                  children of our society.
+                </p>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={8} mdOffset={2}>
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "30px",
+                  fontSize: "17px",
+                  marginTop: "10px"
+                }}
+              >
+                <h3> What do we do</h3>
+                <p>
+                With our local experts and consultants we develop SOLE program
+                  based on local curriculum and additional subjects such as
+                  ethics and civil responsibility; we fulfill prerequisites for
+                  implementing SOLE such as training teachers and students in
+                  basics of computing and web based knowledge acquisition,
+                  equipping the school with computers, other necessary
+                  infrastructure and furnishing a library. We then introduce
+                  SOLE as extra classes in our target schools with the aim of
+                  shifting to such methods completely. For each school this is a
+                  long term project as we introduce this methodology slowly and
+                  continuously monitor the progress.
+                </p>
+              </div>
             </Col>
           </Row>
           <br />
@@ -273,81 +347,34 @@ const Programs = props => {
           <h2 style={{ textAlign: "center" }}>Explore our Programs</h2>
           <Row>
             <Col md={4}>
-              {/* <h2 className="board-game">Mentoring Program</h2>   */}
-              <img
-                style={{ width: "100%", marginTop: "10px" }}
-                src={
-                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
-                }
-              />
-              {/* <h2
-              style={{
-                minHeight: "100px",
-                padding: "49px",
-                backgroundColor: "#233067 ",
-                color: "#F0F0FC",
-                borderRadius: "5px",
-                textAlign: "center"
-              }}
-            >
-              Mentoring Program{" "}
-            </h2> */}
+              <div className="OtherProgramsPictures">
+                <img
+                  style={{ width: "100%" }}
+                  src={
+                    "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
+                  }
+                />
+              </div>
             </Col>
             <Col md={4}>
-              {/* <h2 >Teacher Training Program</h2>  */}
-              {/* <img
-              style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
-              src={Program2}
-            /> */}
-              <img
-                style={{ width: "100%", marginTop: "10px" }}
-                // style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
-                src={
-                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
-                }
-              />
-              {/* <h2
-              style={{
-                minHeight: "100px",
-                padding: "35px",
-                backgroundColor: "#233067 ",
-                color: "#F0F0FC",
-                borderRadius: "5px",
-                textAlign: "center"
-              }}
-            >
-              Teacher Training Program
-            </h2> */}
+              <div className="OtherProgramsPictures">
+                <img
+                  style={{ width: "100%" }}
+                  src={
+                    "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
+                  }
+                />
+              </div>
             </Col>
             <Col md={4}>
-              {/* <h2 style={{ textAlign: "center" }} className="retro">SOLE</h2>  */}
-              {/* <img
-              style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
-              src={Program3}
-            /> */}
-
-              <img
-                className="text-center"
-                style={{ width: "100%", marginTop: "10px" }}
-                // style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
-
-                src={
-                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
-                }
-              />
-
-              {/* <h2
-              style={{
-                minHeight: "138px",
-                padding: "40px",
-                backgroundColor: "#233067 ",
-                color: "#F0F0FC",
-                borderRadius: "5px",
-                textAlign: "center"
-              }}
-            >
-              SOLE
-            </h2> */}
+              <div className="OtherProgramsPictures">
+                <img
+                  style={{ width: "100%" }}
+                  src={
+                    "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
+                  }
+                />
+              </div>
             </Col>
           </Row>
           <br />

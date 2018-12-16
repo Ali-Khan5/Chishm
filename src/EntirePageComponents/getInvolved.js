@@ -11,17 +11,17 @@ const getInvolved = props => {
         </div>
         <br />
         <Row>
-          <Col md={6} mdOffset={3}>
+          <Col md={8} mdOffset={2}>
             <div
               style={{
-                backgroundColor: "#fffff3",
-                borderRadius: "2px",
+                // backgroundColor: "#fffff3",
+                // borderRadius: "2px",
                 textAlign: "center",
-                color: "rgb(25, 86, 147)",
+                // color: "rgb(25, 86, 147)",
                 padding: "30px",
                 fontSize: "17px",
-                boxShadow:
-                  "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
+                // boxShadow:
+                //   "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
               }}
             >
             <h2><i style={{ fontSize: "45px" }} className="fas fa-users"></i></h2>
@@ -35,17 +35,17 @@ const getInvolved = props => {
           </Col>
         </Row>
         <Row>
-          <Col md={6} mdOffset={3}>
+          <Col md={8} mdOffset={2}>
             <div
               style={{
-                backgroundColor: "#fffff3",
-                borderRadius: "2px",
+                  // backgroundColor: "#fffff3",
+                // borderRadius: "2px",
                 textAlign: "center",
-                color: "rgb(25, 86, 147)",
+                // color: "rgb(25, 86, 147)",
                 padding: "30px",
                 fontSize: "17px",
-                boxShadow:
-                  "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)",
+                // boxShadow:
+                //   "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)",
                 marginTop: "10px"
               }}
             > <h3><i style={{ fontSize: "45px" }} className="fas fa-hand-holding-usd"></i></h3>
@@ -65,17 +65,17 @@ const getInvolved = props => {
           </Col>
         </Row>
         <Row>
-          <Col md={6} mdOffset={3}>
+          <Col md={8} mdOffset={2}>
             <div
               style={{
-                backgroundColor: "#fffff3",
-                borderRadius: "2px",
+                  // backgroundColor: "#fffff3",
+                // borderRadius: "2px",
                 textAlign: "center",
-                color: "rgb(25, 86, 147)",
+                // color: "rgb(25, 86, 147)",
                 padding: "30px",
                 fontSize: "17px",
-                boxShadow:
-                  "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)",
+                // boxShadow:
+                //   "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
                 marginTop: "10px"
               }}
             >
@@ -92,17 +92,17 @@ const getInvolved = props => {
           </Col>
         </Row>
         <Row>
-          <Col md={6} mdOffset={3}>
+          <Col md={8} mdOffset={2}>
             <div
               style={{
-                backgroundColor: "#fffff3",
-                borderRadius: "2px",
+                 // backgroundColor: "#fffff3",
+                // borderRadius: "2px",
                 textAlign: "center",
-                color: "rgb(25, 86, 147)",
+                // color: "rgb(25, 86, 147)",
                 padding: "30px",
                 fontSize: "17px",
-                boxShadow:
-                  "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)",
+                // boxShadow:
+                //   "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
                 marginTop: "10px"
               }}
             >
@@ -115,46 +115,31 @@ const getInvolved = props => {
                 for you on our team. We are actively seeking volunteers to join
                 our team for the following roles:
                 <Row>
-                  <Col md={6}>
+                
+                  <Col md={6} sm={12}>
                     <h4
                       style={{
-                        backgroundColor: " rgb(25, 86, 147)",
+                        backgroundColor: " #fffff3",
                         borderRadius: "2px",
                         textAlign: "center",
-                        color: "#fffff3",
-                        padding: "39px",
+                        color: "rgb(25, 86, 147)",
+                        padding: "40px",
                         boxShadow:
                           "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
                       }}
                     >
                       {" "}
-                      Web Developer
+                       IT specialists
                     </h4>
                   </Col>
-                  <Col md={6}>
+                  <Col md={6} sm={12}>
                     <h4
                       style={{
-                        backgroundColor: " rgb(25, 86, 147)",
+                        backgroundColor: " #fffff3",
                         borderRadius: "2px",
                         textAlign: "center",
-                        color: "#fffff3",
-                        padding: "30px",
-                        boxShadow:
-                          "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
-                      }}
-                    >
-                      {" "}
-                      On-ground project assistants
-                    </h4>
-                  </Col>
-                  <Col md={6}>
-                    <h4
-                      style={{
-                        backgroundColor: " rgb(25, 86, 147)",
-                        borderRadius: "2px",
-                        textAlign: "center",
-                        color: "#fffff3",
-                        padding: "39px",
+                        color: "rgb(25, 86, 147)",
+                        padding: "40px",
                         boxShadow:
                           "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
                       }}
@@ -164,14 +149,14 @@ const getInvolved = props => {
 
                     </h4>
                   </Col>
-                  <Col md={6}>
+                  <Col md={6} sm={12}>
                     <h4
                       style={{
-                        backgroundColor: " rgb(25, 86, 147)",
+                        backgroundColor: " #fffff3",
                         borderRadius: "2px",
                         textAlign: "center",
-                        color: "#fffff3",
-                        padding: "39px",
+                        color: "rgb(25, 86, 147)",
+                        padding: "40px",
                         boxShadow:
                           "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
                       }}
@@ -180,14 +165,14 @@ const getInvolved = props => {
                       Legal experts 
                     </h4>
                   </Col>
-                  <Col md={6}>
+                  <Col md={6} sm={12}>
                     <h4
                       style={{
-                        backgroundColor: " rgb(25, 86, 147)",
+                        backgroundColor: " #fffff3",
                         borderRadius: "2px",
                         textAlign: "center",
-                        color: "#fffff3",
-                        padding: "39px",
+                        color: "rgb(25, 86, 147)",
+                        padding: "40px",
                         boxShadow:
                           "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
                       }}
@@ -196,14 +181,14 @@ const getInvolved = props => {
                       Teaching assistants
                     </h4>
                   </Col>
-                  <Col md={6}>
+                  <Col md={6} sm={12}>
                     <h4
                       style={{
-                        backgroundColor: " rgb(25, 86, 147)",
+                        backgroundColor: " #fffff3",
                         borderRadius: "2px",
                         textAlign: "center",
-                        color: "#fffff3",
-                        padding: "39px",
+                        color: "rgb(25, 86, 147)",
+                        padding: "40px",
                         boxShadow:
                           "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
                       }}
@@ -212,30 +197,31 @@ const getInvolved = props => {
                       Education consultants
                     </h4>
                   </Col>
-                  <Col md={6}>
+                  <Col md={6} sm={12}>
                     <h4
+                    className="getinvolvedStyle"
                       style={{
-                        backgroundColor: " rgb(25, 86, 147)",
+                        backgroundColor: " #fffff3",
                         borderRadius: "2px",
                         textAlign: "center",
-                        color: "#fffff3",
-                        padding: "39px",
+                        color: "rgb(25, 86, 147)",
+                        
                         boxShadow:
                           "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
                       }}
                     >
-                      {" "}
-                      IT specialists
+                      
+                      On-ground project assistants  
                     </h4>
                   </Col>
-                  <Col md={6}>
+                  <Col md={12} sm={12}>
                     <h4
                       style={{
-                        backgroundColor: " rgb(25, 86, 147)",
+                        backgroundColor: " #fffff3",
                         borderRadius: "2px",
                         textAlign: "center",
-                        color: "#fffff3",
-                        padding: "39px",
+                        color: "rgb(25, 86, 147)",
+                        padding: "40px",
                         boxShadow:
                           "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
                       }}
@@ -255,14 +241,14 @@ const getInvolved = props => {
         <Col md={6} mdOffset={3}>
             <div
               style={{
-                backgroundColor: "#fffff3",
-                borderRadius: "2px",
+                 // backgroundColor: "#fffff3",
+                // borderRadius: "2px",
                 textAlign: "center",
-                color: "rgb(25, 86, 147)",
+                // color: "rgb(25, 86, 147)",
                 padding: "30px",
                 fontSize: "17px",
-                boxShadow:
-                  "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)",
+                // boxShadow:
+                //   "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
                 marginTop: "10px"
               }}
             >

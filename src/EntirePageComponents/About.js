@@ -105,20 +105,29 @@ const About = () => {
       <Grid
         fluid
         style={{
-          color: " #233067",
-          backgroundColor: "#fffff3"
+          color: " rgb(25, 86, 147)",
+          backgroundColor: "#FFFFF3"
         }}
       >
         <section>
           <br />
           <br />
           <Row className="">
-          
+          <Col mdHidden lgHidden>
+              <h2 style={{ fontSize: "35px", margin: "15px" }}>About Us</h2>
+              <p style={{ fontSize: "17px", margin: "15px" }}>
+                Chishm aims to reshape the way education is imparted - which in
+                turn would reshape the youth of tomorrow: from a critical
+                thinking perspective, and from a values perspective.
+              </p>
+              <img
+                className="img-responsive" 
+                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544394153/IMG_0497_zgm4dj.jpg"
+              />
+            </Col>
             <Col md={7}>
-              <h2 style={{ paddingLeft: '110px'}}>Who We Are</h2>
-              <p
-                className="aboutUsParagraph"
-              >
+              <h2 className="aboutusHeadingsStyle">Who We Are</h2>
+              <p className="aboutUsParagraph">
                 {" "}
                 Chishm is as a non-profit platform to support and enhance the
                 quality of education amongst the underprivileged youth of
@@ -130,19 +139,15 @@ const About = () => {
                 in pedagogy, teaching, child psychology, project management,
                 strategic planning, advisory - sharing a common vision.
               </p>
-              <h2 style={{ paddingLeft: '110px'}}>Whom Do We Serve</h2>
-              <p
-                className="aboutUsParagraph"
-              >
+              <h2 className="aboutusHeadingsStyle">Whom Do We Serve</h2>
+              <p className="aboutUsParagraph">
                 Chishm supports individual children from underprivileged
                 communities in Pakistan, educational institutions catering to
                 these children and individual teachers working in such
                 institutions.
               </p>
-              <h2 style={{ paddingLeft: '110px'}}>What Do We Do</h2>
-              <p
-               className="aboutUsParagraph"
-              >
+              <h2 className="aboutusHeadingsStyle">What Do We Do</h2>
+              <p className="aboutUsParagraph">
                 Through our various long-term and short term projects, we
                 increase the accessibility of formal education to
                 underprivileged communities, increase the quality of education
@@ -155,10 +160,10 @@ const About = () => {
                 educational infrastructure and improve quality of educational
                 institutes.
               </p>
-              <h2 style={{ paddingLeft: '110px'}}>Where do we get our funding</h2>
-              <p
-                className="aboutUsParagraph"
-              >
+              <h2 className="aboutusHeadingsStyle">
+                Where do we get our funding
+              </h2>
+              <p className="aboutUsParagraph">
                 Currently our main funding sources are individual donors. Some
                 of them are long term donors who contribute towards education of
                 individual children under our mentoring programme by becoming
@@ -167,10 +172,8 @@ const About = () => {
                 covered by contributions from our members. Therefore every paisa
                 donated reaches a beneficiary.
               </p>
-              <h2 style={{ paddingLeft: '110px'}}>Our Structure</h2>
-              <p
-               className="aboutUsParagraph"
-              >
+              <h2 className="aboutusHeadingsStyle">Our Structure</h2>
+              <p className="aboutUsParagraph">
                 At Chishm, we follow an innovative organizational structure
                 through which we are able to eliminate hierarchy and maximize
                 the contributions from our members. Every person within Chishm
@@ -185,27 +188,24 @@ const About = () => {
                 line with our primary goals.
               </p>
             </Col>
-            <Col md={4} style={{ borderLeft: "2px solid black" }} smHidden xsHidden>
+            <Col
+              md={4}
+              style={{ borderLeft: "2px solid black" }}
+              smHidden
+              xsHidden
+            >
               <img
                 className="img-responsive"
                 src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544394153/IMG_0497_zgm4dj.jpg"
               />
               <h2 style={{ fontSize: "35px" }}>About Us</h2>
-              <p style={{fontSize:'17px'}}>
+              <p style={{ fontSize: "17px" }}>
                 Chishm aims to reshape the way education is imparted - which in
                 turn would reshape the youth of tomorrow: from a critical
                 thinking perspective, and from a values perspective.
               </p>
             </Col>
-            <Col  mdHidden lgHidden >
-            
-              <h2 style={{ fontSize: "35px",margin:'15px' }}>About Us</h2>
-              <p  style={{fontSize:'17px'}}>
-                Chishm aims to reshape the way education is imparted - which in
-                turn would reshape the youth of tomorrow: from a critical
-                thinking perspective, and from a values perspective.
-              </p>
-            </Col>
+           
           </Row>
         </section>
       </Grid>
@@ -375,21 +375,23 @@ const About = () => {
       <Grid fluid>
         <section>
           <br />
-          <Row
-          
-          >
+          <Row>
             <Col>
               <br />
               <br />
-              <h2 style={{ textAlign: "center", fontSize: "2.8em" }}> <i className="fas fa-heart"></i></h2>
               <h2 style={{ textAlign: "center", fontSize: "2.8em" }}>
-                Our Members{" "} 
+                {" "}
+                <i className="fas fa-heart" />
+              </h2>
+              <h2 style={{ textAlign: "center", fontSize: "2.8em" }}>
+                Our Members{" "}
               </h2>
               <p
                 style={{
                   fontWeight: "bold",
                   textAlign: "center",
-                  margin: "0px 20%", fontSize: "17px"
+                  margin: "0px 20%",
+                  fontSize: "17px"
                 }}
               >
                 Members are the backbone of our organization who make sure that
@@ -401,7 +403,7 @@ const About = () => {
               </p>
             </Col>
           </Row>
-          <br/>
+          <br />
           <Row>
             {/* <h2 style={{ textAlign: "center" }}>Current Members </h2> */}
             <Col sm={6} md={4} className="text-center">

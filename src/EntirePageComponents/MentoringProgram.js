@@ -5,7 +5,7 @@ import Card from "../Components/Card";
 import Program1 from "../media/pictures/Program_1.PNG";
 import Program2 from "../media/pictures/Program_2.PNG";
 import Program3 from "../media/pictures/Program_3.PNG";
-
+import ProgramsCard from "./../Components/AboutCard";
 const MentoringProgram = props => {
   return (
     <div className="MemberSection">
@@ -17,72 +17,9 @@ const MentoringProgram = props => {
         }}
       >
         <section>
-         
-          {/* <Row className="">
-            <Col md={7}>
-              <h2 style={{ fontSize: "35px" }}>Mentoring Program</h2>
-              <p className="MentorParagraph">
-                Mentoring Program is the cornerstone of Chishm and serves as a
-                platform to connect the underprivileged youth to the privileged
-                ones. By such connections we expect exchange of knowledge and
-                experiences that will influence our youth in a positive way.
-              </p>
-              <h2 style={{ fontSize: "35px" }}>What do we achieve:</h2>
-              <p className="MentorParagraph">
-                Through Chishm’s Mentoring Program, we achieve higher enrollment
-                and retention of children in schools in underprivileged areas.
-                By identifying their potentials and skills, and through
-                fostering academics, creative and critical thinking, civic and
-                ethical sense, we make these children self-sufficient and
-                self-confident.
-              </p>
-              <h2 style={{ fontSize: "35px" }}>Whom do we serve:</h2>
-              <p className="MentorParagraph">
-                Chishm’s Mentoring Program is especially aimed for the children
-                belonging to underprivileged areas, aged between 6 to 18 years.
-                Additionally, this program serves as a platform to the mentors
-                and sponsors who come from different walks of life to engage
-                with these children for the betterment of our society.
-              </p>
-              <h2 style={{ fontSize: "35px" }}>What do we do:</h2>
-              <p className="MentorParagraph">
-                This program connects privileged youth (mentors) to children
-                from underprivileged areas (mentees). Mentors normally conduct
-                one to one mentoring sessions with their mentees which are
-                assigned to them in one of our partner schools. In addition,
-                through our individual sponsors, we contribute towards tuition
-                fees of these mentees and compensate their earnings if they were
-                previously not enrolled in school for the purpose of supporting
-                their family.
-              </p>
-            </Col>
-            <Col
-              mdOffset={1}
-              md={4}
-              style={{ borderLeft: "2px solid black" }}
-              smHidden
-              xsHidden
-            >
-              <img
-                className="img-responsive"
-                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1543481705/783_million_people_do_not_have_access_to_clean_and_safe_drinking_water_globally_according_to_the_United_Nations_Millennium_Development_Goals_Report_2_nzn4pb.png"
-              />
-            </Col>
-            <Col mdHidden lgHidden>
-              <h2 style={{ fontSize: "35px", margin: "15px" }}>About Us</h2>
-              <p className="aboutUsParagraph" style={{ margin: "15px" }}>
-                Chishm aims to reshape the way education is imparted - which in
-                turn would reshape the youth of tomorrow: from a critical
-                thinking perspective, and from a values perspective.
-              </p>
-            </Col>
-          </Row> */}
           <Row className="AboutMESPACING">
-           
             <Col md={7}>
-              <div
-               className="ProgramDetailsAlignmentWithPictureLeft"
-              >
+              <div className="ProgramDetailsAlignmentWithPictureLeft">
                 <h2 style={{ fontSize: "35px" }}>Mentoring Program</h2>
                 <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
                   {" "}
@@ -94,24 +31,22 @@ const MentoringProgram = props => {
                 </p>
               </div>
             </Col>
-            <Col md={5}  >
+            <Col md={5}>
               <img
                 className="aboutMeIMGheight"
                 src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544540259/IMG_0253_opt_pxxm4q.jpg"
               />
             </Col>
           </Row>
-          <Row className="AboutMESPACING">
-          <Col md={5} xsHidden smHidden>
+          {/* <Row className="AboutMESPACING">
+            <Col md={5} xsHidden smHidden>
               <img
                 className="displayIMGheight"
                 src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544540251/IMG_0275_opt_gimncd.jpg"
               />
             </Col>
             <Col md={7}>
-              <div
-               className="ProgramDetailsAlignmentWithPictureRight"
-              >
+              <div className="ProgramDetailsAlignmentWithPictureRight">
                 <h2 style={{ fontSize: "35px" }}>What do we achieve</h2>
                 <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
                   {" "}
@@ -132,16 +67,17 @@ const MentoringProgram = props => {
             </Col>
           </Row>
           <Row className="AboutMESPACING">
-         
             <Col md={7}>
-              <div
-                className="ProgramDetailsAlignmentWithPictureLeft"
-              >
+              <div className="ProgramDetailsAlignmentWithPictureLeft">
                 <h2 style={{ fontSize: "35px" }}>Whom do we serve</h2>
                 <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
                   {" "}
-                  Chishm’s Mentoring Program is especially aimed for the children belonging to underprivileged areas, aged between 6 to 18 years. Additionally, this program serves as a platform to the mentors and sponsors who come from different 
-                  walks of life to engage with these children for the betterment of our society.
+                  Chishm’s Mentoring Program is especially aimed for the
+                  children belonging to underprivileged areas, aged between 6 to
+                  18 years. Additionally, this program serves as a platform to
+                  the mentors and sponsors who come from different walks of life
+                  to engage with these children for the betterment of our
+                  society.
                 </p>
               </div>
             </Col>
@@ -153,16 +89,14 @@ const MentoringProgram = props => {
             </Col>
           </Row>
           <Row className="AboutMESPACING">
-          <Col md={5} xsHidden smHidden>
+            <Col md={5} xsHidden smHidden>
               <img
                 className="displayIMGheight"
                 src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544540991/IMG_0369_ljivht.jpg"
               />
             </Col>
             <Col md={7}>
-              <div
-                className="ProgramDetailsAlignmentWithPictureRight"
-              >
+              <div className="ProgramDetailsAlignmentWithPictureRight">
                 <h2 style={{ fontSize: "35px" }}>What do we do: </h2>
                 <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
                   {" "}
@@ -183,12 +117,119 @@ const MentoringProgram = props => {
                 src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1543483922/783_million_people_do_not_have_access_to_clean_and_safe_drinking_water_globally_according_to_the_United_Nations_Millennium_Development_Goals_Report_4_vf14hy.png"
               />
             </Col>
+          </Row> */}
+          <br />
+          <br />
+          <h2 style={{ textAlign: "center", fontSize: "45px" }}>
+            <b>Our Program</b> in a Nutshell
+          </h2>
+          <hr />
+          <Row>
+            {/* <ProgramsCard
+              source={
+                "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544540687/IMG_0289_opt_swefwp.jpg"
+              }
+              para={`Through Chishm’s Mentoring Program, we achieve higher
+                  enrollment and retention of children in schools in
+                  underprivileged areas. By identifying their potentials and
+                  skills, and through fostering academics, creative and critical
+                  thinking, civic and ethical sense, we make these children
+                  self-sufficient and self-confident.`}
+              heading={"What do we achieve"}
+            />
+            <ProgramsCard
+              source={
+                "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544540918/IMG_0292_xf9hc8.jpg"
+              }
+              para={` Chishm’s Mentoring Program is especially aimed for the children belonging to underprivileged areas, aged between 6 to 18 years. Additionally, this program serves as a platform to the mentors and sponsors who come from different 
+              walks of life to engage with these children for the betterment of our society.`}
+              heading={"Whom do we serve"}
+            />
+             <ProgramsCard
+              source={
+                "https://res.cloudinary.com/dcw1i97ph/image/upload/v1543483922/783_million_people_do_not_have_access_to_clean_and_safe_drinking_water_globally_according_to_the_United_Nations_Millennium_Development_Goals_Report_4_vf14hy.png"
+              }
+              para={`This program connects privileged youth (mentors) to children
+              from underprivileged areas (mentees). Mentors normally conduct
+              one to one mentoring sessions with their mentees which are
+              assigned to them in one of our partner schools. In addition,
+              through our individual sponsors, we contribute towards tuition
+              fees of these mentees and compensate their earnings if they
+              were previously not enrolled in school for the purpose of
+              supporting their family.`}
+              heading={"What do we do"}
+            /> */}
+            <Col md={8} mdOffset={2}>
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "30px",
+                  fontSize: "17px",
+                  marginTop: "10px"
+                }}
+              >
+                <h3> What do we achieve</h3>
+                <p>
+                  Through Chishm’s Mentoring Program, we achieve higher
+                  enrollment and retention of children in schools in
+                  underprivileged areas. By identifying their potentials and
+                  skills, and through fostering academics, creative and critical
+                  thinking, civic and ethical sense, we make these children
+                  self-sufficient and self-confident.
+                </p>
+              </div>
+            </Col>
           </Row>
-        <br/>
+          <Row>
+            <Col md={8} mdOffset={2}>
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "30px",
+                  fontSize: "17px",
+                  marginTop: "10px"
+                }}
+              >
+                <h3> Whom do we serve</h3>
+                <p>
+                  Chishm’s Mentoring Program is especially aimed for the
+                  children belonging to underprivileged areas, aged between 6 to
+                  18 years. Additionally, this program serves as a platform to
+                  the mentors and sponsors who come from different walks of life
+                  to engage with these children for the betterment of our
+                  society.
+                </p>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={8} mdOffset={2}>
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "30px",
+                  fontSize: "17px",
+                  marginTop: "10px"
+                }}
+              >
+                <h3>What do we do</h3>
+                <p>
+                  This program connects privileged youth (mentors) to children
+                  from underprivileged areas (mentees). Mentors normally conduct
+                  one to one mentoring sessions with their mentees which are
+                  assigned to them in one of our partner schools. In addition,
+                  through our individual sponsors, we contribute towards tuition
+                  fees of these mentees and compensate their earnings if they
+                  were previously not enrolled in school for the purpose of
+                  supporting their family
+                </p>
+              </div>
+            </Col>
+          </Row>
+          <br />
         </section>
       </Grid>
       <Grid>
-       
         <Row>
           <Col sm={10} smOffset={1}>
             <hr />
@@ -237,7 +278,7 @@ const MentoringProgram = props => {
               </span>{" "}
               Become a sponsor{" "}
             </h3>
-            <p style={{ fontSize:'17px'}}>
+            <p style={{ fontSize: "17px" }}>
               You have the possibility to sponsor a mentee enrolled in this
               program. Please send us an email to get further details.
             </p>
@@ -250,7 +291,7 @@ const MentoringProgram = props => {
               </span>{" "}
               Become a consultant
             </h3>
-            <p style={{ fontSize:'17px' }}>
+            <p style={{ fontSize: "17px" }}>
               Whether you are an educationist, child-psychologist, a pedagogy
               expert or just someone with interesting ideas, there is always a
               place for you in our “expert panel” that constantly advises us to
@@ -267,7 +308,7 @@ const MentoringProgram = props => {
               </span>
               Become a partner
             </h3>
-            <p style={{ fontSize:'17px' }}>
+            <p style={{ fontSize: "17px" }}>
               {" "}
               we are constantly looking for schools and institutions catering to
               the education of underprivileged children which can take advantage
@@ -286,7 +327,7 @@ const MentoringProgram = props => {
               </span>{" "}
               Become a strategic program planner
             </h3>
-            <p style={{ fontSize:'17px'}}>
+            <p style={{ fontSize: "17px" }}>
               We are always looking for enthusiastic people who would like to be
               part of the team running this mentoring program. From handling
               administrative issues to managing finances to developing
@@ -303,7 +344,7 @@ const MentoringProgram = props => {
               </span>{" "}
               Spread the word
             </h3>
-            <p style={{ textAlign: "justify",fontSize:'17px' }}>
+            <p style={{ textAlign: "justify", fontSize: "17px" }}>
               If you know of a person who might be interested in mentoring or is
               already mentoring in his personal capacity then let them know
               about us. We can learn from their experience and they can learn
@@ -314,11 +355,12 @@ const MentoringProgram = props => {
             </p>
           </Col>
         </Row>
-        <Row> <h2 style={{ textAlign: "center" }} id="mentor">
+        <Row>
           {" "}
-        Programs{" "}
-        </h2>
-      
+          <h2 style={{ textAlign: "center" }} id="mentor">
+            {" "}
+            Programs{" "}
+          </h2>
           <Col sm={10} smOffset={1}>
             <p
               style={{
@@ -340,79 +382,38 @@ const MentoringProgram = props => {
         <h2 style={{ textAlign: "center" }}>Explore our Programs</h2>
         <Row>
           <Col md={4}>
-            {/* <h2 className="board-game">Mentoring Program</h2>   */}
-            <img
-                  style={{  width:'100%',marginTop:'10px' }}
-              src={'https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png'}
-            />
-            {/* <h2
-              style={{
-                minHeight: "100px",
-                padding: "49px",
-                backgroundColor: "#233067 ",
-                color: "#F0F0FC",
-                borderRadius: "5px",
-                textAlign: "center"
-              }}
-            >
-              Mentoring Program{" "}
-            </h2> */}
+            <div className="OtherProgramsPictures">
+              <img
+                style={{ width: "100%" }}
+                src={
+                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
+                }
+              />
+            </div>
           </Col>
           <Col md={4}>
-            {/* <h2 >Teacher Training Program</h2>  */}
-            {/* <img
-              style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
-              src={Program2}
-            /> */}
-             <img
-                style={{  width:'100%',marginTop:'10px' }}
-              // style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
-              src={'https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png'}
-            />
-            {/* <h2
-              style={{
-                minHeight: "100px",
-                padding: "35px",
-                backgroundColor: "#233067 ",
-                color: "#F0F0FC",
-                borderRadius: "5px",
-                textAlign: "center"
-              }}
-            >
-              Teacher Training Program
-            </h2> */}
+            <div className="OtherProgramsPictures">
+              <img
+                style={{ width: "100%" }}
+                src={
+                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
+                }
+              />
+            </div>
           </Col>
           <Col md={4}>
-            {/* <h2 style={{ textAlign: "center" }} className="retro">SOLE</h2>  */}
-            {/* <img
-              style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
-              src={Program3}
-            /> */}
-            
-             <img
-             className="text-center"
-             style={{  width:'100%',marginTop:'10px' }}
-              // style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
-              
-              src={'https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png'}
-            />
-        
-            {/* <h2
-              style={{
-                minHeight: "138px",
-                padding: "40px",
-                backgroundColor: "#233067 ",
-                color: "#F0F0FC",
-                borderRadius: "5px",
-                textAlign: "center"
-              }}
-            >
-              SOLE
-            </h2> */}
+            <div className="OtherProgramsPictures">
+              <img
+                style={{ width: "100%" }}
+                src={
+                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
+                }
+              />
+            </div>
           </Col>
         </Row>
       </Grid>
-      <br/>
+      <br />
     </div>
   );
 };

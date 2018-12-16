@@ -6,7 +6,7 @@ import Header from "./Layout/Header";
 import createBrowserHistory from "history/createBrowserHistory";
 import About from "./EntirePageComponents/About";
 import Stories from "./EntirePageComponents/OurStories";
-import Programs from "./Programs";
+import ContactUs from './EntirePageComponents/ContactUs'
 import Mentoring from "./EntirePageComponents/MentoringProgram";
 import TeacherTraining from "./EntirePageComponents/TeacherProgram";
 import SOLE from './EntirePageComponents/Sole.js'
@@ -30,6 +30,7 @@ class Routers extends Component {
             <Route path="/sole" component={SOLE} />
             <Route path="/projects" component={Project}/>
             <Route path="/getInvolved" component={GetInvolved}/>
+            <Route path="/contactus" component={ContactUs}/>
             <div className="fl-page-footer-wrap">
               <Footer />
             </div>

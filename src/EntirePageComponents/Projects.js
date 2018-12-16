@@ -9,8 +9,8 @@ const Projects = () => {
   return (
     <div
       style={{
-        color: " #233067",
-        backgroundColor: "#fffff3"
+        color: " rgb(25, 86, 147)",
+        backgroundColor: "#FFFFF3"
       }}
     >
       <div className="projectPageHeader">
@@ -27,9 +27,9 @@ const Projects = () => {
         institutes catering to educate the underprivileged children of our society.`}
             />
           </Col> */}
-          <Col md={7}>
-            <h2>What do we achieve</h2>
-            <p style={{ fontSize: "17px", letterSpacing: " 0.03em" }}>
+          <Col md={8} mdOffset={2}>
+            <h2 style={{textAlign:'center',fontSize:'35px'}}>What do we achieve</h2>
+            <p style={{ fontSize: "17px", letterSpacing: " 0.03em",textAlign:'center' }}>
               {" "}
               Besides our long term programs, we undertake short term projects
               which contribute to strengthen the institutes catering to educate
@@ -38,13 +38,13 @@ const Projects = () => {
           </Col>
         </Row>
         <Row>
-          <Col mdOffset={5} md={7}>
-            <h2 style={{ marginLeft: "70px" }}>Whom do we serve</h2>
+          <Col md={8} mdOffset={2}>
+            <h2 style={{textAlign:'center',fontSize:'35px'}} >Whom do we serve</h2>
             <p
               style={{
                 fontSize: "17px",
                 letterSpacing: " 0.03em",
-                marginLeft: "70px"
+                textAlign:'center'
               }}
             >
               {" "}
@@ -54,9 +54,11 @@ const Projects = () => {
           </Col>
         </Row>
         <Row>
-          <Col md={7}>
-            <h2>What do we do</h2>
-            <p style={{ fontSize: "17px", letterSpacing: " 0.03em" }}>
+          <Col md={8} mdOffset={2}>
+            <h2 style={{textAlign:'center',fontSize:'35px'}}>What do we do</h2>
+            <p style={{ fontSize: "17px", 
+            letterSpacing: " 0.03em",
+            textAlign:'center' }}>
               {" "}
               Our projects include establishing libraries to supplement
               classroom education and complement national curriculum;

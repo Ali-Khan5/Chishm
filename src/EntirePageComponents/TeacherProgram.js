@@ -17,7 +17,6 @@ const Programs = props => {
         }}
       >
         <section>
-         
           <Row className="AboutMESPACING">
             <Col md={7}>
               <div className="ProgramDetailsAlignmentWithPictureLeft">
@@ -44,7 +43,7 @@ const Programs = props => {
               />
             </Col>
           </Row>
-          <Row className="AboutMESPACING">
+          {/* <Row className="AboutMESPACING">
             <Col md={5} xsHidden smHidden>
               <img
                 className="displayIMGheight"
@@ -72,8 +71,8 @@ const Programs = props => {
                 src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544555044/IMG_0339_zkcaiv.jpg"
               />
             </Col>
-          </Row>
-          <Row className="AboutMESPACING">
+          </Row> */}
+          {/* <Row className="AboutMESPACING">
             <Col md={7}>
               <div className="ProgramDetailsAlignmentWithPictureLeft">
                 <h2 style={{ fontSize: "35px" }}>Whom do we serve</h2>
@@ -121,15 +120,86 @@ const Programs = props => {
                 src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544555044/IMG_0339_zkcaiv.jpg"
               />
             </Col>
+          </Row> */}
+          <br />
+          <h2 style={{ textAlign: "center", fontSize: "45px" }}>
+            <b>Our Program</b> in a Nutshell
+          </h2>
+          <hr />
+          <Row>
+            <Col md={8} mdOffset={2}>
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "30px",
+                  fontSize: "17px",
+                  marginTop: "10px"
+                }}
+              >
+                <h3> What do we achieve</h3>
+                <p>
+                  Teachers equipped with necessary pedagogic skills and basics
+                  of child psychology; skills to articulate course content
+                  effectively and creatively; skills to conduct classes in a
+                  more interactive and engaging way that promotes critical
+                  thinking among the students; skills to integrate basic social
+                  topics such as ethics and civic responsibility within the
+                  course content.
+                </p>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={8} mdOffset={2}>
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "30px",
+                  fontSize: "17px",
+                  marginTop: "10px"
+                }}
+              >
+                <h3> What do we do </h3>
+                <p>
+                  We introduce our in-house Self Organized Learning Environment
+                  (SOLE) based teacher training program to schools through our
+                  local members and volunteers who train one or two teachers on
+                  how to conduct a SOLE session. These teachers then become SOLE
+                  coaches and mediate the teacher training program within their
+                  school. In each school, training can last for up to 6 months
+                  with one SOLE session per week
+                </p>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={8} mdOffset={2}>
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "30px",
+                  fontSize: "17px",
+                  marginTop: "10px"
+                }}
+              >
+                <h3> Whom do we serve</h3>
+                <p>
+                  Chishm’s Teacher Training program is especially aimed for the
+                  teachers employed in community schools catering to students
+                  from underprivileged communities. walks of life to engage with
+                  these children for the betterment of our society.
+                </p>
+              </div>
+            </Col>
           </Row>
           <br />
         </section>
       </Grid>
       <div className="TecherSection">
         <Grid>
-         <hr/>
+          <hr />
           <h2 style={{ textAlign: "center" }}>Ways to get involved</h2>
-          <hr/>
+          <hr />
           <Row>
             <Col md={6}>
               <h3>
@@ -139,7 +209,7 @@ const Programs = props => {
                 />{" "}
                 Become a teacher trainer:
               </h3>
-              <p style={{ textAlign: "justify",fontSize:'17px' }}>
+              <p style={{ textAlign: "justify", fontSize: "17px" }}>
                 If you are coming from pedagogy background or have any
                 experience in child development and psychology please send us an
                 email. We will make sure that your valuable knowledge is
@@ -154,7 +224,7 @@ const Programs = props => {
                 />{" "}
                 Sponsor a teacher for training course :
               </h3>
-              <p style={{ textAlign: "justify",fontSize:'17px' }}>
+              <p style={{ textAlign: "justify", fontSize: "17px" }}>
                 We are sending selected teachers to recognised teacher training
                 institutes for short and long term courses. You have an
                 opportunity to sponsor a teacher for such a course and leave a
@@ -168,7 +238,7 @@ const Programs = props => {
                 <i style={{ fontSize: "2.3em" }} className="fas fa-pen-fancy" />
                 Become a strategic program planner and developer:
               </h3>
-              <p style={{ textAlign: "justify",fontSize:'17px' }}>
+              <p style={{ textAlign: "justify", fontSize: "17px" }}>
                 The world we live in now is seeing an exponential growth in
                 areas such as science, technology, health, economics, politics,
                 etc. With new information and discoveries coming out every day,
@@ -211,81 +281,34 @@ const Programs = props => {
           <h2 style={{ textAlign: "center" }}>Explore our Programs</h2>
           <Row>
             <Col md={4}>
-              {/* <h2 className="board-game">Mentoring Program</h2>   */}
-              <img
-                style={{ width: "100%", marginTop: "10px" }}
-                src={
-                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
-                }
-              />
-              {/* <h2
-              style={{
-                minHeight: "100px",
-                padding: "49px",
-                backgroundColor: "#233067 ",
-                color: "#F0F0FC",
-                borderRadius: "5px",
-                textAlign: "center"
-              }}
-            >
-              Mentoring Program{" "}
-            </h2> */}
+              <div className="OtherProgramsPictures">
+                <img
+                  style={{ width: "100%" }}
+                  src={
+                    "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
+                  }
+                />
+              </div>
             </Col>
             <Col md={4}>
-              {/* <h2 >Teacher Training Program</h2>  */}
-              {/* <img
-              style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
-              src={Program2}
-            /> */}
-              <img
-                style={{ width: "100%", marginTop: "10px" }}
-                // style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
-                src={
-                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
-                }
-              />
-              {/* <h2
-              style={{
-                minHeight: "100px",
-                padding: "35px",
-                backgroundColor: "#233067 ",
-                color: "#F0F0FC",
-                borderRadius: "5px",
-                textAlign: "center"
-              }}
-            >
-              Teacher Training Program
-            </h2> */}
+              <div className="OtherProgramsPictures">
+                <img
+                  style={{ width: "100%" }}
+                  src={
+                    "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
+                  }
+                />
+              </div>
             </Col>
             <Col md={4}>
-              {/* <h2 style={{ textAlign: "center" }} className="retro">SOLE</h2>  */}
-              {/* <img
-              style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
-              src={Program3}
-            /> */}
-
-              <img
-                className="text-center"
-                style={{ width: "100%", marginTop: "10px" }}
-                // style={{ width: "100%", minHeight: "200px", maxHeight: "205px" }}
-
-                src={
-                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
-                }
-              />
-
-              {/* <h2
-              style={{
-                minHeight: "138px",
-                padding: "40px",
-                backgroundColor: "#233067 ",
-                color: "#F0F0FC",
-                borderRadius: "5px",
-                textAlign: "center"
-              }}
-            >
-              SOLE
-            </h2> */}
+              <div className="OtherProgramsPictures">
+                <img
+                  style={{ width: "100%" }}
+                  src={
+                    "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
+                  }
+                />
+              </div>
             </Col>
           </Row>
           <br />
