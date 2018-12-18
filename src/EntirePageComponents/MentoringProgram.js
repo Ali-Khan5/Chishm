@@ -1,14 +1,12 @@
 import React from "react";
 import { Grid, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./style.css";
-import Card from "../Components/Card";
-import Program1 from "../media/pictures/Program_1.PNG";
-import Program2 from "../media/pictures/Program_2.PNG";
-import Program3 from "../media/pictures/Program_3.PNG";
-import ProgramsCard from "./../Components/AboutCard";
+import   ScrollToTopOnMount  from '../Components/scrollup';
 const MentoringProgram = props => {
   return (
     <div className="MemberSection">
+    <ScrollToTopOnMount/>
       <Grid
         fluid
         style={{
@@ -35,6 +33,7 @@ const MentoringProgram = props => {
               <img
                 className="aboutMeIMGheight"
                 src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544540259/IMG_0253_opt_pxxm4q.jpg"
+                alt='student receiving a mentoring session by our international mentor '
               />
             </Col>
           </Row>
@@ -242,14 +241,18 @@ const MentoringProgram = props => {
               <a
                 href="https://drive.google.com/file/d/1uELgkXy5RZklIE2omwdBAjvWHlybSmtT/view"
                 target="_black"
+                style={{textDecoration: 'underline',color:'#0d0ba3'}}
+                rel="noopener noreferrer" 
               >
                 {" "}
                 Mentoring Handbook{" "}
               </a>{" "}
               and{" "}
               <a
+               style={{textDecoration: 'underline',color:'#0d0ba3'}}
                 href="https://drive.google.com/file/d/1vuPRcCvuwXqMUZYeOHXCMt2grobwChjo/view"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 {" "}
                 Mentoring Curriculum{" "}
@@ -257,8 +260,10 @@ const MentoringProgram = props => {
               for more details on this program. If you want to join us as one of
               our mentors, then please fill out the{" "}
               <a
+               style={{textDecoration: 'underline',color:'#0d0ba3'}}
                 href="https://docs.google.com/forms/d/e/1FAIpQLSeY1pNs53tDGyAJFIP8MMWvJ2hi4vgwJgHE-Xgp3h4tSBaCZg/viewform"
                 targer="_blank"
+                rel="noopener noreferrer"
               >
                 {" "}
                 Mentoring Expression of Interest form{" "}
@@ -340,7 +345,7 @@ const MentoringProgram = props => {
             <h3>
               <span style={{ fontSize: "2.4em" }}>
                 {" "}
-                <i class="fas fa-bullhorn" />{" "}
+                <i className="fas fa-bullhorn" />{" "}
               </span>{" "}
               Spread the word
             </h3>
@@ -382,34 +387,42 @@ const MentoringProgram = props => {
         <h2 style={{ textAlign: "center" }}>Explore our Programs</h2>
         <Row>
           <Col md={4}>
-            <div className="OtherProgramsPictures">
+           <Link to="/mentoring"> <div className="OtherProgramsPictures">
               <img
                 style={{ width: "100%" }}
                 src={
                   "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
+                 
                 }
+                alt="mentoring program link"
               />
             </div>
+            </Link>
           </Col>
           <Col md={4}>
-            <div className="OtherProgramsPictures">
+          <Link to="/teacher" >    <div className="OtherProgramsPictures">
               <img
                 style={{ width: "100%" }}
                 src={
                   "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
+                  
                 }
+                alt="teacher training program link"
               />
             </div>
+            </Link>
           </Col>
           <Col md={4}>
-            <div className="OtherProgramsPictures">
+        <Link to="/sole#sole" >  <div className="OtherProgramsPictures">
               <img
                 style={{ width: "100%" }}
                 src={
                   "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
                 }
+                alt="sole program link"
               />
             </div>
+            </Link> 
           </Col>
         </Row>
       </Grid>

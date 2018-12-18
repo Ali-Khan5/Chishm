@@ -1,6 +1,5 @@
 import React from "react";
-// import { Button } from "react-bootstrap";
-import { Grid, Row, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import "./style.css";
 let ProgramsCard = props => {
   return (
@@ -16,6 +15,7 @@ let ProgramsCard = props => {
             style={{ borderRadius: "100px" }}
             src={props.source}
             height={185} width={185}
+            alt='educating children'
           />
         </Col>
         <Col md={8} mdOffset={1}>

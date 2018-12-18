@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Navbar, NavItem, MenuItem, NavDropdown, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import LogoImg from './../media/Capture.PNG';
 

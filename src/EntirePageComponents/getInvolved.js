@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Row, Col } from "react-bootstrap";
 import "./style.css";
-
+import { Link } from "react-router-dom";
 const getInvolved = props => {
   return (
     <div className="MemberSection">
@@ -27,8 +27,8 @@ const getInvolved = props => {
             <h2><i style={{ fontSize: "45px" }} className="fas fa-users"></i></h2>
               <h3> Become a mentor</h3>
               <p>
-                You can join our team as a mentor under the Mentoring Program
-                [add link to mentoring program]. For more details, refer to our
+                You can join our team as a mentor under the <Link to="/mentoring">Mentoring Program </Link>
+                 For more details, refer to our
                 mentoring program page and apply there.
               </p>
             </div>
@@ -51,8 +51,8 @@ const getInvolved = props => {
             > <h3><i style={{ fontSize: "45px" }} className="fas fa-hand-holding-usd"></i></h3>
               <h3> Become a sponsor</h3>
               <p>
-                The sponsorship of the students is part of our Mentoring Program
-                [link to Mentoring Program under Program]. Our idea is to find a
+                The sponsorship of the students is part of our <Link to="/mentoring"> Mentoring Program </Link>
+               . Our idea is to find a
                 sponsor for each mentee enrolled in the mentoring program. The
                 sponsorship of the mentees include bearing expenses such as
                 tuition fees, books and uniform. Depending on the case the
@@ -113,7 +113,7 @@ const getInvolved = props => {
                 always looking for enthusiastic volunteers. Whether you want to
                 volunteer for a few weeks, months or years, we always have place
                 for you on our team. We are actively seeking volunteers to join
-                our team for the following roles:
+                our team for the following roles:</p>
                 <Row>
                 
                   <Col md={6} sm={12}>
@@ -205,7 +205,7 @@ const getInvolved = props => {
                         borderRadius: "2px",
                         textAlign: "center",
                         color: "rgb(25, 86, 147)",
-                        
+                        padding: '35px',
                         boxShadow:
                           "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
                       }}
@@ -231,7 +231,7 @@ const getInvolved = props => {
                     </h4>
                   </Col>
                 </Row>
-                If you have a feeling that you can contribute in the above mentioned areas or in any other area in your mind, just write us a short mail describing yourself at and we will get back to you.
+               <p> If you have a feeling that you can contribute in the above mentioned areas or in any other area in your mind, just write us a short mail describing yourself at and we will get back to you.
 
               </p>
             </div>

@@ -55,7 +55,7 @@ const OurStories = () => {
               md={12}
               style={{
                 height: "100%",
-                backgroundColor: "#FFFFF3",
+                backgroundColor: "#fffff3",
                 color: "rgb(25, 86, 147)",
                 borderRadius: "2px"
               }}

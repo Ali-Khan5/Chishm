@@ -13,7 +13,7 @@ html,body {
    font-family: 'IBM Plex Sans',Arimo,sans-serif;
 	font-size: 14px;
 	/* color: #333; */
-	background-color: #FFFFF3 ; /*#E0E3DA; */
+	background-color: #fffff3 ; /*#E0E3DA; */
 	line-height: 1.735;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -23,7 +23,7 @@ html,body {
 .fl-page {
   position: relative;
   min-height: 100vh;
-  padding-bottom: 131px; /* Should be equal to the height of your footer */
+  padding-bottom: 248px; /* Should be equal to the height of your footer */
 }
 .fl-page-footer-wrap {
   width: 100%;
@@ -66,6 +66,6 @@ h1,h2,h3,h4,h5{
 }
 @media (max-width:768px){
   .fl-page {
-    padding-bottom: 202px;
+    padding-bottom: 350px;
   }
 }

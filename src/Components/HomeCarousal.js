@@ -1,6 +1,5 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import Img2 from "./../media/pictures/photo1.png";
 import Img3 from "./../media/pictures/photo3.png";
 import "./style.css";
 let HomeCarousal = () => {

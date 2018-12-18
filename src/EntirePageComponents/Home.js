@@ -1,13 +1,10 @@
 import React, { Component } from "react";
 import { Carousel, Grid, Row, Col } from "react-bootstrap";
-
 import HomeCarousal from "../Components/HomeCarousal";
-import About from "../Components/AboutSection";
-import Testimonials from "../Components/Testimonials";
-
 import Img1 from "./../media/pictures/saad.jpg";
 import Img2 from "./../media/pictures/sadia.png";
 import Img3 from "./../media/pictures/faraz.jpg";
+
 class App extends Component {
   render() {
     return (
@@ -183,6 +180,7 @@ class App extends Component {
                       src={
                         "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544357019/Untitled_design_3_rvmrrq.png"
                       }
+                      alt='teacher giving a leacture'
                     />
                     <h2 style={{ fontSize: "35px" }}>
                       <span
@@ -209,6 +207,7 @@ class App extends Component {
                       src={
                         " https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_960,w_1080/v1543080098/WhatsApp_Image_2018-10-27_at_9.08.23_PM_1_dqhdtm.jpg"
                       }
+                      alt="students doing an experiment"
                     />
                     <h2 style={{ fontSize: "35px" }}>
                       <span
@@ -245,6 +244,7 @@ class App extends Component {
                       src={
                         "https://res.cloudinary.com/dcw1i97ph/image/upload/h_960,w_1080/v1543157557/WhatsApp_Image_2018-10-27_at_9.21.26_PM_1_dxhyhc.jpg"
                       }
+                      alt="mentor and mentee talking"
                     />
                     <h2 style={{ fontSize: "35px" }}>
                       <span
@@ -273,7 +273,7 @@ class App extends Component {
                 md={12}
                 style={{
                   height: "100%",
-                  backgroundColor: "#FFFFF3",
+                  backgroundColor: "#fffff3",
                   color: "rgb(25, 86, 147)",
                   borderRadius: "2px"
                 }}
@@ -379,6 +379,7 @@ class App extends Component {
               </Col>
             </Row>
           </Grid>
+         
         </div>
       </div>
     );

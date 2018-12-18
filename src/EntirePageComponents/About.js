@@ -4,7 +4,6 @@ import "./style.css";
 import Members from "../Components/Members";
 import SaadImg from "../media/pictures/saad.jpg";
 import FarazImg from "../media/pictures/faraz.jpg";
-import Card from "../Components/AboutCard";
 const About = () => {
   return (
     <div className="MemberSection">
@@ -106,7 +105,7 @@ const About = () => {
         fluid
         style={{
           color: " rgb(25, 86, 147)",
-          backgroundColor: "#FFFFF3"
+          backgroundColor: "#fffff3"
         }}
       >
         <section>
@@ -123,6 +122,7 @@ const About = () => {
               <img
                 className="img-responsive" 
                 src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544394153/IMG_0497_zgm4dj.jpg"
+                alt="school children raising their hands"
               />
             </Col>
             <Col md={7}>
@@ -197,6 +197,7 @@ const About = () => {
               <img
                 className="img-responsive"
                 src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544394153/IMG_0497_zgm4dj.jpg"
+                alt="school children raising their hands"
               />
               <h2 style={{ fontSize: "35px" }}>About Us</h2>
               <p style={{ fontSize: "17px" }}>
@@ -395,7 +396,7 @@ const About = () => {
                 }}
               >
                 Members are the backbone of our organization who make sure that
-                Chism's goals are being met by working consistently to
+                Chishm's goals are being met by working consistently to
                 streamline the processes and being integral part of the core
                 projects. All our members start off with a volunteer role, and
                 based on their commitment and feedback from other members, are

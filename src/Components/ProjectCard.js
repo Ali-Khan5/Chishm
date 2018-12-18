@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Row, Col } from "react-bootstrap";
+import {  Row, Col } from "react-bootstrap";
 
 import "./style.css";
 let ProjectCard = props => {
@@ -9,6 +9,7 @@ let ProjectCard = props => {
         <img
           src={props.img}
           style={{ height: "250px", width: "100%",marginTop:'20px' }}
+          alt="our contribution  "
         />
       </Col>
       <Col md={9}>

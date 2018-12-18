@@ -1,10 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import "./style.css";
 import { Grid, Row, Col } from "react-bootstrap";
 import ProjectCARD from "../Components/ProjectCard";
 import Img1 from "../media/pictures/photo3.png";
 import Img2 from "../media/pictures/blind.png";
-import Card from "../Components/Card";
 const Projects = () => {
   return (
     <div

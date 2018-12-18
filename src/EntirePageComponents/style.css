@@ -1,11 +1,11 @@
 .MemberSection {
   background-color: rgb(25, 86, 147) !important ;
-  color: #f0f0fc !important;
+  color: #fffff3 !important;
   height: 100%;
 }
 .TecherSection {
   background-color: rgb(25, 86, 147) !important;
-  color: #f0f0fc !important;
+  color: #fffff3 !important;
 
   height: 100%;
   width: 100%;
@@ -135,7 +135,6 @@
   border-radius: 2px;
   text-align: center;
   color: rgb(25, 86, 147) !important;
-  color: #fffff3;
   padding: 30px;
   margin-top: 15px;
   font-size: 17px;
@@ -159,7 +158,9 @@
 
 
 @media (max-width: 755px) {
-    
+  .getinvolvedStyle{
+    padding: 31px;
+  }
     .aboutusHeadingsStyle {
         padding-left: 0px; 
        
@@ -220,7 +221,7 @@
     height: 600px;
   }
   .getinvolvedStyle {
-    padding: 31px;
+    padding: 35px;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */

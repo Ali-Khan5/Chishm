@@ -1,10 +1,8 @@
 import React from "react";
 import { Grid, Row, Col } from "react-bootstrap";
 import "./style.css";
-import Program1 from "../media/pictures/Program_1.PNG";
-import Program2 from "../media/pictures/Program_2.PNG";
-import Program3 from "../media/pictures/Program_3.PNG";
-import Card from "../Components/Card";
+import   ScrollToTopOnMount  from '../Components/scrollup';
+import { Link } from "react-router-dom";
 const Programs = props => {
   return (
     <div className="MemberSection">
@@ -15,6 +13,7 @@ const Programs = props => {
           backgroundColor: "#fffff3"
         }}
       >
+        <ScrollToTopOnMount />
         <section>
           <Row className="AboutMESPACING">
             <Col md={7}>
@@ -36,6 +35,7 @@ const Programs = props => {
               <img
                 className="aboutMeIMGheight solePictures"
                 src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544557526/IMG_0180_opt_dvy8ty.jpg"
+                alt="children studying"
               />
             </Col>
           </Row>
@@ -346,37 +346,45 @@ const Programs = props => {
           </Row>
           <h2 style={{ textAlign: "center" }}>Explore our Programs</h2>
           <Row>
-            <Col md={4}>
-              <div className="OtherProgramsPictures">
-                <img
-                  style={{ width: "100%" }}
-                  src={
-                    "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
-                  }
-                />
-              </div>
-            </Col>
-            <Col md={4}>
-              <div className="OtherProgramsPictures">
-                <img
-                  style={{ width: "100%" }}
-                  src={
-                    "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
-                  }
-                />
-              </div>
-            </Col>
-            <Col md={4}>
-              <div className="OtherProgramsPictures">
-                <img
-                  style={{ width: "100%" }}
-                  src={
-                    "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
-                  }
-                />
-              </div>
-            </Col>
-          </Row>
+          <Col md={4}>
+           <Link to="/mentoring"> <div className="OtherProgramsPictures">
+              <img
+                style={{ width: "100%" }}
+                src={
+                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
+                 
+                }
+                alt="mentoring program link"
+              />
+            </div>
+            </Link>
+          </Col>
+          <Col md={4}>
+          <Link to="/teacher" >    <div className="OtherProgramsPictures">
+              <img
+                style={{ width: "100%" }}
+                src={
+                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
+                  
+                }
+                alt="teacher training program link"
+              />
+            </div>
+            </Link>
+          </Col>
+          <Col md={4}>
+        <Link to="/sole#sole" >  <div className="OtherProgramsPictures">
+              <img
+                style={{ width: "100%" }}
+                src={
+                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
+                }
+                alt="sole program link"
+              />
+            </div>
+            </Link> 
+          </Col>
+        </Row>
           <br />
           <br />
         </Grid>
