@@ -23,7 +23,7 @@ html,body {
 .fl-page {
   position: relative;
   min-height: 100vh;
-  padding-bottom: 248px; /* Should be equal to the height of your footer */
+  padding-bottom: 208px; /* Should be equal to the height of your footer */
 }
 .fl-page-footer-wrap {
   width: 100%;
@@ -61,11 +61,11 @@ h1,h2,h3,h4,h5{
 
 @media (max-width:750px){
   .fl-page {
-    padding-bottom: 206px;
+    padding-bottom: 223px;
   }
 }
 @media (max-width:768px){
   .fl-page {
-    padding-bottom: 350px;
+    padding-bottom: 223px;
   }
 }

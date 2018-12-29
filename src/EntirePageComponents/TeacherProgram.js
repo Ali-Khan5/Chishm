@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Row, Col } from "react-bootstrap";
 import "./style.css";
-import   ScrollToTopOnMount  from '../Components/scrollup';
+import ScrollToTopOnMount from "../Components/scrollup";
 import { Link } from "react-router-dom";
 const Programs = props => {
   return (
@@ -13,13 +13,28 @@ const Programs = props => {
           backgroundColor: "#fffff3"
         }}
       >
-      <ScrollToTopOnMount/>
+        <ScrollToTopOnMount />
         <section>
-          <Row className="AboutMESPACING">
-            <Col md={7}>
-              <div className="ProgramDetailsAlignmentWithPictureLeft">
+          <Row>
+            <img
+              className="programPageMainImg"
+              src={
+                "https://res.cloudinary.com/dcw1i97ph/image/upload/v1543157325/WhatsApp_Image_2018-11-13_at_11.54.57_AM_vvqmbx.jpg"
+              }
+            />
+          </Row>
+
+          <Row>
+            <Col md={12}>
+              <div className="text-center">
                 <h2 style={{ fontSize: "35px" }}>Teacher Training Program</h2>
-                <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
+                <p
+                  style={{
+                    fontSize: "18px",
+                    letterSpacing: "0.01em",
+                    marginTop: "15px"
+                  }}
+                >
                   {" "}
                   Apart from just giving lectures, a good teacher can really
                   instill the love for learning and instigate the curiosity of
@@ -30,16 +45,9 @@ const Programs = props => {
                   important resource a school has. Therefore, we incepted the
                   "Teacher Training Program" which is aimed at equipping the
                   teachers with latest teaching methods that will help them
-                  shape children into leaders. .
+                  shape children into leaders.
                 </p>
               </div>
-            </Col>
-            <Col md={5}>
-              <img
-                className="aboutMeIMGheight"
-                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544555053/IMG_0326_p0nodx.jpg"
-                alt="our trained teacher giving her lecture"
-              />
             </Col>
           </Row>
           {/* <Row className="AboutMESPACING">
@@ -120,18 +128,18 @@ const Programs = props => {
               />
             </Col>
           </Row> */}
-          <br />
+
           <h2 style={{ textAlign: "center", fontSize: "45px" }}>
             <b>Our Program</b> in a Nutshell
           </h2>
           <hr />
           <Row>
-            <Col md={8} mdOffset={2}>
+            <Col md={4}>
               <div
                 style={{
                   textAlign: "center",
-                  padding: "30px",
-                  fontSize: "17px",
+                  // padding: "10px",
+                  fontSize: "16px",
                   marginTop: "10px"
                 }}
               >
@@ -147,56 +155,53 @@ const Programs = props => {
                 </p>
               </div>
             </Col>
-          </Row>
-          <Row>
-            <Col md={8} mdOffset={2}>
+            <Col md={4}>
               <div
                 style={{
                   textAlign: "center",
-                  padding: "30px",
-                  fontSize: "17px",
-                  marginTop: "10px"
-                }}
-              >
-                <h3> What do we do </h3>
-                <p>
-                  We introduce our in-house Self Organized Learning Environment
-                  (SOLE) based teacher training program to schools through our
-                  local members and volunteers who train one or two teachers on
-                  how to conduct a SOLE session. These teachers then become SOLE
-                  coaches and mediate the teacher training program within their
-                  school. In each school, training can last for up to 6 months
-                  with one SOLE session per week
-                </p>
-              </div>
-            </Col>
-          </Row>
-          <Row>
-            <Col md={8} mdOffset={2}>
-              <div
-                style={{
-                  textAlign: "center",
-                  padding: "30px",
-                  fontSize: "17px",
+                  // padding: "10px",
+                  fontSize: "16px",
                   marginTop: "10px"
                 }}
               >
                 <h3> Whom do we serve</h3>
                 <p>
                   Chishm’s Teacher Training program is especially aimed for the
-                  teachers employed in community schools catering to students
-                  from underprivileged communities. walks of life to engage with
-                  these children for the betterment of our society.
+                  teachers employed in local community schools catering to
+                  students from underprivileged communities; volunteers and
+                  mentors who are interested in teaching at such schools. The
+                  content can also be used freely by teachers from any
+                  institution.
+                </p>
+              </div>
+            </Col>
+            <Col md={4}>
+              <div
+                style={{
+                  textAlign: "center",
+                  // padding: "10px",
+                  fontSize: "16px",
+                  marginTop: "10px"
+                }}
+              >
+                <h3>What do we do</h3>
+                <p>
+                  We introduce our in-house Self Organized Learning Environment
+                  (SOLE) based teacher training program to schools through our
+                  local members who train one or two teachers on how to conduct
+                  a SOLE session. These teachers then become SOLE coaches and
+                  mediate the teacher training program within their school. This
+                  training becomes a continuing process within the school.
                 </p>
               </div>
             </Col>
           </Row>
+
           <br />
         </section>
       </Grid>
       <div className="TecherSection">
         <Grid>
-          <hr />
           <h2 style={{ textAlign: "center" }}>Ways to get involved</h2>
           <hr />
           <Row>
@@ -231,13 +236,31 @@ const Programs = props => {
                 with us via email to get further details.
               </p>
             </Col>
-            <Col md={12}>
+            <Col md={6}>
               <h3>
                 {" "}
-                <i style={{ fontSize: "2.3em" }} className="fas fa-pen-fancy" />
+                <i
+                  style={{ fontSize: "2.3em" }}
+                  className="fas fa-laptop"
+                />{" "}
+                Motivate teachers via skype:
+              </h3>
+              <p className="TeacherParagrapghAlign" style={{ fontSize: "17px" }}>
+                Are you an education consultant or have experience in teaching
+                and would like to connect with teachers teaching in
+                underprivileged areas? Contact us and we can get you in touch
+                with some teachers from our partner schools even via skype.
+                Share your experiences once you are connected. You can learn
+                from them as much as they can learn from you.
+              </p>
+            </Col>
+            <Col md={6}>
+              <h3>
+                {" "}
+                <i style={{ fontSize: "2.23em" }} className="fas fa-pen-fancy" />
                 Become a strategic program planner and developer:
               </h3>
-              <p style={{ textAlign: "justify", fontSize: "17px" }}>
+              <p style={{ fontSize: "16.6px" }}>
                 The world we live in now is seeing an exponential growth in
                 areas such as science, technology, health, economics, politics,
                 etc. With new information and discoveries coming out every day,
@@ -253,72 +276,81 @@ const Programs = props => {
               </p>
             </Col>
           </Row>
+
+          <br />
+        </Grid>
+        <Grid
+          fluid
+          style={{
+            color: " rgb(25, 86, 147)",
+            backgroundColor: "#fffff3"
+          }}
+        >
           <Row>
             {" "}
-            <h2 style={{ textAlign: "center" }} id="mentor">
+            <h2 style={{ textAlign: "center" }}>Explore our Programs</h2>
+            <Row>
+              <Col sm={10} smOffset={1}>
+                <p
+                  style={{
+                    textAlign: "center",
+                    marginTop: "5%",
+                    fontSize: "1.37em"
+                  }}
+                >
+                  Programs are Chishm’s long term projects that aim to
+                  strengthen individuals such as students and teachers from
+                  deprived communities. Our key long-term project is the
+                  Mentoring Program which is the cornerstone of Chishm. Through
+                  this program, an individual person (mentor) is linked with an
+                  individual student (their mentee) in order to guide and
+                  support them through schools and institutions.
+                </p>
+              </Col>
+            </Row>
+            <Col md={4}>
               {" "}
-              Programs{" "}
-            </h2>
-            <Col sm={10} smOffset={1}>
-              <p
-                style={{
-                  textAlign: "justify",
-                  marginTop: "5%",
-                  fontSize: "1.4em"
-                }}
-              >
-                Programs are Chishm’s long term projects that aim to strengthen
-                individuals such as students and teachers from deprived
-                communities. Our key long-term project is the Mentoring Program
-                which is the cornerstone of Chishm. Through this program, an
-                individual person (mentor) is linked with an individual student
-                (their mentee) in order to guide and support them through
-                schools and institutions.
-              </p>
+              <div className="OtherProgramsPictures">
+                <Link to="/mentoring">
+                  <img
+                    style={{ width: "100%" }}
+                    src={
+                      "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
+                    }
+                    alt="mentoring program link"
+                  />
+                </Link>
+              </div>
+            </Col>
+            <Col md={4}>
+              {" "}
+              <div className="OtherProgramsPictures">
+                <Link to="/teacher">
+                  <img
+                    style={{ width: "100%" }}
+                    src={
+                      "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
+                    }
+                    alt="teacher training program link"
+                  />
+                </Link>
+              </div>
+            </Col>
+            <Col md={4}>
+              {" "}
+              <div className="OtherProgramsPictures">
+                <Link to="/sole#sole">
+                  <img
+                    style={{ width: "100%" }}
+                    src={
+                      "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
+                    }
+                    alt="sole program link"
+                  />
+                </Link>
+              </div>
             </Col>
           </Row>
-          <h2 style={{ textAlign: "center" }}>Explore our Programs</h2>
-          <Row>
-          <Col md={4}>
-           <Link to="/mentoring"> <div className="OtherProgramsPictures">
-              <img
-                style={{ width: "100%" }}
-                src={
-                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
-                 
-                }
-                alt="mentoring program link"
-              />
-            </div>
-            </Link>
-          </Col>
-          <Col md={4}>
-          <Link to="/teacher" >    <div className="OtherProgramsPictures">
-              <img
-                style={{ width: "100%" }}
-                src={
-                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
-                  
-                }
-                alt="teacher training program link"
-              />
-            </div>
-            </Link>
-          </Col>
-          <Col md={4}>
-        <Link to="/sole#sole" >  <div className="OtherProgramsPictures">
-              <img
-                style={{ width: "100%" }}
-                src={
-                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
-                }
-                alt="sole program link"
-              />
-            </div>
-            </Link> 
-          </Col>
-        </Row>
-          <br />
           <br />
         </Grid>
       </div>

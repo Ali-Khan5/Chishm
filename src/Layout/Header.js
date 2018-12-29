@@ -12,8 +12,10 @@ class Header extends Component {
           <img
             src={LogoImg}
             alt="Our Chishm Logo"
-          height={110}
+          height={95}
           width={200}
+          style={{marginTop:'10px'}}
+          
           />
         </div>
         <Navbar fluid collapseOnSelect>
@@ -82,6 +84,7 @@ class Header extends Component {
             Link Right
             </NavItem>
           </Nav> */}
+
           </Navbar.Collapse>
         </Navbar>
       </div>

@@ -42,7 +42,12 @@ const OurStories = () => {
       <Grid>
         <Row>
           <Col>
-            <h2>Our Stories</h2>
+            <h2 style={{ fontSize: "35px", color: "rgb(25, 86, 147)",marginLeft:'20px'  }}>
+              {" "}
+              <span style={{ borderBottom: "3px solid rgb(25, 86, 147)" }}>
+                Our Stories{" "}
+              </span>
+            </h2>
             {/* <Gallery images={IMAGES}/> */}
             <Demo4 />
           </Col>
@@ -69,7 +74,7 @@ const OurStories = () => {
                     Testimonials{" "}
                   </span>{" "}
                 </h2>
-                <hr />
+              
               </Col>
               <Carousel controls={false}>
                 <Carousel.Item className="CarousalPersonStyling">

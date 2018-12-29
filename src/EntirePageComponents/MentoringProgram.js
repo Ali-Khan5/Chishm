@@ -2,11 +2,11 @@ import React from "react";
 import { Grid, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./style.css";
-import   ScrollToTopOnMount  from '../Components/scrollup';
+import ScrollToTopOnMount from "../Components/scrollup";
 const MentoringProgram = props => {
   return (
     <div className="MemberSection">
-    <ScrollToTopOnMount/>
+      <ScrollToTopOnMount />
       <Grid
         fluid
         style={{
@@ -15,8 +15,8 @@ const MentoringProgram = props => {
         }}
       >
         <section>
-          <Row className="AboutMESPACING">
-            <Col md={7}>
+          {/* <Row className="AboutMESPACING"> */}
+          {/* <Col md={7}>
               <div className="ProgramDetailsAlignmentWithPictureLeft">
                 <h2 style={{ fontSize: "35px" }}>Mentoring Program</h2>
                 <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
@@ -33,8 +33,40 @@ const MentoringProgram = props => {
               <img
                 className="aboutMeIMGheight"
                 src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544540259/IMG_0253_opt_pxxm4q.jpg"
-                alt='student receiving a mentoring session by our international mentor '
+                alt="student receiving a mentoring session by our international mentor "
               />
+            </Col> */}
+          {/* <Col md={12}>
+           
+            </Col>
+          </Row> */}
+          <Row>
+            <img
+              className="programPageMainImg"
+              src={
+                "https://res.cloudinary.com/dcw1i97ph/image/upload/v1543481705/783_million_people_do_not_have_access_to_clean_and_safe_drinking_water_globally_according_to_the_United_Nations_Millennium_Development_Goals_Report_2_nzn4pb.png"
+              }
+            />
+          </Row>
+
+          <Row>
+            <Col md={12}>
+              <div className="text-center">
+                <h2 style={{ fontSize: "35px" }}>Mentoring Program</h2>
+                <p style={{ fontSize: "18px", letterSpacing: "0.01em" }}>
+                  {" "}
+                  Mentoring Program is the cornerstone of Chishm and serves as a
+                  platform to connect the underprivileged youth to the
+                  privileged ones. By such connections we expect exchange of
+                  knowledge and experiences that will influence our youth in a
+                  positive way.
+                </p>
+              </div>
+            </Col>
+          </Row>
+
+          {/* <Col md={12}>
+           
             </Col>
           </Row>
           {/* <Row className="AboutMESPACING">
@@ -158,12 +190,12 @@ const MentoringProgram = props => {
               supporting their family.`}
               heading={"What do we do"}
             /> */}
-            <Col md={8} mdOffset={2}>
+            <Col md={4}>
               <div
                 style={{
                   textAlign: "center",
-                  padding: "30px",
-                  fontSize: "17px",
+                  // padding: "10px",
+                  fontSize: "16px",
                   marginTop: "10px"
                 }}
               >
@@ -178,14 +210,12 @@ const MentoringProgram = props => {
                 </p>
               </div>
             </Col>
-          </Row>
-          <Row>
-            <Col md={8} mdOffset={2}>
+            <Col md={4}>
               <div
                 style={{
                   textAlign: "center",
-                  padding: "30px",
-                  fontSize: "17px",
+                  // padding: "10px",
+                  fontSize: "16px",
                   marginTop: "10px"
                 }}
               >
@@ -200,27 +230,23 @@ const MentoringProgram = props => {
                 </p>
               </div>
             </Col>
-          </Row>
-          <Row>
-            <Col md={8} mdOffset={2}>
+            <Col md={4}>
               <div
                 style={{
                   textAlign: "center",
-                  padding: "30px",
-                  fontSize: "17px",
+                  // padding: "10px",
+                  fontSize: "16px",
                   marginTop: "10px"
                 }}
               >
                 <h3>What do we do</h3>
                 <p>
-                  This program connects privileged youth (mentors) to children
-                  from underprivileged areas (mentees). Mentors normally conduct
-                  one to one mentoring sessions with their mentees which are
-                  assigned to them in one of our partner schools. In addition,
-                  through our individual sponsors, we contribute towards tuition
-                  fees of these mentees and compensate their earnings if they
-                  were previously not enrolled in school for the purpose of
-                  supporting their family
+                  We connect privileged youth (mentors) to children from
+                  underprivileged areas (mentees). Mentors conduct one to one
+                  mentoring sessions with their mentees assigned to them in one
+                  of our partner schools. In addition, we contribute towards
+                  tuition fees of these mentees and compensate their earnings
+                  for the purpose of supporting their family.
                 </p>
               </div>
             </Col>
@@ -241,15 +267,23 @@ const MentoringProgram = props => {
               <a
                 href="https://drive.google.com/file/d/1uELgkXy5RZklIE2omwdBAjvWHlybSmtT/view"
                 target="_black"
-                style={{textDecoration: 'underline',color:'#0d0ba3'}}
-                rel="noopener noreferrer" 
+                style={{
+                  textDecoration: "underline",
+                  color: "#0cf1f9",
+                  fontWeight: "bold"
+                }}
+                rel="noopener noreferrer"
               >
                 {" "}
                 Mentoring Handbook{" "}
               </a>{" "}
               and{" "}
               <a
-               style={{textDecoration: 'underline',color:'#0d0ba3'}}
+                style={{
+                  textDecoration: "underline",
+                  color: "#0cf1f9",
+                  fontWeight: "bold"
+                }}
                 href="https://drive.google.com/file/d/1vuPRcCvuwXqMUZYeOHXCMt2grobwChjo/view"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -260,7 +294,11 @@ const MentoringProgram = props => {
               for more details on this program. If you want to join us as one of
               our mentors, then please fill out the{" "}
               <a
-               style={{textDecoration: 'underline',color:'#0d0ba3'}}
+                style={{
+                  textDecoration: "underline",
+                  color: "#0cf1f9",
+                  fontWeight: "bold"
+                }}
                 href="https://docs.google.com/forms/d/e/1FAIpQLSeY1pNs53tDGyAJFIP8MMWvJ2hi4vgwJgHE-Xgp3h4tSBaCZg/viewform"
                 targer="_blank"
                 rel="noopener noreferrer"
@@ -349,7 +387,7 @@ const MentoringProgram = props => {
               </span>{" "}
               Spread the word
             </h3>
-            <p style={{ textAlign: "justify", fontSize: "17px" }}>
+            <p style={{  fontSize: "17px" }}>
               If you know of a person who might be interested in mentoring or is
               already mentoring in his personal capacity then let them know
               about us. We can learn from their experience and they can learn
@@ -360,73 +398,81 @@ const MentoringProgram = props => {
             </p>
           </Col>
         </Row>
+      </Grid>
+      <Grid
+        fluid
+        style={{
+          color: " rgb(25, 86, 147)",
+          backgroundColor: "#fffff3"
+        }}
+      >
         <Row>
           {" "}
-          <h2 style={{ textAlign: "center" }} id="mentor">
+          <h2 style={{ textAlign: "center" }}>Explore our Programs</h2>
+          <Row>
+            <Col sm={10} smOffset={1}>
+              <p
+                style={{
+                  textAlign: "center",
+                  marginTop: "5%",
+                  fontSize: "1.37em"
+                }}
+              >
+                Programs are Chishm’s long term projects that aim to strengthen
+                individuals such as students and teachers from deprived
+                communities. Our key long-term project is the Mentoring Program
+                which is the cornerstone of Chishm. Through this program, an
+                individual person (mentor) is linked with an individual student
+                (their mentee) in order to guide and support them through
+                schools and institutions.
+              </p>
+            </Col>
+          </Row>
+          <Col md={4}>
             {" "}
-            Programs{" "}
-          </h2>
-          <Col sm={10} smOffset={1}>
-            <p
-              style={{
-                textAlign: "justify",
-                marginTop: "5%",
-                fontSize: "1.4em"
-              }}
-            >
-              Programs are Chishm’s long term projects that aim to strengthen
-              individuals such as students and teachers from deprived
-              communities. Our key long-term project is the Mentoring Program
-              which is the cornerstone of Chishm. Through this program, an
-              individual person (mentor) is linked with an individual student
-              (their mentee) in order to guide and support them through schools
-              and institutions.
-            </p>
+            <div className="OtherProgramsPictures">
+              <Link to="/mentoring">
+                <img
+                  style={{ width: "100%" }}
+                  src={
+                    "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
+                  }
+                  alt="mentoring program link"
+                />
+              </Link>
+            </div>
+          </Col>
+          <Col md={4}>
+            {" "}
+            <div className="OtherProgramsPictures">
+              <Link to="/teacher">
+                <img
+                  style={{ width: "100%" }}
+                  src={
+                    "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
+                  }
+                  alt="teacher training program link"
+                />
+              </Link>
+            </div>
+          </Col>
+          <Col md={4}>
+            {" "}
+            <div className="OtherProgramsPictures">
+              <Link to="/sole#sole">
+                <img
+                  style={{ width: "100%" }}
+                  src={
+                    "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
+                  }
+                  alt="sole program link"
+                />
+              </Link>
+            </div>
           </Col>
         </Row>
-        <h2 style={{ textAlign: "center" }}>Explore our Programs</h2>
-        <Row>
-          <Col md={4}>
-           <Link to="/mentoring"> <div className="OtherProgramsPictures">
-              <img
-                style={{ width: "100%" }}
-                src={
-                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
-                 
-                }
-                alt="mentoring program link"
-              />
-            </div>
-            </Link>
-          </Col>
-          <Col md={4}>
-          <Link to="/teacher" >    <div className="OtherProgramsPictures">
-              <img
-                style={{ width: "100%" }}
-                src={
-                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
-                  
-                }
-                alt="teacher training program link"
-              />
-            </div>
-            </Link>
-          </Col>
-          <Col md={4}>
-        <Link to="/sole#sole" >  <div className="OtherProgramsPictures">
-              <img
-                style={{ width: "100%" }}
-                src={
-                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
-                }
-                alt="sole program link"
-              />
-            </div>
-            </Link> 
-          </Col>
-        </Row>
+        <br />
       </Grid>
-      <br />
     </div>
   );
 };

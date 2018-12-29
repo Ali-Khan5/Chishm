@@ -86,7 +86,7 @@ const Testimonials = () => {
                 </p>
                 <h4>
                   <strong>Faraz Arshad</strong> <br />
-                  Mentor
+                  Member
                 </h4>
                 <br />
               </center>

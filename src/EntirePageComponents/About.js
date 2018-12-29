@@ -112,18 +112,18 @@ const About = () => {
           <br />
           <br />
           <Row className="">
-          <Col mdHidden lgHidden>
+            <Col mdHidden lgHidden>
               <h2 style={{ fontSize: "35px", margin: "15px" }}>About Us</h2>
               <p style={{ fontSize: "17px", margin: "15px" }}>
                 Chishm aims to reshape the way education is imparted - which in
                 turn would reshape the youth of tomorrow: from a critical
                 thinking perspective, and from a values perspective.
               </p>
-              <img
+              {/* <img
                 className="img-responsive" 
                 src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544394153/IMG_0497_zgm4dj.jpg"
                 alt="school children raising their hands"
-              />
+              /> */}
             </Col>
             <Col md={7}>
               <h2 className="aboutusHeadingsStyle">Who We Are</h2>
@@ -194,19 +194,21 @@ const About = () => {
               smHidden
               xsHidden
             >
-              <img
+              {/* <img
                 className="img-responsive"
                 src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544394153/IMG_0497_zgm4dj.jpg"
                 alt="school children raising their hands"
-              />
+              /> */}
               <h2 style={{ fontSize: "35px" }}>About Us</h2>
               <p style={{ fontSize: "17px" }}>
                 Chishm aims to reshape the way education is imparted - which in
                 turn would reshape the youth of tomorrow: from a critical
                 thinking perspective, and from a values perspective.
               </p>
+              <br />
+              <br />
+              <br />
             </Col>
-           
           </Row>
         </section>
       </Grid>
@@ -380,10 +382,7 @@ const About = () => {
             <Col>
               <br />
               <br />
-              <h2 style={{ textAlign: "center", fontSize: "2.8em" }}>
-                {" "}
-                <i className="fas fa-heart" />
-              </h2>
+
               <h2 style={{ textAlign: "center", fontSize: "2.8em" }}>
                 Our Members{" "}
               </h2>
@@ -424,7 +423,7 @@ const About = () => {
                 Title={"Co-founder / member"}
                 imgSrc={"https://i.imgur.com/7ipEuOI.jpg"}
                 details={
-                  "Ali is a co-founder of Chishm and currently works as a manager at Deloitte. He holds a B.S. degree in Accounting and Finance from IBA Karachi. Ali overlooks different projects under Chishm and mentors a student.He Too Kewl to send His Picture "
+                  "Ali is a co-founder of Chishm and currently works as a manager at Deloitte. He holds a B.S. degree in Accounting and Finance from IBA Karachi. Ali overlooks different projects under Chishm and mentors a student."
                 }
               />
             </Col>
@@ -435,7 +434,7 @@ const About = () => {
                 Title={"Co-founder / member"}
                 imgSrc={FarazImg}
                 details={
-                  "Faraz is a graduate from NUST Pakistan and holds a Masters Degree from KIT Germany. He is currently working as a Project Lead at an automotive company. At Chishm he is responsible for developing programs in the domain of education along with other experts. ."
+                  "Faraz is a graduate from NUST Pakistan and holds a Masters Degree from KIT Germany. He is currently working as a Project Lead at an automotive company. At Chishm he is responsible for developing programs in the domain of education along with other experts."
                 }
               />
             </Col>
@@ -445,11 +444,74 @@ const About = () => {
           </Row>
         </section>
       </Grid>
-
-      <br />
-      <br />
-      <br />
-      <br />
+      <Grid
+        fluid
+        style={{
+          color: " rgb(25, 86, 147)",
+          backgroundColor: "#fffff3"
+        }}
+      >
+        <Row>
+          <center>
+            <h2 style={{marginTop:'75px'}}>Our Contributors</h2>
+          </center>
+          <br/>
+          <Col md={4}>
+            <div
+              style={{
+                backgroundColor: " rgb(25, 86, 147)",
+                borderRadius: "2px",
+                textAlign: "center",
+                color: "#fffff3",
+                padding: "40px",
+                boxShadow:
+                  "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)",
+                  marginTop:'10px'
+              }}
+            >
+              <h4>Muhammad Ali Khan</h4>
+              <p style={{fontWeight:'bold'}}> Website Development</p>
+            </div>
+          </Col>
+          <Col md={4}>
+            <div
+              style={{
+                backgroundColor: " rgb(25, 86, 147)",
+                borderRadius: "2px",
+                textAlign: "center",
+                color: "#fffff3",
+                padding: "40px",
+                boxShadow:
+                  "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)",
+                  marginTop:'10px'
+              }}
+            > <h4>Muhammad Suleman</h4>
+            <p style={{fontWeight:'bold'}}> Logo Design</p>
+              
+            </div>
+          </Col>
+          <Col md={4}>
+            <div
+              style={{
+                backgroundColor: " rgb(25, 86, 147)",
+                borderRadius: "2px",
+                textAlign: "center",
+                color: "#fffff3",
+                padding: "40px",
+                boxShadow:
+                  "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)",
+                  marginTop:'10px'
+              }}
+            >
+             
+              <h4> Muhammad Asad</h4>
+            <p style={{fontWeight:'bold'}}> Logo Implementation </p>
+            </div>
+          </Col>
+        </Row>
+        <br/>
+        <br/>
+      </Grid>
     </div>
   );
 };

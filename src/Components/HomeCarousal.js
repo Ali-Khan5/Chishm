@@ -81,7 +81,8 @@ let HomeCarousal = () => {
             className="fullResImg"
           />
           <div className="overlayCarousal">
-          A teacher sponsored by us to receive teacher training education is now training her fellow teachers
+            A teacher sponsored by us to receive teacher training education is
+            now training her fellow teachers
           </div>
         </div>
       </Carousel.Item>

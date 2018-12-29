@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Row, Col } from "react-bootstrap";
 import "./style.css";
-import   ScrollToTopOnMount  from '../Components/scrollup';
+import ScrollToTopOnMount from "../Components/scrollup";
 import { Link } from "react-router-dom";
 const Programs = props => {
   return (
@@ -15,11 +15,25 @@ const Programs = props => {
       >
         <ScrollToTopOnMount />
         <section>
-          <Row className="AboutMESPACING">
-            <Col md={7}>
-              <div className="ProgramDetailsAlignmentWithPictureLeft">
+          <Row>
+            <img
+              className="programPageMainImg"
+              src={
+                "https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_720,w_1080/v1546076647/IMG_0452_nstoec.jpg"
+              }
+            />
+          </Row>
+          <Row>
+            <Col md={12}>
+              <div className="text-center">
                 <h2 style={{ fontSize: "35px" }}>SOLE</h2>
-                <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
+                <p
+                  style={{
+                    fontSize: "18px",
+                    letterSpacing: "0.01em",
+                    marginTop: "15px"
+                  }}
+                >
                   {" "}
                   Self Organized Learning Environment (SOLE) is an enquiry based
                   learning approach where the teachers encourage their class to
@@ -30,13 +44,6 @@ const Programs = props => {
                   session.
                 </p>
               </div>
-            </Col>
-            <Col md={5}>
-              <img
-                className="aboutMeIMGheight solePictures"
-                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544557526/IMG_0180_opt_dvy8ty.jpg"
-                alt="children studying"
-              />
             </Col>
           </Row>
           {/* <Row className="AboutMESPACING">
@@ -120,77 +127,75 @@ const Programs = props => {
                 src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544557996/IMG_0202_opt_ldkulw.jpg"
               />
             </Col>
-          </Row> */}  <br />
+          </Row> */}{" "}
+          <br />
           <h2 style={{ textAlign: "center", fontSize: "45px" }}>
             <b>Our Program</b> in a Nutshell
           </h2>
           <hr />
           <Row>
-            <Col md={8} mdOffset={2}>
+            <Col md={4}>
               <div
                 style={{
                   textAlign: "center",
-                  padding: "30px",
-                  fontSize: "17px",
+                  // padding: "10px",
+                  fontSize: "16px",
                   marginTop: "10px"
                 }}
               >
                 <h3> What do we achieve</h3>
                 <p>
-                Using SOLE, teachers get better at asking big questions,
+                  Using SOLE, teachers get better at asking big questions,
                   become more in tune with interests of students, cultivate a
                   learner-driven culture of curiosity, feel connected to
-                  students. Students, in addition to gaining knowledge, improve
-                  reading comprehension, establish creativity and problem
-                  solving skills, develop the habits of lifelong learning,
-                  strengthen interpersonal and presentation skills, get better
-                  at integrating knowledge. Such methods help in making students
-                  as leaders rather than followers.
+                  students. Students gain knowledge, establish creativity and
+                  problem solving skills, develop the habits of lifelong
+                  learning, strengthen interpersonal and presentation skills,
+                  get better at integrating knowledge. Such methods help in
+                  making students as leaders rather than followers.
                 </p>
               </div>
             </Col>
-          </Row>
-          <Row>
-            <Col md={8} mdOffset={2}>
+            <Col md={4}>
               <div
                 style={{
                   textAlign: "center",
-                  padding: "30px",
-                  fontSize: "17px",
+                  // padding: "10px",
+                  fontSize: "16px",
                   marginTop: "10px"
                 }}
               >
-                <h3> Whom do we serve </h3>
+                <h3> Whom do we serve</h3>
                 <p>
-                Local community schools providing education to underprivileged
-                  children of our society.
+                  We especially target local community schools providing
+                  education to underprivileged children of our society. We
+                  introduce SOLE as extra classes in our target schools with the
+                  aim of shifting to such a teaching methods completely. We
+                  encourage our mentors and volunteers to also use such methods
+                  when tutoring or imparting knowledge to others. The content
+                  can also be used freely by teachers and mentors belonging to
+                  other institutions.
                 </p>
               </div>
             </Col>
-          </Row>
-          <Row>
-            <Col md={8} mdOffset={2}>
+            <Col md={4}>
               <div
                 style={{
                   textAlign: "center",
-                  padding: "30px",
-                  fontSize: "17px",
+                  // padding: "10px",
+                  fontSize: "16px",
                   marginTop: "10px"
                 }}
               >
-                <h3> What do we do</h3>
+                <h3>What do we do</h3>
                 <p>
-                With our local experts and consultants we develop SOLE program
-                  based on local curriculum and additional subjects such as
-                  ethics and civil responsibility; we fulfill prerequisites for
-                  implementing SOLE such as training teachers and students in
-                  basics of computing and web based knowledge acquisition,
-                  equipping the school with computers, other necessary
-                  infrastructure and furnishing a library. We then introduce
-                  SOLE as extra classes in our target schools with the aim of
-                  shifting to such methods completely. For each school this is a
-                  long term project as we introduce this methodology slowly and
-                  continuously monitor the progress.
+                  Together with our pool of experts and various contributors
+                  from all walks of life, we develop SOLE program based on local
+                  curriculum and additional subjects such as character
+                  education; we fulfill prerequisites for implementing SOLE such
+                  as training teachers and students in basics of web based
+                  knowledge acquisition, equipping the school with computers and
+                  other necessary infrastructure.
                 </p>
               </div>
             </Col>
@@ -199,25 +204,9 @@ const Programs = props => {
         </section>
       </Grid>
       <div>
-        <h2 style={{ textAlign: "center" }} id="sole">
-          SOLE
-        </h2>
+       
         <Grid>
-          <Row>
-            <Col xs={10} xsOffset={1}>
-              {" "}
-              <p style={{ textAlign: "center", fontSize: "1.3em" }}>
-                Self Organized Learning Environment (SOLE) is an enquiry based
-                learning approach where the teachers encourage their class to
-                work as a community to answer questions using internet, books
-                and other resources. Students are given a big question related
-                to a topic and are challenged to find its answer in groups. The
-                groups present answers back to the class at the end of the
-                session.
-              </p>
-              <hr />
-            </Col>
-          </Row>
+        
 
           <h2 style={{ textAlign: "center" }}>Ways to Get Involved</h2>
           <Row>
@@ -230,7 +219,7 @@ const Programs = props => {
                 />{" "}
                 Become a SOLE coach:
               </h3>
-              <p>
+              <p style={{ fontSize: "16.6px" }}>
                 We are always on a look out for people who are willing to go to
                 our target schools and coach the teachers and students in how to
                 use SOLE and how to browse through information from different
@@ -250,7 +239,7 @@ const Programs = props => {
                 />{" "}
                 Become a computer trainer:
               </h3>
-              <p>
+              <p style={{ fontSize: "16.6px" }}>
                 An important prerequisite of SOLE is that teachers and students
                 are aware of the basics of computer use. This would require to
                 teach them how to start computer, how to use a word document,
@@ -268,20 +257,14 @@ const Programs = props => {
                 <i style={{ fontSize: "2.4em" }} className="fas fa-edit" />
                 Become a SOLE content creator:
               </h3>
-              <p>
+              <p style={{ fontSize: "16.6px" }}>
                 The key of SOLE is asking students big questions related to a
                 topic of interest that would stimulate their thinking from
-                different ways. For example, rather than asking what is the
-                importance of trees, one might ask what would happen if all the
-                trees in the world were cut down. This would allow them to think
-                about the impact on humans, animals, soil, nature, livelihood,
-                etc. You can play a part in designing such questions for the
-                local curriculum and different classes. In addition, we
-                introduce some extra-curricular topics like ethics, civic
-                responsibility, etc. You will not have to reinvent the wheel but
-                rather start with material we have already developed. Send us an
-                email if you would like more information or would like to be
-                part of this.
+                various perspectives. You can play a part in designing such
+                questions for the local curriculum and different classes. In
+                addition, we introduce some extra-curricular topics like
+                character education. Send us an email if you would like more
+                information or would like to be part of this.
               </p>
             </Col>
             <Col md={6}>
@@ -293,7 +276,7 @@ const Programs = props => {
                 />{" "}
                 Become a strategic planner and developer:
               </h3>
-              <p>
+              <p style={{ fontSize: "16px" }}>
                 The word we live in now is seeing an exponential growth in areas
                 such as science, technology, health, economics, politics, etc.
                 With new information and discoveries coming out every day, our
@@ -305,87 +288,91 @@ const Programs = props => {
                 email.
               </p>
             </Col>
-          </Row>
-          <Row>
             <Col md={6}>
-              <h3>
-                <i style={{ fontSize: "2.4em" }} className="fas fa-box" />{" "}
-                Sponsor equipment to implement SOLE:
+              <h3> <i className="fas fa-box" style={{fontSize: '2.4em'}} />  Sponsor equipment to implement SOLE:
               </h3>
-              <p>
+              <p style={{ fontSize: "16.6px"}}>
                 You can contribute to the purchase of laptops, projector and
                 books which shall be accessible to our teachers and students to
                 practice SOLE. Send us an email if you are interested and we
                 will get back to you with the details.
               </p>
-            </Col>
+           </Col>
           </Row>
+          <br/>
+        </Grid>
+        <Grid
+          fluid
+          style={{
+            color: " rgb(25, 86, 147)",
+            backgroundColor: "#fffff3"
+          }}
+        >
           <Row>
             {" "}
-            <h2 style={{ textAlign: "center" }} id="mentor">
+            <h2 style={{ textAlign: "center" }}>Explore our Programs</h2>
+            <Row>
+              <Col sm={10} smOffset={1}>
+                <p
+                  style={{
+                    textAlign: "center",
+                    marginTop: "5%",
+                    fontSize: "1.37em"
+                  }}
+                >
+                  Programs are Chishm’s long term projects that aim to
+                  strengthen individuals such as students and teachers from
+                  deprived communities. Our key long-term project is the
+                  Mentoring Program which is the cornerstone of Chishm. Through
+                  this program, an individual person (mentor) is linked with an
+                  individual student (their mentee) in order to guide and
+                  support them through schools and institutions.
+                </p>
+              </Col>
+            </Row>
+            <Col md={4}>
               {" "}
-              Programs{" "}
-            </h2>
-            <Col sm={10} smOffset={1}>
-              <p
-                style={{
-                  textAlign: "justify",
-                  marginTop: "5%",
-                  fontSize: "1.4em"
-                }}
-              >
-                Programs are Chishm’s long term projects that aim to strengthen
-                individuals such as students and teachers from deprived
-                communities. Our key long-term project is the Mentoring Program
-                which is the cornerstone of Chishm. Through this program, an
-                individual person (mentor) is linked with an individual student
-                (their mentee) in order to guide and support them through
-                schools and institutions.
-              </p>
+              <div className="OtherProgramsPictures">
+                <Link to="/mentoring">
+                  <img
+                    style={{ width: "100%" }}
+                    src={
+                      "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
+                    }
+                    alt="mentoring program link"
+                  />
+                </Link>
+              </div>
+            </Col>
+            <Col md={4}>
+              {" "}
+              <div className="OtherProgramsPictures">
+                <Link to="/teacher">
+                  <img
+                    style={{ width: "100%" }}
+                    src={
+                      "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
+                    }
+                    alt="teacher training program link"
+                  />
+                </Link>
+              </div>
+            </Col>
+            <Col md={4}>
+              {" "}
+              <div className="OtherProgramsPictures">
+                <Link to="/sole#sole">
+                  <img
+                    style={{ width: "100%" }}
+                    src={
+                      "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
+                    }
+                    alt="sole program link"
+                  />
+                </Link>
+              </div>
             </Col>
           </Row>
-          <h2 style={{ textAlign: "center" }}>Explore our Programs</h2>
-          <Row>
-          <Col md={4}>
-           <Link to="/mentoring"> <div className="OtherProgramsPictures">
-              <img
-                style={{ width: "100%" }}
-                src={
-                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
-                 
-                }
-                alt="mentoring program link"
-              />
-            </div>
-            </Link>
-          </Col>
-          <Col md={4}>
-          <Link to="/teacher" >    <div className="OtherProgramsPictures">
-              <img
-                style={{ width: "100%" }}
-                src={
-                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
-                  
-                }
-                alt="teacher training program link"
-              />
-            </div>
-            </Link>
-          </Col>
-          <Col md={4}>
-        <Link to="/sole#sole" >  <div className="OtherProgramsPictures">
-              <img
-                style={{ width: "100%" }}
-                src={
-                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
-                }
-                alt="sole program link"
-              />
-            </div>
-            </Link> 
-          </Col>
-        </Row>
-          <br />
           <br />
         </Grid>
       </div>
