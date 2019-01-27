@@ -2,6 +2,7 @@ import React from "react";
 import { Grid, Row, Col } from "react-bootstrap";
 import "./style.css";
 import ScrollToTopOnMount from "../Components/scrollup";
+import ExploreOurPrograms from "../Components/ExploreOurPrograms";
 import { Link } from "react-router-dom";
 const Programs = props => {
   return (
@@ -26,7 +27,7 @@ const Programs = props => {
           <Row>
             <Col md={12}>
               <div className="text-center">
-                <h2 style={{ fontSize: "35px" }}>SOLE</h2>
+                <h2  style={{  fontSize: "40px" }}>SOLE</h2>
                 <p
                   style={{
                     fontSize: "18px",
@@ -129,7 +130,7 @@ const Programs = props => {
             </Col>
           </Row> */}{" "}
           <br />
-          <h2 style={{ textAlign: "center", fontSize: "45px" }}>
+          <h2 style={{ textAlign: "center" }}  className="MainHeading" >
             <b>Our Program</b> in a Nutshell
           </h2>
           <hr />
@@ -143,7 +144,7 @@ const Programs = props => {
                   marginTop: "10px"
                 }}
               >
-                <h3> What do we achieve</h3>
+                <h3 className="SecondryHeading"> What do we achieve</h3>
                 <p>
                   Using SOLE, teachers get better at asking big questions,
                   become more in tune with interests of students, cultivate a
@@ -165,7 +166,7 @@ const Programs = props => {
                   marginTop: "10px"
                 }}
               >
-                <h3> Whom do we serve</h3>
+                <h3 className="SecondryHeading"> Whom do we serve</h3>
                 <p>
                   We especially target local community schools providing
                   education to underprivileged children of our society. We
@@ -187,7 +188,7 @@ const Programs = props => {
                   marginTop: "10px"
                 }}
               >
-                <h3>What do we do</h3>
+                <h3 className="SecondryHeading">What do we do</h3>
                 <p>
                   Together with our pool of experts and various contributors
                   from all walks of life, we develop SOLE program based on local
@@ -204,17 +205,16 @@ const Programs = props => {
         </section>
       </Grid>
       <div>
-       
         <Grid>
-        
-
-          <h2 style={{ textAlign: "center" }}>Ways to Get Involved</h2>
+          <h2 className="MainHeading" style={{ textAlign: "center" }}>
+            Ways to Get Involved
+          </h2>
           <Row>
             <Col md={6}>
-              <h3>
+              <h3 className="SecondryHeading">
                 {" "}
                 <i
-                  style={{ fontSize: "2.4em" }}
+                  style={{ fontSize: "2em" }}
                   className="fas fa-user-ninja"
                 />{" "}
                 Become a SOLE coach:
@@ -231,12 +231,9 @@ const Programs = props => {
               </p>
             </Col>
             <Col md={6}>
-              <h3>
+              <h3 className="SecondryHeading">
                 {" "}
-                <i
-                  style={{ fontSize: "2.4em" }}
-                  className="fas fa-laptop"
-                />{" "}
+                <i style={{ fontSize: "2em" }} className="fas fa-laptop" />{" "}
                 Become a computer trainer:
               </h3>
               <p style={{ fontSize: "16.6px" }}>
@@ -252,12 +249,15 @@ const Programs = props => {
           </Row>
           <Row>
             <Col md={6}>
-              <h3>
+              <h3 className="SecondryHeading">
                 {" "}
-                <i style={{ fontSize: "2.4em" }} className="fas fa-edit" />
+                <i style={{ fontSize: "2em" }} className="fas fa-edit" />
                 Become a SOLE content creator:
               </h3>
-              <p style={{ fontSize: "16.6px" }}>
+              <p
+                className="TeacherParagrapghAlign"
+                style={{ fontSize: "16.6px" }}
+              >
                 The key of SOLE is asking students big questions related to a
                 topic of interest that would stimulate their thinking from
                 various perspectives. You can play a part in designing such
@@ -268,10 +268,10 @@ const Programs = props => {
               </p>
             </Col>
             <Col md={6}>
-              <h3>
+              <h3 className="SecondryHeading">
                 {" "}
                 <i
-                  style={{ fontSize: "2.4em" }}
+                  style={{ fontSize: "2em" }}
                   className="fas fa-file-contract"
                 />{" "}
                 Become a strategic planner and developer:
@@ -289,17 +289,20 @@ const Programs = props => {
               </p>
             </Col>
             <Col md={6}>
-              <h3> <i className="fas fa-box" style={{fontSize: '2.4em'}} />  Sponsor equipment to implement SOLE:
+              <h3 className="SecondryHeading">
+                {" "}
+                <i className="fas fa-box" style={{ fontSize: "2em" }} />{" "}
+                Sponsor equipment to implement SOLE:
               </h3>
-              <p style={{ fontSize: "16.6px"}}>
+              <p style={{ fontSize: "16.6px" }}>
                 You can contribute to the purchase of laptops, projector and
                 books which shall be accessible to our teachers and students to
                 practice SOLE. Send us an email if you are interested and we
                 will get back to you with the details.
               </p>
-           </Col>
+            </Col>
           </Row>
-          <br/>
+          <br />
         </Grid>
         <Grid
           fluid
@@ -308,71 +311,7 @@ const Programs = props => {
             backgroundColor: "#fffff3"
           }}
         >
-          <Row>
-            {" "}
-            <h2 style={{ textAlign: "center" }}>Explore our Programs</h2>
-            <Row>
-              <Col sm={10} smOffset={1}>
-                <p
-                  style={{
-                    textAlign: "center",
-                    marginTop: "5%",
-                    fontSize: "1.37em"
-                  }}
-                >
-                  Programs are Chishm’s long term projects that aim to
-                  strengthen individuals such as students and teachers from
-                  deprived communities. Our key long-term project is the
-                  Mentoring Program which is the cornerstone of Chishm. Through
-                  this program, an individual person (mentor) is linked with an
-                  individual student (their mentee) in order to guide and
-                  support them through schools and institutions.
-                </p>
-              </Col>
-            </Row>
-            <Col md={4}>
-              {" "}
-              <div className="OtherProgramsPictures">
-                <Link to="/mentoring">
-                  <img
-                    style={{ width: "100%" }}
-                    src={
-                      "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
-                    }
-                    alt="mentoring program link"
-                  />
-                </Link>
-              </div>
-            </Col>
-            <Col md={4}>
-              {" "}
-              <div className="OtherProgramsPictures">
-                <Link to="/teacher">
-                  <img
-                    style={{ width: "100%" }}
-                    src={
-                      "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
-                    }
-                    alt="teacher training program link"
-                  />
-                </Link>
-              </div>
-            </Col>
-            <Col md={4}>
-              {" "}
-              <div className="OtherProgramsPictures">
-                <Link to="/sole#sole">
-                  <img
-                    style={{ width: "100%" }}
-                    src={
-                      "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
-                    }
-                    alt="sole program link"
-                  />
-                </Link>
-              </div>
-            </Col>
-          </Row>
+          <ExploreOurPrograms />
           <br />
         </Grid>
       </div>

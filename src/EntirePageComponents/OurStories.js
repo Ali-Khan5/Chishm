@@ -3,7 +3,6 @@ import { Grid, Carousel, Row, Col } from "react-bootstrap";
 import Img1 from "./../media/pictures/saad.jpg";
 import Img2 from "./../media/pictures/sadia.png";
 import Img3 from "./../media/pictures/faraz.jpg";
-
 import Gallery from "react-grid-gallery";
 // const IMAGES = [
 //   {
@@ -42,13 +41,13 @@ const OurStories = () => {
       <Grid>
         <Row>
           <Col>
-            <h2 style={{ fontSize: "35px", color: "rgb(25, 86, 147)",marginLeft:'20px'  }}>
+            <h2 className="MainHeading" style={{ color: "rgb(25, 86, 147)",marginLeft:'30px'  }}>
               {" "}
               <span style={{ borderBottom: "3px solid rgb(25, 86, 147)" }}>
                 Our Stories{" "}
               </span>
             </h2>
-            {/* <Gallery images={IMAGES}/> */}
+           
             <Demo4 />
           </Col>
         </Row>
@@ -60,17 +59,17 @@ const OurStories = () => {
               md={12}
               style={{
                 height: "100%",
-                backgroundColor: "#fffff3",
-                color: "rgb(25, 86, 147)",
+                backgroundColor: " rgb(25, 86, 147)",
+                color: "#fffff3",
                 borderRadius: "2px"
               }}
             >
               {" "}
               <Col mdOffset={1}>
                 <br />
-                <h2 style={{ fontSize: "35px" }}>
+                <h2 className="MainHeading">
                   {" "}
-                  <span style={{ borderBottom: "3px solid rgb(25, 86, 147)" }}>
+                  <span style={{ borderBottom: "3px solid #fffff3" }}>
                     Testimonials{" "}
                   </span>{" "}
                 </h2>
@@ -82,7 +81,7 @@ const OurStories = () => {
                     <img className="testimonalPic" src={Img1} alt="Saad's " />
                     <p
                       className="TestimonialPersonParagrapghStyling"
-                      style={{ color: "rgb(25, 86, 147)", fontSize: "18px" }}
+                      style={{ color: "#fffff3", fontSize: "18px" }}
                     >
                       <q>
                         {" "}
@@ -106,7 +105,7 @@ const OurStories = () => {
                     <img className="testimonalPic" src={Img2} alt="Sadia's " />
                     <p
                       className="TestimonialPersonParagrapghStyling"
-                      style={{ color: "rgb(25, 86, 147)", fontSize: "18px" }}
+                      style={{ color: "#fffff3", fontSize: "18px" }}
                     >
                       <q>
                         {" "}
@@ -134,7 +133,7 @@ const OurStories = () => {
                     />
                     <p
                       className="TestimonialPersonParagrapghStyling"
-                      style={{ color: "rgb(25, 86, 147)", fontSize: "18px" }}
+                      style={{ color: "#fffff3", fontSize: "18px" }}
                     >
                       <q>
                         {" "}
@@ -149,7 +148,7 @@ const OurStories = () => {
                     </p>
                     <h4>
                       <strong>Faraz Arshad</strong> <br />
-                      Mentor
+                      Member
                     </h4>
                     <br />
                   </center>

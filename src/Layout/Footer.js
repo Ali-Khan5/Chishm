@@ -11,10 +11,10 @@ const Footer = () => {
           <Col md={12}>
             <center>
               
-              <h3>info@chishm.org</h3>
+              <h4>info@chishm.org</h4>
 
          
-              <h4 style={{ color: "rgb(25, 86, 147)" }}>Social Links</h4>
+
 
               <span style={{ fontSize: "2.4em", color: "#3b5998" }}>
                 <i className="fab fa-facebook-square" />

@@ -4,21 +4,19 @@ import { Grid, Row, Col } from "react-bootstrap";
 const ContactUs = () => {
   return (
     <div
-      style={{
-        color: " rgb(25, 86, 147)",
-        backgroundColor: "#FFFFF3"
-      }}
+    className="projectPageHeader"
     >
       <div className="projectPageHeader">
         <h2 style={{ fontSize: "50px" }}> Contact Us </h2>
       </div>
-      <br />
-      <Grid>
+      
+      <Grid  className="projectPageHeader" fluid>
         <Row>
+     
           <Col md={8} mdOffset={2}>
             <p
               style={{
-                fontSize: "20px",
+                fontSize: "23px",
                 letterSpacing: " 0.03em",
                 textAlign: "center"
               }}
@@ -30,7 +28,7 @@ const ContactUs = () => {
           </Col>
         </Row>
 
-        <br />
+      
       </Grid>
     </div>
   );

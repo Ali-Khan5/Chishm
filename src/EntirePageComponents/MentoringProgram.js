@@ -2,6 +2,7 @@ import React from "react";
 import { Grid, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./style.css";
+import ExploreOurPrograms from '../Components/ExploreOurPrograms';
 import ScrollToTopOnMount from "../Components/scrollup";
 const MentoringProgram = props => {
   return (
@@ -52,7 +53,7 @@ const MentoringProgram = props => {
           <Row>
             <Col md={12}>
               <div className="text-center">
-                <h2 style={{ fontSize: "35px" }}>Mentoring Program</h2>
+                <h2  style={{ fontSize: "40px" }}>Mentoring Program</h2>
                 <p style={{ fontSize: "18px", letterSpacing: "0.01em" }}>
                   {" "}
                   Mentoring Program is the cornerstone of Chishm and serves as a
@@ -151,10 +152,10 @@ const MentoringProgram = props => {
           </Row> */}
           <br />
           <br />
-          <h2 style={{ textAlign: "center", fontSize: "45px" }}>
+          <h2  className="MainHeading"style={{textAlign:'center'}} >
             <b>Our Program</b> in a Nutshell
           </h2>
-          <hr />
+          
           <Row>
             {/* <ProgramsCard
               source={
@@ -199,7 +200,7 @@ const MentoringProgram = props => {
                   marginTop: "10px"
                 }}
               >
-                <h3> What do we achieve</h3>
+                <h3 className="SecondryHeading"> What do we achieve</h3>
                 <p>
                   Through Chishm’s Mentoring Program, we achieve higher
                   enrollment and retention of children in schools in
@@ -219,7 +220,7 @@ const MentoringProgram = props => {
                   marginTop: "10px"
                 }}
               >
-                <h3> Whom do we serve</h3>
+                <h3 className="SecondryHeading"> Whom do we serve</h3>
                 <p>
                   Chishm’s Mentoring Program is especially aimed for the
                   children belonging to underprivileged areas, aged between 6 to
@@ -239,7 +240,7 @@ const MentoringProgram = props => {
                   marginTop: "10px"
                 }}
               >
-                <h3>What do we do</h3>
+                <h3 className="SecondryHeading">What do we do</h3>
                 <p>
                   We connect privileged youth (mentors) to children from
                   underprivileged areas (mentees). Mentors conduct one to one
@@ -258,7 +259,7 @@ const MentoringProgram = props => {
         <Row>
           <Col sm={10} smOffset={1}>
             <hr />
-            <h2 style={{ textAlign: "center" }}>Interested in Mentoring?</h2>
+            <h2 className="MainHeading" style={{ textAlign: "center" }}>Interested in Mentoring?</h2>
             <p style={{ textAlign: "center", fontSize: "1.3em" }}>
               This mentoring program has been envisioned with the help of
               experts in the field of teaching, pedagogy, psychology and
@@ -269,7 +270,7 @@ const MentoringProgram = props => {
                 target="_black"
                 style={{
                   textDecoration: "underline",
-                  color: "#0cf1f9",
+                  color: "#fffff3",
                   fontWeight: "bold"
                 }}
                 rel="noopener noreferrer"
@@ -281,7 +282,7 @@ const MentoringProgram = props => {
               <a
                 style={{
                   textDecoration: "underline",
-                  color: "#0cf1f9",
+                  color: "#fffff3",
                   fontWeight: "bold"
                 }}
                 href="https://drive.google.com/file/d/1vuPRcCvuwXqMUZYeOHXCMt2grobwChjo/view"
@@ -296,7 +297,7 @@ const MentoringProgram = props => {
               <a
                 style={{
                   textDecoration: "underline",
-                  color: "#0cf1f9",
+                  color: "#fffff3",
                   fontWeight: "bold"
                 }}
                 href="https://docs.google.com/forms/d/e/1FAIpQLSeY1pNs53tDGyAJFIP8MMWvJ2hi4vgwJgHE-Xgp3h4tSBaCZg/viewform"
@@ -315,8 +316,8 @@ const MentoringProgram = props => {
         <h2 style={{ textAlign: "center" }}> Other ways to get involved</h2>
         <Row>
           <Col md={4}>
-            <h3>
-              <span style={{ fontSize: "2.4em" }}>
+            <h3 className="SecondryHeading">
+              <span style={{ fontSize: "2em" }}>
                 <i className="fas fa-hand-holding-usd" />
               </span>{" "}
               Become a sponsor{" "}
@@ -327,8 +328,8 @@ const MentoringProgram = props => {
             </p>
           </Col>
           <Col md={4}>
-            <h3>
-              <span style={{ fontSize: "2.4em" }}>
+            <h3 className="SecondryHeading">
+              <span style={{ fontSize: "2em" }}>
                 {" "}
                 <i className="fas fa-user-astronaut" />
               </span>{" "}
@@ -343,9 +344,9 @@ const MentoringProgram = props => {
             </p>
           </Col>
           <Col md={4}>
-            <h3>
+            <h3 className="SecondryHeading">
               {" "}
-              <span style={{ fontSize: "2.4em" }}>
+              <span style={{ fontSize: "2em" }}>
                 {" "}
                 <i className="fas fa-school" />{" "}
               </span>
@@ -362,9 +363,9 @@ const MentoringProgram = props => {
         </Row>
         <Row>
           <Col md={4}>
-            <h3>
+            <h3 className="SecondryHeading">
               {" "}
-              <span style={{ fontSize: "2.4em" }}>
+              <span style={{ fontSize: "2em" }}>
                 {" "}
                 <i className="fas fa-handshake" />
               </span>{" "}
@@ -380,8 +381,8 @@ const MentoringProgram = props => {
           </Col>
           <Col md={4} />
           <Col md={4}>
-            <h3>
-              <span style={{ fontSize: "2.4em" }}>
+            <h3 className="SecondryHeading">
+              <span style={{ fontSize: "2em" }}>
                 {" "}
                 <i className="fas fa-bullhorn" />{" "}
               </span>{" "}
@@ -392,9 +393,7 @@ const MentoringProgram = props => {
               already mentoring in his personal capacity then let them know
               about us. We can learn from their experience and they can learn
               about other mentors experience through our platform and
-              collectively we can work towards a common goal. Additionally, many
-              people are looking for platforms through which they can donate
-              towards educating our youth. Let them know about us.
+              collectively we can work towards a common goal.
             </p>
           </Col>
         </Row>
@@ -406,71 +405,7 @@ const MentoringProgram = props => {
           backgroundColor: "#fffff3"
         }}
       >
-        <Row>
-          {" "}
-          <h2 style={{ textAlign: "center" }}>Explore our Programs</h2>
-          <Row>
-            <Col sm={10} smOffset={1}>
-              <p
-                style={{
-                  textAlign: "center",
-                  marginTop: "5%",
-                  fontSize: "1.37em"
-                }}
-              >
-                Programs are Chishm’s long term projects that aim to strengthen
-                individuals such as students and teachers from deprived
-                communities. Our key long-term project is the Mentoring Program
-                which is the cornerstone of Chishm. Through this program, an
-                individual person (mentor) is linked with an individual student
-                (their mentee) in order to guide and support them through
-                schools and institutions.
-              </p>
-            </Col>
-          </Row>
-          <Col md={4}>
-            {" "}
-            <div className="OtherProgramsPictures">
-              <Link to="/mentoring">
-                <img
-                  style={{ width: "100%" }}
-                  src={
-                    "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
-                  }
-                  alt="mentoring program link"
-                />
-              </Link>
-            </div>
-          </Col>
-          <Col md={4}>
-            {" "}
-            <div className="OtherProgramsPictures">
-              <Link to="/teacher">
-                <img
-                  style={{ width: "100%" }}
-                  src={
-                    "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
-                  }
-                  alt="teacher training program link"
-                />
-              </Link>
-            </div>
-          </Col>
-          <Col md={4}>
-            {" "}
-            <div className="OtherProgramsPictures">
-              <Link to="/sole#sole">
-                <img
-                  style={{ width: "100%" }}
-                  src={
-                    "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
-                  }
-                  alt="sole program link"
-                />
-              </Link>
-            </div>
-          </Col>
-        </Row>
+      <ExploreOurPrograms/>
         <br />
       </Grid>
     </div>

@@ -18,7 +18,7 @@ class App extends Component {
           <Grid fluid>
             <Row>
               <Col mdOffset={1} md={8}>
-                <h2 style={{ fontSize: "36px" }}>
+                <h2 className="MainHeading">
                   {" "}
                   <span style={{ borderBottom: "3px solid rgb(25, 86, 147)" }}>
                     What is Chishm?{" "}
@@ -45,132 +45,6 @@ class App extends Component {
 
         <div className="ourImpactHomePage">
           <Grid fluid>
-            {/* <Row>
-              <Col md={4}>
-                <h2 style={{ fontSize: "35px" }}>What We Do</h2>
-                <p>
-                  Provide mentors for weak underprivileged students / at-risk
-                  youth, enrol street children into schools, implement creative
-                  learning tools, train teachers, strengthen educational
-                  institutes.
-                </p>
-              </Col>
-              <Col md={4}>
-                <h2 style={{ fontSize: "35px" }}>Our Impact</h2>
-
-                <ul>
-                  <li>
-                    {" "}
-                    <strong>4</strong> Mentors and mentees enrolled in our
-                    mentoring program.
-                  </li>
-                  <li>
-                    <strong>1</strong> Teacher enrolled in formal teacher
-                    training course.
-                  </li>
-                  <li>
-                    <strong>1</strong> school supported through various
-                    projects.
-                  </li>
-                </ul>
-              </Col>
-              <Col md={4}>
-                <h2 style={{ fontSize: "35px" }}>How you can help</h2>
-                <p>
-                  Sponsor a child, become a mentor, volunteer in our projects,
-                  refer to us children who need support, refer us to people
-                  sharing similar vision, help improve our method, share our
-                  mission with the world
-                </p>
-              </Col>
-            </Row> 
-            <Row> */}
-            {/* <Col md={3}>
-              <img className="homeImpact"
-               src={'https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_960,w_1080/v1543080098/WhatsApp_Image_2018-10-27_at_9.08.23_PM_1_dqhdtm.jpg'}/>
-              </Col> */}
-            {/* <Col md={12}>
-                <center>
-                  <img
-                    className="homeWhatWeDo"
-                    src={
-                      "https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_960,w_1080/v1543080098/WhatsApp_Image_2018-10-27_at_9.08.23_PM_1_dqhdtm.jpg"
-                    }
-                  />
-                  <h2 style={{ fontSize: "35px" }}>
-                    <span style={{ borderBottom: "3px solid #FFFFF3" }}>
-                      {" "}
-                      What We Do{" "}
-                    </span>
-                  </h2>
-                  <p className="homeWhatWeDoText">
-                    Provide mentors for weak underprivileged students / at-risk
-                    youth, enrol street children into schools, implement
-                    creative learning tools, train teachers, strengthen
-                    educational institutes.
-                  </p>
-                </center>
-              </Col>
-            </Row>
-            <br /> */}
-            {/* <Row>
-              <Col md={12} >
-                <center>
-                  <img
-                    className="homeImpact"
-                    src={
-                      "https://res.cloudinary.com/dcw1i97ph/image/upload/v1543157325/WhatsApp_Image_2018-11-13_at_11.54.57_AM_vvqmbx.jpg"
-                    }
-                  />
-                  <h2 style={{ fontSize: "35px" }}>
-                    <span style={{ borderBottom: "3px solid #FFFFF3" }}>
-                      {" "}
-                      Our Impact{" "}
-                    </span>
-                  </h2>
-                  <p className="homeWhatWeDoText">
-                    {" "}
-                    <i className="far fa-star" /> <strong>4</strong> Mentors
-                    and mentees enrolled in our mentoring program.
-                  </p>
-                  <p className="homeWhatWeDoText">
-                    {" "}
-                    <i className="far fa-star" /> <strong>1</strong> Teacher
-                    enrolled in formal teacher training course.
-                  </p>
-                  <p className="homeWhatWeDoText">
-                    {" "}
-                    <i className="far fa-star" /> <strong>1</strong> school
-                    supported through various projects.
-                  </p>
-                </center>
-              </Col>
-            </Row>
-            <br/>
-            <Row>
-            <Col md={12}>
-                <center>
-                  <img
-                    className="homeHowYouCanHelp"
-                    src={
-                      "https://res.cloudinary.com/dcw1i97ph/image/upload/v1543157557/WhatsApp_Image_2018-10-27_at_9.21.26_PM_1_dxhyhc.jpg"
-                    }
-                  />
-                  <h2 style={{ fontSize: "35px" }}>
-                    <span style={{ borderBottom: "3px solid #FFFFF3" }}>
-                      {" "}
-                      How you can help{" "}
-                    </span>
-                  </h2>
-                  <p className="homeWhatWeDoText">
-                  Sponsor a child, become a mentor, volunteer in our projects,
-                  refer to us children who need support, refer us to people
-                  sharing similar vision, help improve our method, share our
-                  mission with the world
-                  </p>
-                </center>
-              </Col>
-            </Row> */}
             <Row>
               <Col md={4}>
                 <div className="SecondryCard">
@@ -182,7 +56,7 @@ class App extends Component {
                       }
                       alt='teacher giving a leacture'
                     />
-                    <h2 style={{ fontSize: "35px" }}>
+                    <h2 className="SecondryHeading">
                       <span
                         style={{ borderBottom: "3px solid rgb(25, 86, 147)" }}
                       >
@@ -209,7 +83,7 @@ class App extends Component {
                       }
                       alt="students doing an experiment"
                     />
-                    <h2 style={{ fontSize: "35px" }}>
+                    <h2 className="SecondryHeading">
                       <span
                         style={{ borderBottom: "3px solid rgb(25, 86, 147)" }}
                       >
@@ -246,7 +120,7 @@ class App extends Component {
                       }
                       alt="mentor and mentee talking"
                     />
-                    <h2 style={{ fontSize: "35px" }}>
+                    <h2 className="SecondryHeading">
                       <span
                         style={{ borderBottom: "3px solid rgb(25, 86, 147)" }}
                       >
@@ -281,7 +155,7 @@ class App extends Component {
                 {" "}
                 <Col mdOffset={1}>
                   <br />
-                  <h2 style={{ fontSize: "35px" }}>
+                  <h2 className="MainHeading">
                     {" "}
                     <span
                       style={{ borderBottom: "3px solid rgb(25, 86, 147)" }}

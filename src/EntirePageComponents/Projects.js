@@ -9,11 +9,11 @@ const Projects = () => {
     <div
       style={{
         color: " rgb(25, 86, 147)",
-        backgroundColor: "#FFFFF3"
+        backgroundColor: "#fffff3"
       }}
     >
       <div className="projectPageHeader">
-        <h2 style={{ fontSize: "50px" }}> Projects </h2>
+        <h2 className="MainHeading"> Projects </h2>
       </div>
       <br />
       <Grid>
@@ -27,7 +27,7 @@ const Projects = () => {
             />
           </Col> */}
           <Col md={8} mdOffset={2}>
-            <h2 style={{textAlign:'center',fontSize:'35px'}}>What do we achieve</h2>
+            <h2  className="SecondryHeading" style={{textAlign:'center'}}>What do we achieve</h2>
             <p style={{ fontSize: "17px", letterSpacing: " 0.03em",textAlign:'center' }}>
               {" "}
               Besides our long term programs, we undertake short term projects
@@ -38,7 +38,7 @@ const Projects = () => {
         </Row>
         <Row>
           <Col md={8} mdOffset={2}>
-            <h2 style={{textAlign:'center',fontSize:'35px'}} >Whom do we serve</h2>
+            <h2 className="SecondryHeading" style={{textAlign:'center'}} >Whom do we serve</h2>
             <p
               style={{
                 fontSize: "17px",
@@ -54,7 +54,7 @@ const Projects = () => {
         </Row>
         <Row>
           <Col md={8} mdOffset={2}>
-            <h2 style={{textAlign:'center',fontSize:'35px'}}>What do we do</h2>
+            <h2 className="SecondryHeading"style={{textAlign:'center'}}>What do we do</h2>
             <p style={{ fontSize: "17px", 
             letterSpacing: " 0.03em",
             textAlign:'center' }}>
@@ -97,7 +97,7 @@ const Projects = () => {
         <br />
         <Row>
           <Col>
-            <h2 style={{ textAlign: "center", color: "#fffff3" }}>
+            <h2  className="MainHeading" style={{ textAlign: "center", color: "#fffff3" }}>
               Ways to get involved
             </h2>
           </Col>
@@ -117,7 +117,7 @@ const Projects = () => {
                   "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
               }}
             >
-              <h3>Become a project initiator</h3>
+              <h3 className="SecondryHeading">Become a project initiator</h3>
               <p>
                 If you have an interesting project idea and would like a
                 platform for it, let us know and we can work on it together.
@@ -143,7 +143,7 @@ const Projects = () => {
                   "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
               }}
             >
-              <h3>Become a volunteer</h3>
+              <h3 className="SecondryHeading">Become a volunteer</h3>
               <p>
                 If you would like to volunteer on an ongoing or prospective
                 project, please send us an email and we will get in touch with
@@ -172,7 +172,7 @@ const Projects = () => {
                   "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
               }}
             >
-              <h3>Become a sponsor</h3>
+              <h3 className="SecondryHeading">Become a sponsor</h3>
               <p>
                 If you would like to financially contribute towards an ongoing
                 or prospective project, please send us an email and we will get
@@ -209,7 +209,7 @@ const Projects = () => {
               nonprofit organization. In 2018, the school started Matric classes for which a science 
               lab was necessary. We provided technical and 
               financial expertise to setup a lab that caters for multiple groups of students`}
-              img={Img1}
+              img={' https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_960,w_1080/v1543080098/WhatsApp_Image_2018-10-27_at_9.08.23_PM_1_dqhdtm.jpg'}
             />
           </Col>
         </Row>

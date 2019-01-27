@@ -13,7 +13,7 @@ class Header extends Component {
             src={LogoImg}
             alt="Our Chishm Logo"
           height={95}
-          width={200}
+          width={210}
           style={{marginTop:'10px'}}
           
           />

@@ -2,6 +2,7 @@ import React from "react";
 import { Grid, Row, Col } from "react-bootstrap";
 import "./style.css";
 import ScrollToTopOnMount from "../Components/scrollup";
+import ExploreOurPrograms from "../Components/ExploreOurPrograms";
 import { Link } from "react-router-dom";
 const Programs = props => {
   return (
@@ -27,7 +28,7 @@ const Programs = props => {
           <Row>
             <Col md={12}>
               <div className="text-center">
-                <h2 style={{ fontSize: "35px" }}>Teacher Training Program</h2>
+                <h2  style={{ fontSize: "40px" }} >Teacher Training Program</h2>
                 <p
                   style={{
                     fontSize: "18px",
@@ -129,7 +130,7 @@ const Programs = props => {
             </Col>
           </Row> */}
 
-          <h2 style={{ textAlign: "center", fontSize: "45px" }}>
+          <h2 className="MainHeading"  style={{ textAlign: "center"}}>
             <b>Our Program</b> in a Nutshell
           </h2>
           <hr />
@@ -143,7 +144,7 @@ const Programs = props => {
                   marginTop: "10px"
                 }}
               >
-                <h3> What do we achieve</h3>
+                <h3 className="SecondryHeading"> What do we achieve</h3>
                 <p>
                   Teachers equipped with necessary pedagogic skills and basics
                   of child psychology; skills to articulate course content
@@ -164,7 +165,7 @@ const Programs = props => {
                   marginTop: "10px"
                 }}
               >
-                <h3> Whom do we serve</h3>
+                <h3 className="SecondryHeading"> Whom do we serve</h3>
                 <p>
                   Chishm’s Teacher Training program is especially aimed for the
                   teachers employed in local community schools catering to
@@ -184,7 +185,7 @@ const Programs = props => {
                   marginTop: "10px"
                 }}
               >
-                <h3>What do we do</h3>
+                <h3 className="SecondryHeading">What do we do</h3>
                 <p>
                   We introduce our in-house Self Organized Learning Environment
                   (SOLE) based teacher training program to schools through our
@@ -202,18 +203,20 @@ const Programs = props => {
       </Grid>
       <div className="TecherSection">
         <Grid>
-          <h2 style={{ textAlign: "center" }}>Ways to get involved</h2>
+          <h2 style={{ textAlign: "center" }} className="MainHeading">
+            Ways to get involved
+          </h2>
           <hr />
           <Row>
             <Col md={6}>
-              <h3>
+              <h3 className="SecondryHeading">
                 <i
-                  style={{ fontSize: "2.4em" }}
+                  style={{ fontSize: "2em" }}
                   className="fas fa-user-graduate"
                 />{" "}
                 Become a teacher trainer:
               </h3>
-              <p style={{ textAlign: "justify", fontSize: "17px" }}>
+              <p   className="TeacherParagrapghAlign"style={{ textAlign: "justify", fontSize: "17px" }}>
                 If you are coming from pedagogy background or have any
                 experience in child development and psychology please send us an
                 email. We will make sure that your valuable knowledge is
@@ -221,14 +224,14 @@ const Programs = props => {
               </p>
             </Col>
             <Col md={6}>
-              <h3>
+              <h3 className="SecondryHeading">
                 <i
-                  style={{ fontSize: "2.3em" }}
+                  style={{ fontSize: "2em" }}
                   className="fas fa-chalkboard-teacher"
                 />{" "}
                 Sponsor a teacher for training course :
               </h3>
-              <p style={{ textAlign: "justify", fontSize: "17px" }}>
+              <p   style={{ textAlign: "justify", fontSize: "17px" }}>
                 We are sending selected teachers to recognised teacher training
                 institutes for short and long term courses. You have an
                 opportunity to sponsor a teacher for such a course and leave a
@@ -237,15 +240,15 @@ const Programs = props => {
               </p>
             </Col>
             <Col md={6}>
-              <h3>
+              <h3 className="SecondryHeading">
                 {" "}
-                <i
-                  style={{ fontSize: "2.3em" }}
-                  className="fas fa-laptop"
-                />{" "}
+                <i style={{ fontSize: "2em" }} className="fas fa-laptop" />{" "}
                 Motivate teachers via skype:
               </h3>
-              <p className="TeacherParagrapghAlign" style={{ fontSize: "17px" }}>
+              <p
+                className="TeacherParagrapghAlign"
+                style={{ fontSize: "17px" }}
+              >
                 Are you an education consultant or have experience in teaching
                 and would like to connect with teachers teaching in
                 underprivileged areas? Contact us and we can get you in touch
@@ -255,9 +258,9 @@ const Programs = props => {
               </p>
             </Col>
             <Col md={6}>
-              <h3>
+              <h3 className="SecondryHeading">
                 {" "}
-                <i style={{ fontSize: "2.23em" }} className="fas fa-pen-fancy" />
+                <i style={{ fontSize: "2em" }} className="fas fa-pen-fancy" />
                 Become a strategic program planner and developer:
               </h3>
               <p style={{ fontSize: "16.6px" }}>
@@ -286,71 +289,7 @@ const Programs = props => {
             backgroundColor: "#fffff3"
           }}
         >
-          <Row>
-            {" "}
-            <h2 style={{ textAlign: "center" }}>Explore our Programs</h2>
-            <Row>
-              <Col sm={10} smOffset={1}>
-                <p
-                  style={{
-                    textAlign: "center",
-                    marginTop: "5%",
-                    fontSize: "1.37em"
-                  }}
-                >
-                  Programs are Chishm’s long term projects that aim to
-                  strengthen individuals such as students and teachers from
-                  deprived communities. Our key long-term project is the
-                  Mentoring Program which is the cornerstone of Chishm. Through
-                  this program, an individual person (mentor) is linked with an
-                  individual student (their mentee) in order to guide and
-                  support them through schools and institutions.
-                </p>
-              </Col>
-            </Row>
-            <Col md={4}>
-              {" "}
-              <div className="OtherProgramsPictures">
-                <Link to="/mentoring">
-                  <img
-                    style={{ width: "100%" }}
-                    src={
-                      "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_byhyyw.png"
-                    }
-                    alt="mentoring program link"
-                  />
-                </Link>
-              </div>
-            </Col>
-            <Col md={4}>
-              {" "}
-              <div className="OtherProgramsPictures">
-                <Link to="/teacher">
-                  <img
-                    style={{ width: "100%" }}
-                    src={
-                      "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_1_rdnacx.png"
-                    }
-                    alt="teacher training program link"
-                  />
-                </Link>
-              </div>
-            </Col>
-            <Col md={4}>
-              {" "}
-              <div className="OtherProgramsPictures">
-                <Link to="/sole#sole">
-                  <img
-                    style={{ width: "100%" }}
-                    src={
-                      "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544551679/concepts_2_abwmay.png"
-                    }
-                    alt="sole program link"
-                  />
-                </Link>
-              </div>
-            </Col>
-          </Row>
+          <ExploreOurPrograms />
           <br />
         </Grid>
       </div>

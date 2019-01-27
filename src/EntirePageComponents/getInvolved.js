@@ -24,10 +24,10 @@ const getInvolved = props => {
                 //   "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
               }}
             >
-              <h2>
+              <h2 >
                 <i style={{ fontSize: "45px" }} className="fas fa-users" />
               </h2>
-              <h3> Become a mentor</h3>
+              <h3 className="SecondryHeading"> Become a mentor</h3>
               <p>
                 You can join our team as a mentor under the{" "}
                 <Link
@@ -68,7 +68,7 @@ const getInvolved = props => {
                   className="fas fa-hand-holding-usd"
                 />
               </h3>
-              <h3> Become a sponsor</h3>
+              <h3 className="SecondryHeading"> Become a sponsor</h3>
               <p>
                 The sponsorship of the students is part of our{" "}
                 <Link
@@ -111,7 +111,7 @@ const getInvolved = props => {
               <h3>
                 <i style={{ fontSize: "45px" }} className="fas fa-handshake" />
               </h3>
-              <h3> Become a partner </h3>
+              <h3 className="SecondryHeading"> Become a partner </h3>
               <p>
                 We are always looking forward to work with schools and
                 institutions who are trying to create a wind of change in
@@ -143,7 +143,7 @@ const getInvolved = props => {
                   className="fas fa-chalkboard-teacher"
                 />
               </h3>
-              <h3> Become a volunteer </h3>
+              <h3 className="SecondryHeading"> Become a volunteer </h3>
               <p>
                 Chishm is entirely run by volunteers and that's why we are
                 always looking for enthusiastic volunteers. Whether you want to
@@ -292,7 +292,7 @@ const getInvolved = props => {
               <h3>
                 <i style={{ fontSize: "45px" }} className="fas fa-wrench" />
               </h3>
-              <h3> Help us improve </h3>
+              <h3 className="SecondryHeading"> Help us improve </h3>
               <p>
                 We always welcome feedback from people on how to improve our
                 operations, programs and projects. If you have any feedback or
