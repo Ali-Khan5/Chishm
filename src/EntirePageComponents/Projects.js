@@ -26,48 +26,59 @@ const Projects = () => {
         institutes catering to educate the underprivileged children of our society.`}
             />
           </Col> */}
-          <Col md={8} mdOffset={2}>
-            <h2  className="SecondryHeading" style={{textAlign:'center'}}>What do we achieve</h2>
-            <p style={{ fontSize: "17px", letterSpacing: " 0.03em",textAlign:'center' }}>
-              {" "}
-              Besides our long term programs, we undertake short term projects
-              which contribute to strengthen the institutes catering to educate
-              the underprivileged children of our society.
-            </p>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={8} mdOffset={2}>
-            <h2 className="SecondryHeading" style={{textAlign:'center'}} >Whom do we serve</h2>
+          <Col md={4}>
+            <h2 className="SecondryHeading" style={{ textAlign: "center" }}>
+              What do we achieve
+            </h2>
             <p
               style={{
                 fontSize: "17px",
                 letterSpacing: " 0.03em",
-                textAlign:'center'
+                textAlign: "center"
               }}
             >
               {" "}
-              Local communities encountering the deficit of educational
-              facilities.
+              Besides our long term programs, we undertake short term projects
+              which aim to strengthen the institutes catering to educate the
+              underprivileged children of our society.
             </p>
           </Col>
-        </Row>
-        <Row>
-          <Col md={8} mdOffset={2}>
-            <h2 className="SecondryHeading"style={{textAlign:'center'}}>What do we do</h2>
-            <p style={{ fontSize: "17px", 
-            letterSpacing: " 0.03em",
-            textAlign:'center' }}>
-              {" "}
-              Our projects include establishing libraries to supplement
-              classroom education and complement national curriculum;
-              establishing science laboratories to equip students with practical
-              knowledge; providing multimedia and Internet based learning tools;
-              and introducing creative teaching methodologies
-            </p>
-          </Col>
-        </Row>
 
+          <Col md={4}>
+            <h2 className="SecondryHeading" style={{ textAlign: "center" }}>
+              Whom do we serve
+            </h2>
+            <p
+              style={{
+                fontSize: "17px",
+                letterSpacing: " 0.03em",
+                textAlign: "center"
+              }}
+            >
+              {" "}
+              Individuals, schools, institutions which lack the basic facilities
+              to impart or promote knowledge to underprivileged children of our
+              society.
+            </p>
+          </Col>
+
+          <Col md={4}>
+            <h2 className="SecondryHeading" style={{ textAlign: "center" }}>
+              What do we do
+            </h2>
+            <p
+              style={{
+                fontSize: "17px",
+                letterSpacing: " 0.03em",
+                textAlign: "center"
+              }}
+            >
+              {" "}
+              Establishing libraries, laboratories, computing facilities, etc to
+              supplement classroom education and complement national curriculum.
+            </p>
+          </Col>
+        </Row>
         <br />
         <Row>
           {/* <Col md={6} mdOffset={3} xs={12}>
@@ -97,7 +108,10 @@ const Projects = () => {
         <br />
         <Row>
           <Col>
-            <h2  className="MainHeading" style={{ textAlign: "center", color: "#fffff3" }}>
+            <h2
+              className="MainHeading"
+              style={{ textAlign: "center", color: "#fffff3" }}
+            >
               Ways to get involved
             </h2>
           </Col>
@@ -122,7 +136,6 @@ const Projects = () => {
                 If you have an interesting project idea and would like a
                 platform for it, let us know and we can work on it together.
               </p>
-           
             </div>
             {/* <Card
               heading={`Become a project initiator`}
@@ -159,7 +172,7 @@ const Projects = () => {
         </Row>
         <br />
         <Row>
-          <Col md={6} mdOffset={3}>
+          <Col md={6}>
             <div
               style={{
                 backgroundColor: "#fffff3",
@@ -176,21 +189,34 @@ const Projects = () => {
               <p>
                 If you would like to financially contribute towards an ongoing
                 or prospective project, please send us an email and we will get
-                back to you with details on current and future projects that
-                require funding.
+                back to you.
               </p>
             </div>
-            {/* <Card
-              heading={`Become a sponsor`}
-              text={` If you would like to financially contribute towards an
-               ongoing or prospective project, please send us an email and we will get back to you with details on 
-               current and future projects that require funding.`}
-            /> */}
+          </Col>
+          <Col md={6} style={{ marginTop: "20px" }}>
+            <div
+              style={{
+                backgroundColor: "#fffff3",
+                borderRadius: "2px",
+                textAlign: "center",
+                color: "rgb(25, 86, 147) ",
+                padding: "30px",
+                fontSize: "17px",
+                boxShadow:
+                  "0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)"
+              }}
+            >
+              <h3 className="SecondryHeading">Spread the word</h3>
+              <p>
+                If you know of someone who is interested to volunteer or has a
+                project idea that fits our goals, refer them to us.
+              </p>
+            </div>
           </Col>
         </Row>
         <br />
         <Row>
-          <div className="OurprojectHeader">
+          <div className="OurprojectHeader" >
             <h2 style={{ fontSize: "55px" }}> Our Projects</h2>
             <h2 style={{ fontSize: "55px" }}>
               <i className="fas fa-medal" />{" "}
@@ -209,7 +235,9 @@ const Projects = () => {
               nonprofit organization. In 2018, the school started Matric classes for which a science 
               lab was necessary. We provided technical and 
               financial expertise to setup a lab that caters for multiple groups of students`}
-              img={' https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_960,w_1080/v1543080098/WhatsApp_Image_2018-10-27_at_9.08.23_PM_1_dqhdtm.jpg'}
+              img={
+                " https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_960,w_1080/v1543080098/WhatsApp_Image_2018-10-27_at_9.08.23_PM_1_dqhdtm.jpg"
+              }
             />
           </Col>
         </Row>

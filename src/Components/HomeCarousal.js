@@ -4,8 +4,8 @@ import Img3 from "./../media/pictures/photo3.png";
 import "./style.css";
 let HomeCarousal = () => {
   return (
-    <Carousel indicators={false}>
-      <Carousel.Item>
+    <Carousel indicators={false} >
+      <Carousel.Item >
       
         <div className="MemberContainer" />
         <img
@@ -13,7 +13,7 @@ let HomeCarousal = () => {
             "https://res.cloudinary.com/dcw1i97ph/image/upload/v1543483922/783_million_people_do_not_have_access_to_clean_and_safe_drinking_water_globally_according_to_the_United_Nations_Millennium_Development_Goals_Report_4_vf14hy.png"
           }
           alt="Avatar"
-          className="fullResImg"
+          className=" fullResImg "
         />
         <div className="overlayCarousal">
        

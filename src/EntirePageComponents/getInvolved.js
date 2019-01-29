@@ -33,7 +33,7 @@ const getInvolved = props => {
                 <Link
                   style={{
                     textDecoration: "underline",
-                    color: "#0cf1f9",
+                    color: "#fffff3 ",
                     fontWeight: "bold"
                   }}
                   to="/mentoring"
@@ -74,7 +74,7 @@ const getInvolved = props => {
                 <Link
                   style={{
                     textDecoration: "underline",
-                    color: "#0cf1f9",
+                    color: "#fffff3 ",
                     fontWeight: "bold"
                   }}
                   to="/mentoring"
