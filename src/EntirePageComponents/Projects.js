@@ -172,7 +172,7 @@ const Projects = () => {
         </Row>
         <br />
         <Row>
-          <Col md={6}>
+          <Col md={6} style={{ marginTop: "20px" }}>
             <div
               style={{
                 backgroundColor: "#fffff3",
