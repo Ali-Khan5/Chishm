@@ -68,11 +68,11 @@ h1,h2,h3,h4,h5{
 
 @media (max-width:750px){
   .fl-page {
-    padding-bottom: 223px;
+    padding-bottom: 177px;
   }
 }
 @media (max-width:768px){
   .fl-page {
-    padding-bottom: 223px;
+    padding-bottom: 177px;
   }
 }
