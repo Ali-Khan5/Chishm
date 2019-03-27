@@ -16,16 +16,41 @@ const Programs = props => {
       >
         <ScrollToTopOnMount />
         <section>
+        <Row className="AboutMESPACING">
+            <Col md={7} xsHidden smHidden>
+              <div className="ProgramDetailsAlignmentWithPictureLeft">
+                <h2 style={{ fontSize: "35px" }}>SOLE</h2>
+                <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
+                  {" "}
+                  Self Organized Learning Environment (SOLE) is an enquiry based
+                  learning approach where the teachers encourage their class to
+                  work as a community to answer questions using internet, books
+                  and other resources. Students are given a big question related
+                  to a topic and are challenged to find its answer in groups.
+                  The groups present answers back to the class at the end of the
+                  session.
+                </p>
+              </div>
+            </Col>
+            <Col md={5} xsHidden smHidden>
+              <img
+                className="displayIMGheight "
+                src="https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_720,w_1080/v1546076647/IMG_0452_nstoec.jpg"
+              /> 
+            </Col>
+          </Row>
           <Row>
+          <Col xs={12} sm={12} mdHidden lgHidden>
             <img
               className="programPageMainImg"
               src={
                 "https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_720,w_1080/v1546076647/IMG_0452_nstoec.jpg"
               }
             />
+            </Col>
           </Row>
           <Row>
-            <Col md={12}>
+            <Col md={12} mdHidden lgHidden>
               <div className="text-center">
                 <h2  style={{  fontSize: "40px" }}>SOLE</h2>
                 <p

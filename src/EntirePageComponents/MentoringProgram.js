@@ -2,7 +2,7 @@ import React from "react";
 import { Grid, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./style.css";
-import ExploreOurPrograms from '../Components/ExploreOurPrograms';
+import ExploreOurPrograms from "../Components/ExploreOurPrograms";
 import ScrollToTopOnMount from "../Components/scrollup";
 const MentoringProgram = props => {
   return (
@@ -16,8 +16,8 @@ const MentoringProgram = props => {
         }}
       >
         <section>
-          {/* <Row className="AboutMESPACING"> */}
-          {/* <Col md={7}>
+          <Row className="AboutMESPACING" >
+            <Col md={7} xsHidden smHidden>
               <div className="ProgramDetailsAlignmentWithPictureLeft">
                 <h2 style={{ fontSize: "35px" }}>Mentoring Program</h2>
                 <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
@@ -30,30 +30,43 @@ const MentoringProgram = props => {
                 </p>
               </div>
             </Col>
-            <Col md={5}>
+            <Col md={5} xsHidden smHidden>
               <img
                 className="aboutMeIMGheight"
                 src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1544540259/IMG_0253_opt_pxxm4q.jpg"
                 alt="student receiving a mentoring session by our international mentor "
               />
-            </Col> */}
-          {/* <Col md={12}>
-           
             </Col>
-          </Row> */}
-          <Row>
-            <img
-              className="programPageMainImg"
+            {/* <Col mdHidden lgHidden>
+           <div>
+           <img
+              className="img-responsive"
               src={
-                "https://res.cloudinary.com/dcw1i97ph/image/upload/v1543481705/783_million_people_do_not_have_access_to_clean_and_safe_drinking_water_globally_according_to_the_United_Nations_Millennium_Development_Goals_Report_2_nzn4pb.png"
+                "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544540259/IMG_0253_opt_pxxm4q.jpg"
               }
             />
+           </div>
+            </Col> */}
+          </Row>
+
+          <Row fluid>
+            {/* <div className="ParentPictureComponent">  */}
+            {/* <div className="programPageMainImg"></div> */}
+            <Col xs={12} sm={12} mdHidden lgHidden>
+              <img
+                className="img-responsive"
+                src={
+                  "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544540259/IMG_0253_opt_pxxm4q.jpg"
+                }
+              />
+              {/* </div> */}
+            </Col>
           </Row>
 
           <Row>
-            <Col md={12}>
-              <div className="text-center">
-                <h2  style={{ fontSize: "40px" }}>Mentoring Program</h2>
+            <Col md={12} mdHidden lgHidden>
+              <div className="text-center" >
+                <h2 style={{ fontSize: "40px" }}>Mentoring Program</h2>
                 <p style={{ fontSize: "18px", letterSpacing: "0.01em" }}>
                   {" "}
                   Mentoring Program is the cornerstone of Chishm and serves as a
@@ -152,10 +165,10 @@ const MentoringProgram = props => {
           </Row> */}
           <br />
           <br />
-          <h2  className="MainHeading"style={{textAlign:'center'}} >
+          <h2 className="MainHeading" style={{ textAlign: "center" }}>
             <b>Our Program</b> in a Nutshell
           </h2>
-          
+
           <Row>
             {/* <ProgramsCard
               source={
@@ -258,8 +271,10 @@ const MentoringProgram = props => {
       <Grid>
         <Row>
           <Col sm={10} smOffset={1}>
-            <hr />
-            <h2 className="MainHeading" style={{ textAlign: "center" }}>Interested in Mentoring?</h2>
+       
+            <h2 className="MainHeading" style={{ textAlign: "center" }}>
+              Interested in Mentoring?
+            </h2>
             <p style={{ textAlign: "center", fontSize: "1.3em" }}>
               This mentoring program has been envisioned with the help of
               experts in the field of teaching, pedagogy, psychology and
@@ -388,7 +403,7 @@ const MentoringProgram = props => {
               </span>{" "}
               Spread the word
             </h3>
-            <p style={{  fontSize: "17px" }}>
+            <p style={{ fontSize: "17px" }}>
               If you know of a person who might be interested in mentoring or is
               already mentoring in his personal capacity then let them know
               about us. We can learn from their experience and they can learn
@@ -405,7 +420,7 @@ const MentoringProgram = props => {
           backgroundColor: "#fffff3"
         }}
       >
-      <ExploreOurPrograms/>
+        <ExploreOurPrograms />
         <br />
       </Grid>
     </div>

@@ -121,7 +121,7 @@ secondary-heading:30px
   width: 180px;
 }
 .aboutMeIMGheight {
-  height: 380px;
+  height: 350px;
   width: 100%;
 }
 .solePictures {
@@ -133,7 +133,7 @@ secondary-heading:30px
   width: 100%;
 }
 .AboutMESPACING {
-  margin-top: 150px;
+  margin-top: 5%;
 }
 
 .SecondryCard {
@@ -162,9 +162,20 @@ secondary-heading:30px
   letter-spacing: 0.03em;
   padding-left: 110px;
 }
+.ParentPictureComponent{
+  width: 100%;
+  max-height:350px !important;
+}
 .programPageMainImg{
-  width:100%;
-  height:350px !important;
+
+  /* background-image: url('https://res.cloudinary.com/dcw1i97ph/image/upload/v1543481705/783_million_people_do_not_have_access_to_clean_and_safe_drinking_water_globally_according_to_the_United_Nations_Millennium_Development_Goals_Report_2_nzn4pb.png'); */
+  /* background-image: url('https://res.cloudinary.com/dcw1i97ph/image/upload/c_fit,h_347,w_1547/v1543481705/783_million_people_do_not_have_access_to_clean_and_safe_drinking_water_globally_according_to_the_United_Nations_Millennium_Development_Goals_Report_2_nzn4pb.png'); */
+
+  /* background-position:cover;
+  background-size:center; */
+  width: 100%;
+  height:65%;
+  max-height:380px !important;
 }
 
 @media (max-width: 755px) {

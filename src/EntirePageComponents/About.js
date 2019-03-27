@@ -266,7 +266,7 @@ const About = () => {
               <Members
                 memberName={"Muhammad Ali Khan"}
                 Title={"Co-founder / member"}
-                imgSrc={"https://i.imgur.com/7ipEuOI.jpg"}
+                imgSrc={"https://dhggywfvre0o8.cloudfront.net/app/uploads/2017/11/22153252/Typeform-Blog-BlackFriday-Cover-AskAwesomely.jpg"}
                 details={
                   "Ali is a co-founder of Chishm and currently works as a manager at Deloitte. He holds a B.S. degree in Accounting and Finance from IBA Karachi. Ali overlooks different projects under Chishm and mentors a student."
                 }

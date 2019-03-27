@@ -16,17 +16,56 @@ const Programs = props => {
       >
         <ScrollToTopOnMount />
         <section>
-          <Row>
+        <Row className="AboutMESPACING" >
+            <Col md={7} xsHidden smHidden>
+              <div className="ProgramDetailsAlignmentWithPictureLeft">
+                <h2 style={{ fontSize: "35px" }}>Teacher Training Program</h2>
+                <p style={{ fontSize: "18px", letterSpacing: "0.03em" }}>
+                  {" "}
+                  Apart from just giving lectures, a good teacher can really
+                  instill the love for learning and instigate the curiosity of
+                  understanding the world in students. Moreover the teachers
+                  play a pivotal role by becoming early role models for the
+                  students thus giving inspirations and aspirations for their
+                  future. At Chishm, we believe that teachers are the most
+                  important resource a school has. Therefore, we incepted the
+                  "Teacher Training Program" which is aimed at equipping the
+                  teachers with latest teaching methods that will help them
+                  shape children into leaders.
+                </p>
+              </div>
+            </Col>
+            <Col md={5} xsHidden smHidden>
+              <img
+                className="aboutMeIMGheight"
+                src="https://res.cloudinary.com/dcw1i97ph/image/upload/v1543157325/WhatsApp_Image_2018-11-13_at_11.54.57_AM_vvqmbx.jpg"
+                alt="student receiving a mentoring session by our international mentor "
+              />
+            </Col>
+            {/* <Col mdHidden lgHidden>
+           <div>
+           <img
+              className="img-responsive"
+              src={
+                "https://res.cloudinary.com/dcw1i97ph/image/upload/v1544540259/IMG_0253_opt_pxxm4q.jpg"
+              }
+            />
+           </div>
+            </Col> */}
+          </Row>
+          <Row >
+          <Col xs={12} sm={12} mdHidden lgHidden>
             <img
               className="programPageMainImg"
               src={
                 "https://res.cloudinary.com/dcw1i97ph/image/upload/v1543157325/WhatsApp_Image_2018-11-13_at_11.54.57_AM_vvqmbx.jpg"
               }
             />
+            </Col>
           </Row>
 
           <Row>
-            <Col md={12}>
+            <Col md={12} mdHidden lgHidden>
               <div className="text-center">
                 <h2  style={{ fontSize: "40px" }} >Teacher Training Program</h2>
                 <p
